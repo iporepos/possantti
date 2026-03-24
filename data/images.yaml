@@ -1,0 +1,33 @@
+# /data/images.yaml
+basin_map:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/960px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg"
+  alt:
+    en: "Watershed map"
+    pt-br: "Mapa da bacia hidrográfica"
+  caption:
+    en: "Hydrological basin used in the study"
+    pt-br: "Bacia hidrográfica utilizada no estudo"
+  credit:
+    en: "Source: ANA"
+    pt-br: "Fonte: ANA"
+
+drive_image:
+  src: "https://drive.google.com/uc?export=view&id=1rc8YP1GwEBqLvaU8BzbcvZghRwUpvjnF"
+  alt:
+    en: "Watershed map"
+    pt-br: "Mapa da bacia hidrográfica"
+  caption:
+    en: "Hydrological basin used in the study"
+    pt-br: "Bacia hidrográfica utilizada no estudo"
+  credit:
+    en: "Source: ANA"
+    pt-br: "Fonte: ANA"
+
+local_example:
+  src: "images/1.jpg"  # relative path
+  alt:
+    en: "Local plot"
+    pt-br: "Gráfico local"
+  caption:
+    en: "The snow mountain"
+    pt-br: "A montanha de neve"

@@ -1,0 +1,56 @@
+## HOME ##
+- id: "home.home"
+  translation: "Início"
+  
+- id: "home.recent_posts"
+  translation: "Posts recentes"
+
+- id: "home.see_all"
+  translation: "Ver todos"
+
+- id: "home.recent_blogs"
+  translation: "Blogs recentes"
+
+- id: "home.recent_projects"
+  translation: "Projetos recentes"
+
+## CATEGORIES ##
+
+- id: "categories.title"
+  translation: "Filtrar por categoria"
+
+- id: "categories.intro_text"
+  translation: "Apresentando posts na categoria"
+
+## PROJECTS ##
+
+- id: "projects.title"
+  translation: "Projetos de destaque"
+
+- id: "projects.intro"
+  translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
+
+## BLOG ##
+- id: "blog.blog_intro_title"
+  translation: "Bem-vindo ao meu blog"
+
+- id: "blog.blog_intro_text"
+  translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "Sumário"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "Ir para cima"
+
+- id: "footer.disclaimer"
+  translation: "Baseado em <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "404 PÁGINA NÃO ENCONTRADA"
+
+- id: "errors.404_description"
+  translation: "O caminho que você acessou não existe"

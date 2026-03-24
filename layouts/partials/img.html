@@ -1,0 +1,44 @@
+{{ $img := index site.Data.images .key }}
+{{ $lang := site.Language.Lang }}
+
+{{ if not $img }}
+  <p style="color:red;">Missing image: {{ .key }}</p>
+{{ else }}
+
+  {{/* Resolve src */}}
+  {{ $src := $img.src }}
+  {{ if not (strings.HasPrefix $src "http") }}
+    {{ $src = $src | relURL }}
+  {{ end }}
+
+  {{/* Resolve alt */}}
+  {{ $alt := index $img.alt $lang | default (index $img.alt "en") }}
+
+  {{/* Resolve caption */}}
+  {{ $caption := index $img.caption $lang | default (index $img.caption "en") }}
+  {{ $credit := .credit | default (index $img.credit $lang | default (index $img.credit "en")) }}
+
+  <figure class="{{ .class }}">
+    <img src="{{ $src }}" alt="{{ .alt | default $alt }}" loading="lazy">
+
+    {{ if or $caption $credit }}
+      <figcaption class="post-caption">
+
+        {{ with $caption }}
+          <span class="caption">{{ . }}</span>
+        {{ end }}
+
+        {{ if and $caption $credit }}
+          <span class="separator"> — </span>
+        {{ end }}
+
+        {{ with $credit }}
+          <span class="credit">{{ . }}</span>
+        {{ end }}
+
+      </figcaption>
+    {{ end }}
+
+  </figure>
+
+{{ end }}

@@ -1,0 +1,69 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+<div class="wrapper post">
+
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+
+                {{/* FEATURED IMAGE (with fallback) */}}
+                {{ $img := "" }}
+
+                {{ if .Params.featured_image }}
+                  {{ $img = .Params.featured_image | relURL }}
+                {{ end }}
+
+                {{ if not $img }}
+                  {{ with .Resources.GetMatch "cover.*" }}
+                    {{ $img = .RelPermalink }}
+                  {{ end }}
+                {{ end }}
+
+                {{ if $img }}
+                <figure class="post-featured">
+
+                  <img src="{{ $img }}" alt="{{ .Title }}">
+
+                  {{ if or .Params.featured_caption .Params.featured_credit }}
+                    <figcaption class="post-caption">
+
+                      {{ with .Params.featured_caption }}
+                        <span class="caption">{{ . }}</span>
+                      {{ end }}
+
+                      {{ if and .Params.featured_caption .Params.featured_credit }}
+                        <span class="separator"> — </span>
+                      {{ end }}
+
+                      {{ with .Params.featured_credit }}
+                        <span class="credit">{{ . }}</span>
+                      {{ end }}
+
+                    </figcaption>
+                  {{ end }}
+
+                </figure>
+                {{ end }}
+
+                <h1 class="header-title">{{ .Title }}</h1>
+
+                {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+                {{ with .Date }}
+                {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+                <div class="post-meta">
+                    <time datetime="{{ $ISO_time }}" itemprop="datePublished">
+                      {{ . | time.Format $configDateFormat }}
+                    </time>
+                </div>
+                {{ end }}
+
+            </header>
+            {{ partial "toc.html" .}}
+            <div class="page-content">
+                {{ .Content }}
+            </div>
+        </article>
+        {{- partial "comments.html" . -}}
+    </main>
+</div>
+{{ end }}

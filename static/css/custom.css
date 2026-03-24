@@ -1,0 +1,162 @@
+figure {
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: normal !important;
+}
+
+.copy-code-button {
+  background: rgba(0,0,0,0.2);
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-code-button:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.copy-code-button svg {
+  display: block;
+}
+
+.home-section + .home-section {
+  margin-top: 50px !important;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* or 4 if you want */
+  gap: 1rem;
+  max-width: 1200px;   /* constrain width */
+  margin: 0 auto;      /* center horizontally */
+  padding: 1rem;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 4 / 2;   /* forces 4:3 box */
+  object-fit: cover;     /* crops image */
+  object-position: center; /* center crop */
+  display: block;
+}
+
+.gallery-meta {
+  position: static;       /* remove overlay */
+  background: none;       /* remove dark layer */
+  color: inherit;         /* normal text color */
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Force caption to NOT be italic (override theme) */
+.wrapper.post .post-featured figcaption.post-caption {
+  font-style: normal !important;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.wrapper.post {
+  padding-top: 0.0rem; /* reduce from theme default, adjust as needed */
+}
+
+.wrapper.post .page-content {
+  margin-top: 0.1rem; /* optional: reduces spacing between header and content */
+}
+/* Credit styling */
+.wrapper.post .post-featured figcaption.post-caption .credit {
+  color: #888;
+}
+
+.credit {
+  color: #888;
+}
+
+/* Separator spacing */
+.wrapper.post .post-featured figcaption.post-caption .separator {
+  margin: 0 0.2rem;
+}
+
+/* Make the container centered and constrain width */
+.blog-container {
+  max-width: 1200px;   /* adjust to your site width */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Optional: intro spacing */
+.blog-intro {
+  text-align: center; /* center text above gallery */
+  margin-bottom: 2rem;
+}
+
+.blog-intro h2 {
+  margin-bottom: 0.5rem;
+}
+
+.blog-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.pagination {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.pagination a {
+  margin: 0 0.3rem;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
+
+.pagination .current {
+  margin: 0 0.3rem;
+  font-weight: bold;
+}
+
+.blog-filters a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.3rem 0.6rem;
+  background: var(--color-bg-alt, #eee); /* fallback to #eee if variable not defined */
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--color-text, #333);
+  transition: background 0.2s, color 0.2s;
+}
+
+.blog-filters a:hover {
+  background: var(--color-bg-hover, #ddd);
+}
+
+.category-toc-wrapper {
+  text-align: left;
+  margin: 2rem 0;
+}

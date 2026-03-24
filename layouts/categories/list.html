@@ -1,0 +1,88 @@
+
+{{ define "main" }}
+
+<div class="blog-container">  <!-- NEW wrapper -->
+
+
+  <div class="blog-intro">
+  {{ if .IsNode }}
+    {{ if in .Permalink "/categories/" }}
+      <p class="category-filter-info">
+        {{ i18n "categories.intro_text" }}: <strong>{{ .Title }}</strong>
+      </p>
+    {{ else }}
+      <p class="category-filter-info">
+        {{ i18n "categories.intro_text" }}: <strong> Unknown </strong>
+      </p>
+    {{ end }}
+  {{ else }}
+    <p class="category-filter-info">
+      {{ i18n "categories.intro_text" }}: <strong> Unknown </strong>
+    </p>
+  {{ end }}
+</div>
+
+  {{ $paginator := .Paginate .Pages.ByDate.Reverse 12 }} <!-- 3 posts per page -->
+
+  <div class="gallery">
+
+    {{ range $paginator.Pages }}
+
+      <div class="gallery-item">
+        <a href="{{ .RelPermalink }}">
+
+          {{ $img := "" }}
+
+          {{/* 1. Front matter */}}
+          {{ if .Params.featured_image }}
+            {{ $img = .Params.featured_image | relURL }}
+          {{ end }}
+
+          {{/* 2. Local cover in page bundle */}}
+          {{ if not $img }}
+            {{ with .Resources.GetMatch "cover.*" }}
+              {{ $img = .RelPermalink }}
+            {{ end }}
+          {{ end }}
+
+          {{/* 3. Global fallback */}}
+          {{ if not $img }}
+            {{ $img = "images/default.jpg" | relURL }}
+          {{ end }}
+
+          <img src="{{ $img }}" alt="{{ .Title }}">
+
+          <div class="gallery-meta">
+            <h3>{{ .Title }}</h3>
+            <small>{{ .Date | time.Format ":date_long" }}</small>
+          </div>
+
+        </a>
+      </div>
+
+    {{ end }}
+
+  </div>
+
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">← Previous</a>
+  {{ end }}
+
+  {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+      <span class="current">{{ .PageNumber }}</span>
+    {{ else }}
+      <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+  {{ end }}
+
+  {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next →</a>
+  {{ end }}
+</div>
+
+{{ end }}
