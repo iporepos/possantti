@@ -1,0 +1,20 @@
+{
+    "name": "Iporã Brito Possantti",
+    "short_name": "Possantti",
+    "start_url": "/",
+    "theme_color": "#434648",
+    "background_color": "#fff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/possantti/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/possantti/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
