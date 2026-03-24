@@ -1,5 +1,5 @@
 title = "Aptenodytes patagonicus"
-baseURL = "https://iporepos.github.io/possantti/"
+baseURL = "https://possantti.net/"
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
