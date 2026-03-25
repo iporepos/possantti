@@ -1,5 +1,5 @@
 title = "Aptenodytes patagonicus"
-baseURL = "https://possantti.net/"
+baseURL = "https://www.possantti.net/"
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
