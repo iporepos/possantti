@@ -14,6 +14,9 @@
 - id: "home.recent_projects"
   translation: "Projetos recentes"
 
+- id: "home.read_more"
+  translation: "Ver projetos →"
+
 ## CATEGORIES ##
 
 - id: "categories.title"

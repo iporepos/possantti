@@ -1,4 +1,4 @@
-title = "Aptenodytes patagonicus"
+title = "Iporã Brito Possantti"
 baseURL = "https://www.possantti.net/"
 
 # This is what goes in <html lang="">
@@ -49,19 +49,37 @@ theme = "hugo-blog-awesome"
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 20
+    weight = 60
 
  [[Languages.en-gb.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
-    weight = 30
+    weight = 50
 
  [[Languages.en-gb.menu.main]]
     pageRef="projects"
     name = 'Projects'
     url = '/projects/'
+    weight = 20
+
+[[Languages.en-gb.menu.main]]
+    pageRef="publications"
+    name = 'Publications'
+    url = '/publications/'
     weight = 40
+
+[[Languages.en-gb.menu.main]]
+    pageRef="services"
+    name = 'Services'
+    url = '/services/'
+    weight = 30
+
+[[Languages.en-gb.menu.main]]
+    pageRef="resources"
+    name = 'Resources'
+    url = '/resources/'
+    weight = 55
 
 [Languages.en-gb.params]
   sitename = "Iporã Brito Possantti"
@@ -70,7 +88,7 @@ theme = "hugo-blog-awesome"
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Hydrology and Environmental Planning, driven by data and scientific illustrations."
-  mainSections = ['blog', 'projects']
+  mainSections = ['projects', 'blog']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -118,23 +136,41 @@ theme = "hugo-blog-awesome"
     url = '/'
     weight = 10
 
-  [[Languages.pt-br.menu.main]]
-    pageRef="blog"
-    name = 'Blog'
-    url = '/blog/'
-    weight = 30
-
-  [[Languages.pt-br.menu.main]]
-    pageRef="about"
-    name = 'Sobre'
-    url = '/about/'
-    weight = 20
-
-  [[Languages.pt-br.menu.main]]
+[[Languages.pt-br.menu.main]]
     pageRef="projects"
     name = 'Projetos'
     url = '/projects/'
+    weight = 20
+
+[[Languages.pt-br.menu.main]]
+    pageRef="services"
+    name = 'Serviços'
+    url = '/services/'
+    weight = 30
+
+[[Languages.pt-br.menu.main]]
+    pageRef="publications"
+    name = 'Publicações'
+    url = '/publications/'
     weight = 40
+
+[[Languages.pt-br.menu.main]]
+    pageRef="blog"
+    name = 'Blog'
+    url = '/blog/'
+    weight = 50
+
+[[Languages.pt-br.menu.main]]
+    pageRef="resources"
+    name = 'Recursos'
+    url = '/resources/'
+    weight = 55
+
+[[Languages.pt-br.menu.main]]
+    pageRef="about"
+    name = 'Sobre'
+    url = '/about/'
+    weight = 60
 
 [Languages.pt-br.params]
   sitename = "Iporã Brito Possantti"
@@ -143,7 +179,7 @@ theme = "hugo-blog-awesome"
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Hydrology and Environmental Planning, driven by data and scientific illustrations."
-  mainSections = ['blog', 'projects']
+  mainSections = ['projects', 'blog']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button

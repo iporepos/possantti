@@ -11,6 +11,7 @@
     {{ $image1x := $image.Fill "70x70 center webp" }}
     {{ $image2x := $image.Fill "140x140 center webp" }}
     {{ $image3x := $image.Fill "600x600 center webp" }}
+    <a href="/about/" class="author-avatar-link">
     <img
         class="author-avatar"
         src="{{ $image3x.RelPermalink }}"
@@ -18,8 +19,17 @@
         alt="{{ $avatar_img_alt }}"
         width="{{ $image3x.Width }}"
         height="{{ $image3x.Height }}" />
+    </a>
     {{ end }}
     {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
+
+    <!-- NEW BLOCK -->
+    <div class="author-abstract">
+        <a href="/projects/" class="read-more">
+            {{ T "home.read_more" }}
+        </a>
+    </div>
+
 </div>
