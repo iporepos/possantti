@@ -1,0 +1,13 @@
+---
+type: "publication"
+title: "An integrated hydro-finance approach towards sustainable urban stormwater and flood control management"
+author: "Marques, G.; Possantti, I.; Dalcin, A.; Daiello, J.; González, I.; Todeschini, F.;Goldenfum, J."
+journal: "Journal of Cleaner Production"
+volume: "470"
+year: "2024"
+doi: "https://doi.org/10.1016/j.jclepro.2024.143364"
+download: "https://drive.google.com/file/d/1MDY0RsITlZ82QgEQvh6Ljo0eKinta6US/view?usp=sharing"
+thumbnail: "images/journals/Journal of Cleaner Production.jpeg"
+abstract: "Urban stormwater management funding is a significant challenge, requiring resources for infrastructure operation, maintenance, rehabilitation and expansion, while still addressing fairness and affordability to users. This paper provides a single approach combining hydrologic, finance and planning elements to support the stormwater fee design fully integrated to the finance strategy to implement stormwater and flood protection actions. The approach combines a novel, spatially-based Hydrological Externality Index (HEI), calibrated through expert opinion or hydrological models, with the design of a composite fee system based on the Polluter-Pays Principle that addresses equity and different lot categories. The revenues provided by the stormwater fee are simulated against the Equivalent Uniform Annual Costs of multiple portfolios of stormwater investment demands, allowing identification of different long-term financially sustainable stormwater planning strategies. The spatial heterogeneity in hydrological processes revealed in the HEI map identifies high-impact areas to guide sustainable urban planning and opportunities to lower drainage fees to some users. The composite fee system showed skewed fee distribution with higher charges for large industrial lots and lower fees for low-income neighborhoods, promoting affordability. The analysis allowed the Urban Stormwater and Flood Protection plan temporal framework to be organized for long-term finance sustainability, prioritizing actions of operation and maintenance and scheduling expansion projects for latter in the planning horizon. While even the lower fees could resolve the operation costs associated with sewers and polders, higher fees would still be necessary to fully cover maintenance costs and some of the expansion costs. The positive cash flow towards the end of the planning horizon indicates potential for leveraging future revenues."
+cite_bibli: "Marques, G.; Possantti, I.; Dalcin, A.; Daiello, J.; González, I.; Todeschini, F.;Goldenfum, J. (2024). An integrated hydro-finance approach towards sustainable urban stormwater and flood control management. Journal of Cleaner Production, 470143364. https://doi.org/10.1016/j.jclepro.2024.143364"
+---
