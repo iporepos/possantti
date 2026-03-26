@@ -40,6 +40,15 @@
 - id: "blog.blog_intro_text"
   translation: "This is where I share my thoughts, photography, and remote sensing experiments."
 
+
+## PUBLICATIONS ##
+
+- id: "pub.abstract"
+  translation: "Abstract"
+
+- id: "pub.citation"
+  translation: "Citation"
+
 ## SINGLE ##
 - id: "single.table_of_contents"
   translation: "Table of Contents"

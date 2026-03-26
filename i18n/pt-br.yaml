@@ -40,6 +40,14 @@
 - id: "blog.blog_intro_text"
   translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
 
+## PUBLICATIONS ##
+
+- id: "pub.abstract"
+  translation: "Resumo"
+
+- id: "pub.citation"
+  translation: "Citação"
+
 ## SINGLE ##
 - id: "single.table_of_contents"
   translation: "Sumário"

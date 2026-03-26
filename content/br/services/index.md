@@ -1,5 +1,5 @@
 ---
-title: services
+title: Serviços
 description: 'Hugo, o framework mais rápido do mundo para contruir páginas da web'
 author: Iporã Brito Possantti
 ---

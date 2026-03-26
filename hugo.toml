@@ -76,9 +76,9 @@ theme = "hugo-blog-awesome"
     weight = 30
 
 [[Languages.en-gb.menu.main]]
-    pageRef="resources"
-    name = 'Resources'
-    url = '/resources/'
+    pageRef="collections"
+    name = 'Collections'
+    url = '/collections/'
     weight = 55
 
 [Languages.en-gb.params]
@@ -161,9 +161,9 @@ theme = "hugo-blog-awesome"
     weight = 50
 
 [[Languages.pt-br.menu.main]]
-    pageRef="resources"
-    name = 'Recursos'
-    url = '/resources/'
+    pageRef="collections"
+    name = 'Coleções'
+    url = '/collections/'
     weight = 55
 
 [[Languages.pt-br.menu.main]]

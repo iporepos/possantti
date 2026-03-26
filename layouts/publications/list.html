@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+
+<section class="publications">
+
+  <header class="pub-header">
+  <h1 class="pub-page-title">{{ .Title }}</h1>
+
+  {{ with .Content }}
+    <div class="pub-intro">
+      {{ . }}
+    </div>
+  {{ end }}
+  </header>
+
+  {{ $pubs := where site.RegularPages "Type" "publication" }}
+  {{ $sorted := sort $pubs ".Params.year" "desc" }}
+
+  {{ range $sorted }}
+
+    <div class="pub-item">
+
+      {{ with .Params.thumbnail }}
+        <div class="pub-thumb">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+        </div>
+      {{ end }}
+
+      <div class="pub-content">
+
+        <h3 class="pub-title">
+          <a href="{{ .Params.doi }}" target="_blank" rel="noopener">
+            {{ .Title }}
+          </a>
+        </h3>
+
+        <div class="pub-meta">
+          {{ .Params.author }}<br>
+          {{ .Params.journal }}, ({{ .Params.volume }}) {{ .Params.year }}
+        </div>
+
+        <div class="pub-links">
+
+          {{ with .Params.download }}
+            <a href="{{ . | relURL }}" class="pub-pdf" target="_blank" title="Download PDF">
+              <svg class="pdf-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                <path d="M9 13h6M9 17h6M9 9h1"/>
+              </svg>
+            </a>
+          {{ end }}
+
+          {{ with .Params.doi }}
+            <a href="{{ . }}"  target="_blank" rel="noopener">
+              {{ . }}
+            </a>
+          {{ end }}
+
+
+
+        </div>
+
+        {{ with .Params.abstract }}
+          <details class="pub-abstract">
+            <summary>{{ T "pub.abstract" }}</summary>
+            <p>{{ . }}</p>
+          </details>
+        {{ end }}
+
+        {{ with .Params.cite_bibli }}
+          <details class="pub-citation">
+            <summary>{{ T "pub.citation" }}</summary>
+            <pre><code>{{ . }}</code></pre>
+          </details>
+        {{ end }}
+
+      </div>
+
+    </div>
+
+  {{ end }}
+
+</section>
+
+{{ end }}

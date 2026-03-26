@@ -1,0 +1,195 @@
+.pdf-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.pub-pdf {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Container */
+
+
+.publications {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* margin-top: 50px; */
+}
+
+.pub-header {
+  margin-bottom: 40px;
+
+}
+
+/* Item layout */
+
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+/* Thumbnail */
+
+.pub-thumb {
+  flex-shrink: 0;
+}
+
+.pub-thumb img {
+  width: 90px;
+  height: auto;
+  border-radius: 2px;
+}
+
+/* Content */
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Title */
+
+.pub-title {
+  margin: 0 0 0.2rem 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+/* Metadata */
+
+.pub-meta {
+  font-size: 0.85rem;
+  line-height: 1.4;
+
+}
+
+/* Links (DOI + PDF) */
+
+.pub-links {
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.pub-links a {
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* PDF icon */
+
+.pub-pdf {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+/* Abstract toggle */
+
+.pub-abstract {
+  margin-top: 0.4rem;
+}
+
+.pub-abstract summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.pub-abstract summary:hover {
+  text-decoration: underline;
+}
+
+.pub-abstract p {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Citation */
+
+/* --- Citation styles (PUT HERE, near the end) --- */
+
+:root {
+  --citation-bg: #f5f5f5;
+  --citation-fg: #222;
+  --citation-border: #ddd;
+}
+
+.dark {
+  --citation-bg: #1e1e1e;
+  --citation-fg: #e5e5e5;
+  --citation-border: #444;
+}
+
+.pub-citation {
+  margin-top: 0.4rem;
+}
+
+.pub-citation summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.pub-citation pre,
+.pub-citation pre code {
+  margin: 0;
+  padding: 0.7rem;
+
+  background: var(--citation-bg);
+  color: var(--citation-fg);
+
+  font-size: 0.8rem;
+  line-height: 1.4;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+
+  overflow-x: hidden;
+}
+
+
+
+/* Mobile adjustments */
+
+@media (max-width: 600px) {
+  .pub-item {
+    gap: 0.75rem;
+  }
+
+  .pub-thumb img {
+    width: 55px;
+  }
+
+  .pub-title {
+    font-size: 0.95rem;
+  }
+
+  .pub-meta,
+  .pub-links,
+  .pub-abstract summary,
+  .pub-abstract p {
+    font-size: 0.8rem;
+  }
+}
