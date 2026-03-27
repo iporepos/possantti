@@ -22,14 +22,23 @@
     </a>
     {{ end }}
     {{ end }}
-    <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
+    <h2 class="author-name">{{ .Site.Params.author.name }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
 
-    <!-- NEW BLOCK -->
     <div class="author-abstract">
         <a href="/projects/" class="read-more">
-            {{ T "home.read_more" }}
+            {{ T "home.read_more_projects" }}
         </a>
     </div>
+    <div class="author-intro">
+        <p class="author-intro-text">
+            {{ .Site.Params.author.intro }}
 
+        </p>
+        <a href="/about/" class="read-more">
+            {{ T "home.read_more_about" }}
+          </a>
+    </div>
 </div>
+
+

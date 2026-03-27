@@ -6,7 +6,7 @@
   translation: "Posts recentes"
 
 - id: "home.see_all"
-  translation: "Ver todos"
+  translation: "Ver todos →"
 
 - id: "home.recent_blogs"
   translation: "Blogs recentes"
@@ -14,8 +14,11 @@
 - id: "home.recent_projects"
   translation: "Projetos recentes"
 
-- id: "home.read_more"
+- id: "home.read_more_projects"
   translation: "Ver projetos →"
+
+- id: "home.read_more_about"
+  translation: "Ler mais →"
 
 ## CATEGORIES ##
 

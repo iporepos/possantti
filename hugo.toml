@@ -107,8 +107,7 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Iporã Brito Possantti"
-  name = "Iporã Brito Possantti"
+  intro = "Hydrologist, with a degree in Environmental Engineering and a PhD in Water Resources and Environmental Sanitation. I work as a researcher and consultant in Hydrology and Environmental Planning, using data-driven methods and scientific illustration. I live in southern Brazil, in constant contact with the natural landscape."
   description = "Hydrology and Environmental Planning, driven by data and scientific illustrations."
 
 # Allow to override webmanifest options
@@ -198,7 +197,7 @@ theme = "hugo-blog-awesome"
 [Languages.pt-br.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Iporã Brito Possantti"
+  intro = "Hidrólogo, graduado em Engenharia Ambiental e doutor em Recursos Hídricos e Saneamento Ambiental. Atuo como pesquisador e consultor em Hidrologia e Planejamento Ambiental, com uma abordagem orientada por dados e ilustrações científicas. Vivo no sul do Brasil, em constante contato com a paisagem natural."
   name = "Iporã Brito Possantti"
   description = "Hidrologia e Planejamento Ambiental, orientados por dados e ilustrações científicas."
 
