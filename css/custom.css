@@ -1,3 +1,9 @@
+.author-intro {
+  text-align: left;
+  margin-top: 50px;
+    /* keeps it visually aligned with centered content */
+}
+
 .figure {
   margin: 1.5rem 0;
 }
