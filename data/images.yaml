@@ -31,3 +31,30 @@ local_example:
   caption:
     en: "The snow mountain"
     pt-br: "A montanha de neve"
+  credit:
+    en: ""
+    pt-br: ""
+
+Photo_Possantti_2024_a:
+  src: "https://pub-f4666d9730eb4c35b52da7fd87ca1881.r2.dev/Photo_Possantti_2024_v001_a.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Bone Hill Creek, Fall of 2024"
+    pt-br: "Sanga do Morro do Osso, Outono de 2024"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Ipo_Beven:
+  src: "https://pub-1f2e7520b3994feb928b97f78a8756a4.r2.dev/ipo-beven.jpeg"
+  alt:
+    en: "Ipo and Keith Beven"
+    pt-br: "Ipo e Keith Beven"
+  caption:
+    en: "Bone Hill Creek, Fall of 2024"
+    pt-br: "Em 2021 eu tive a oportunidade de conversar por video-chamada com o Keith Beven (o “mago” das águas)"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"

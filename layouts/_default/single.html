@@ -6,36 +6,85 @@
         <article>
             <header class="header">
 
-                {{/* FEATURED IMAGE (with fallback) */}}
-                {{ $img := "" }}
+                {{/* FEATURED IMAGE (data lookup + i18n + fallback) */}}
 
-                {{ if .Params.featured_image }}
-                  {{ $img = .Params.featured_image | relURL }}
+                {{ $img := "" }}
+                {{ $alt := "" }}
+                {{ $caption := "" }}
+                {{ $credit := "" }}
+
+                {{ $key := .Params.featured_image }}
+                {{ $lang := .Site.Language.Lang | default "en" }}
+
+                {{/* 1. Try data/images.yaml */}}
+                {{ if $key }}
+                  {{ with index site.Data.images $key }}
+
+                    {{ $img = .src | relURL }}
+
+                    {{/* ALT */}}
+                    {{ with .alt }}
+                      {{ $alt = index . $lang | default (index . "en") }}
+                    {{ end }}
+
+                    {{/* CAPTION */}}
+                    {{ with .caption }}
+                      {{ $caption = index . $lang | default (index . "en") }}
+                    {{ end }}
+
+                    {{/* CREDIT */}}
+                    {{ with .credit }}
+                      {{ $credit = index . $lang | default (index . "en") }}
+                    {{ end }}
+
+                  {{ end }}
                 {{ end }}
 
+                {{/* 2. Fallback: direct path from params */}}
+                {{ if and (not $img) $key }}
+                  {{ $img = $key | relURL }}
+                {{ end }}
+
+                {{/* 3. Fallback: page resource */}}
                 {{ if not $img }}
                   {{ with .Resources.GetMatch "cover.*" }}
                     {{ $img = .RelPermalink }}
                   {{ end }}
                 {{ end }}
 
+                {{/* 4. Front matter overrides (always win) */}}
+
+                {{ with .Params.featured_alt }}
+                  {{ $alt = . }}
+                {{ end }}
+
+                {{ with .Params.featured_caption }}
+                  {{ $caption = . }}
+                {{ end }}
+
+                {{ with .Params.featured_credit }}
+                  {{ $credit = . }}
+                {{ end }}
+
+                {{/* 5. Final render */}}
+
                 {{ if $img }}
                 <figure class="post-featured">
 
-                  <img src="{{ $img }}" alt="{{ .Title }}">
+                  <img src="{{ $img }}" alt="{{ $alt | default .Title }}">
 
-                  {{ if or .Params.featured_caption .Params.featured_credit }}
+                  {{ if or $caption $credit }}
                     <figcaption class="post-caption">
 
-                      {{ with .Params.featured_caption }}
+                      {{ with $caption }}
                         <span class="caption">{{ . }}</span>
                       {{ end }}
 
-                      {{ if and .Params.featured_caption .Params.featured_credit }}
+                      {{ if and $caption $credit }}
                         <span class="separator"> — </span>
                       {{ end }}
 
-                      {{ with .Params.featured_credit }}
+                      {{ with $credit }}
                         <span class="credit">{{ . }}</span>
                       {{ end }}
 

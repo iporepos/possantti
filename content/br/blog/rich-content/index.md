@@ -3,14 +3,13 @@ author: Autor
 title: Conteúdo Rico
 date: 2023-02-09
 description: Uma breve descrição dos Shortcodes do Hugo.
-featured_caption: "Sentinel-2 imagery of seasonal flooding (March 2024)"
-featured_credit: "© ESA Copernicus"
+featured_image: "local_example"
 categories:
   - sensoriamento-remoto
   - fotografia
 ---
 
-O Hugo vem com vários [Shortcodes Integrados](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) para conteúdo rico, juntamente com uma [Configuração de Privacidade](https://gohugo.io/about/hugo-and-gdpr/) e um conjunto de Shortcodes Simples que permitem versões estáticas e sem JavaScript de diversas página embutidas de mídias sociais.
+O Hugo vem com vários [Shortcodes Integrados](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) para conteúdo rico, juntamente com uma [Configuração de Privacidade](https://gohugo.io/about/hugo-and-gdpr/) e um conjunto de Shortcodes Simples que permitem versões estáticas e sem JavaScript de diversas página embutidas de mídias sociais. Teste
 <!--more-->
 ---
 

@@ -36,7 +36,7 @@ theme = "hugo-blog-awesome"
   contentDir = "content/en"
   weight = 1
 
-  [Languages.en-gb.menu]
+[Languages.en-gb.menu]
   [[Languages.en-gb.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
@@ -75,11 +75,11 @@ theme = "hugo-blog-awesome"
     url = '/services/'
     weight = 30
 
-[[Languages.en-gb.menu.main]]
-    pageRef="collections"
-    name = 'Collections'
-    url = '/collections/'
-    weight = 55
+#[[Languages.en-gb.menu.main]]
+#    pageRef="collections"
+#    name = 'Collections'
+#    url = '/collections/'
+#    weight = 55
 
 [Languages.en-gb.params]
   sitename = "Iporã Brito Possantti"
@@ -160,11 +160,11 @@ description = "Hydrology and Environmental Planning, driven by data and scientif
     url = '/blog/'
     weight = 50
 
-[[Languages.pt-br.menu.main]]
-    pageRef="collections"
-    name = 'Coleções'
-    url = '/collections/'
-    weight = 55
+#[[Languages.pt-br.menu.main]]
+#    pageRef="collections"
+#    name = 'Coleções'
+#    url = '/collections/'
+#    weight = 55
 
 [[Languages.pt-br.menu.main]]
     pageRef="about"
