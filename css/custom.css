@@ -1,3 +1,45 @@
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.post-footer a {
+  margin-right: 0.8rem;
+  text-decoration: none;
+  color: #555;
+}
+
+.post-footer a:hover {
+  text-decoration: underline;
+}
+
+.author-avatar {
+  width: 1.6em;   /* matches text line height */
+  height: 1.6em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-meta {
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+
+.post-meta a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.post-meta a:hover {
+  color: #000;
+}
+
+.meta-text {
+  line-height: 1.2;
+}
+
 .author-intro {
   text-align: left;
   margin-top: 50px;
@@ -73,6 +115,11 @@
   }
 }
 
+.post-caption {
+  font-style: normal !important;
+  font-size: 0.9rem;
+}
+
 /* Force caption to NOT be italic (override theme) */
 .wrapper.post .post-featured figcaption.post-caption {
   font-style: normal !important;
@@ -115,10 +162,14 @@
 .blog-intro {
   text-align: center; /* center text above gallery */
   margin-bottom: 2rem;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .blog-intro h2 {
   margin-bottom: 0.5rem;
+
 }
 
 .blog-intro p {
