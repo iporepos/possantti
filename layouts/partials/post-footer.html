@@ -1,0 +1,23 @@
+{{ $url := .Permalink }}
+{{ $title := .Title }}
+
+<div class="post-footer">
+
+  <div class="share">
+    <span><strong>{{ T "blog.share" }}</strong></span><br>
+
+    <a href="https://wa.me/?text={{ printf "%s %s" $title $url | urlquery }}" target="_blank">
+      WhatsApp
+    </a>
+
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url | urlquery }}" target="_blank">
+      LinkedIn
+    </a>
+
+    <a href="mailto:?subject={{ $title | urlquery }}&body={{ $url }}" target="_blank">
+      Email
+    </a>
+
+  </div>
+
+</div>

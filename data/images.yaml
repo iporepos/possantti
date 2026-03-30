@@ -11,18 +11,6 @@ basin_map:
     en: "Source: ANA"
     pt-br: "Fonte: ANA"
 
-drive_image:
-  src: "https://drive.google.com/uc?export=view&id=1rc8YP1GwEBqLvaU8BzbcvZghRwUpvjnF"
-  alt:
-    en: "Watershed map"
-    pt-br: "Mapa da bacia hidrográfica"
-  caption:
-    en: "Hydrological basin used in the study"
-    pt-br: "Bacia hidrográfica utilizada no estudo"
-  credit:
-    en: "Source: ANA"
-    pt-br: "Fonte: ANA"
-
 local_example:
   src: "images/1.jpg"  # relative path
   alt:
@@ -35,20 +23,88 @@ local_example:
     en: ""
     pt-br: ""
 
-Photo_Possantti_2024_a:
-  src: "https://pub-f4666d9730eb4c35b52da7fd87ca1881.r2.dev/Photo_Possantti_2024_v001_a.jpg"
+# --------------------------------------------------------------------
+# Water photos
+
+
+Photo_Possantti_2023_a:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2023_v0P2_a.jpg"
   alt:
     en: "Water Photo"
     pt-br: "Foto de água"
   caption:
-    en: "Bone Hill Creek, Fall of 2024"
-    pt-br: "Sanga do Morro do Osso, Outono de 2024"
+    en: "Garapiá Falls (a), Osório, Summer of 2023"
+    pt-br: "Cascata do Garapiá (a), Maquiné, Verão de 2023"
   credit:
     en: "© Iporã Possantti"
     pt-br: "© Iporã Possantti"
 
+
+Photo_Possantti_2023_b:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2023_v0P2_b.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Garapiá Falls (b), Maquiné, Summer of 2023"
+    pt-br: "Cascata do Garapiá (b), Maquiné, Verão de 2023"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2024_a:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2024_v0P2_a.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Morro do Osso Creek (a), Porto Alegre, Fall of 2024"
+    pt-br: "Sanga do Morro do Osso (a), Porto Alegre, Outono de 2024"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2024_c:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2024_v0P2_c.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Creek at Borussia Hill (a), Osório, Spring of 2024"
+    pt-br: "Sanga no Morro da Borússia (a), Osório, Primavera de 2024"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2025_a:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2025_v0P2_a.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Creek at Cave Park (a), Santa Cruz do Sul, Fall of 2025"
+    pt-br: "Sanga no Parque da Gruta (a), Maquiné, Outono de 2025"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2025_c:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2025_v0P2_c.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Lake Guaíba ripples, Porto Alegre, Fall of 2025"
+    pt-br: "Ondulações no Lago Guaíba, Porto Alegre, Outono de 2025"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+# --------------------------------------------------------------------
+# Personal photos
+
 Ipo_Beven:
-  src: "https://pub-1f2e7520b3994feb928b97f78a8756a4.r2.dev/ipo-beven.jpeg"
+  src: "https://photos.possantti.net/personal/ipo-beven.jpeg"
   alt:
     en: "Ipo and Keith Beven"
     pt-br: "Ipo e Keith Beven"
@@ -58,3 +114,54 @@ Ipo_Beven:
   credit:
     en: "© Iporã Possantti"
     pt-br: "© Iporã Possantti"
+
+Houston_Jose:
+  src: "https://photos.possantti.net/personal/houston-jose.jpg"
+  alt:
+    en: "Jose and Houston"
+    pt-br: "José e Houston"
+  caption:
+    en: "José Augusto working during the 2024 floods"
+    pt-br: "José Augusto trabalhando durante as enchentes de 2024"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+# --------------------------------------------------------------------
+# Posts images
+
+Guaiba_White:
+  src: "https://images.possantti.net/remote-sensing/guaiba_white.gif"
+  alt:
+    en: "Imagery Gif"
+    pt-br: "Gif de imageamento"
+  caption:
+    en: "Guaíba Lake (2023-2025)"
+    pt-br: "Lago Guaíba (2023-2025)"
+  credit:
+    en: "Modified from INPE"
+    pt-br: "Modificado de INPE"
+
+Laguna_White:
+  src: "https://images.possantti.net/remote-sensing/laguna_white.gif"
+  alt:
+    en: "Imagery Gif"
+    pt-br: "Gif de imageamento"
+  caption:
+    en: "Patos Lagoon (2023-2025)"
+    pt-br: "Laguna dos Patos (2023-2025)"
+  credit:
+    en: "Modified from INPE"
+    pt-br: "Modificado de INPE"
+
+Estuario_White:
+  src: "https://images.possantti.net/remote-sensing/estuario_white.gif"
+  alt:
+    en: "Imagery Gif"
+    pt-br: "Gif de imageamento"
+  caption:
+    en: "Patos Lagoon Estuaru (2023-2025)"
+    pt-br: "Estuário da Laguna dos Patos (2023-2025)"
+  credit:
+    en: "Modified from INPE"
+    pt-br: "Modificado de INPE"

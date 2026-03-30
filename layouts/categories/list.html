@@ -32,22 +32,41 @@
         <a href="{{ .RelPermalink }}">
 
           {{ $img := "" }}
+          {{ $alt := "" }}
 
-          {{/* 1. Front matter */}}
-          {{ if .Params.featured_image }}
-            {{ $img = .Params.featured_image | relURL }}
+          {{ $key := .Params.featured_image }}
+          {{ $lang := .Site.Language.Lang | default "en" }}
+
+          {{/* 1. Try data/images.yaml */}}
+          {{ if $key }}
+            {{ with index site.Data.images $key }}
+              {{ $img = .src | relURL }}
+              {{ with .alt }}
+                {{ $alt = index . $lang | default (index . "en") }}
+              {{ end }}
+            {{ end }}
           {{ end }}
 
-          {{/* 2. Local cover in page bundle */}}
+          {{/* 2. Fallback: direct path */}}
+          {{ if and (not $img) $key }}
+            {{ $img = $key | relURL }}
+          {{ end }}
+
+          {{/* 3. Fallback: page resource */}}
           {{ if not $img }}
             {{ with .Resources.GetMatch "cover.*" }}
               {{ $img = .RelPermalink }}
             {{ end }}
           {{ end }}
 
-          {{/* 3. Global fallback */}}
+          {{/* 4. Global fallback */}}
           {{ if not $img }}
             {{ $img = "images/default.jpg" | relURL }}
+          {{ end }}
+
+          {{/* 5. Alt fallback */}}
+          {{ if not $alt }}
+            {{ $alt = .Title }}
           {{ end }}
 
           <img src="{{ $img }}" alt="{{ .Title }}">

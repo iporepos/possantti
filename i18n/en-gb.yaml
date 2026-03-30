@@ -38,11 +38,22 @@
 
 ## BLOG ##
 - id: "blog.blog_intro_title"
-  translation: "Welcome to my blog"
+  translation: "Ipoverse"
+
+- id: "blog.blog_intro_subtitle"
+  translation: "Hydrology • Environment • Science • Data • Philosophy • Photography • Life"
 
 - id: "blog.blog_intro_text"
-  translation: "This is where I share my thoughts, photography, and remote sensing experiments."
+  translation: "Exploring the intersections of hydrology, science, and the environment. This is my space for sharing what I’m learning, the sights I capture, and my reflections on how we inhabit this planet."
 
+- id: "blog.published_by"
+  translation: "published by"
+
+- id: "blog.published_in"
+  translation: "in"
+
+- id: "blog.share"
+  translation: "Share"
 
 ## PUBLICATIONS ##
 
@@ -54,7 +65,7 @@
 
 ## SINGLE ##
 - id: "single.table_of_contents"
-  translation: "Table of Contents"
+  translation: "Outline"
 
 ## FOOTER ##
 - id: "footer.go_to_top"

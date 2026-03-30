@@ -1,0 +1,35 @@
+{{ $author := .Params.author | default .Site.Params.author.name }}
+
+{{/* Resolve avatar (page → site → resource) */}}
+{{ $avatar := .Params.author_image | default .Site.Params.author.avatar }}
+
+{{ $avatarURL := "" }}
+
+{{ with resources.Get $avatar }}
+  {{ $avatarURL = .RelPermalink }}
+{{ else }}
+  {{/* fallback if it's not in /assets */}}
+  {{ if not (strings.HasPrefix $avatar "http") }}
+    {{ $avatarURL = $avatar | relURL }}
+  {{ else }}
+    {{ $avatarURL = $avatar }}
+  {{ end }}
+{{ end }}
+
+<div class="post-meta">
+  <img class="author-avatar" src="{{ $avatarURL }}" alt="{{ $author }}">
+
+  <span class="meta-text">
+    {{ T "blog.published_by" }} {{ $author }}
+
+    {{ with .Params.categories }}
+      {{ T "blog.published_in" }}
+      {{ range $i, $cat := . }}
+        {{ if $i }}, {{ end }}
+        <a href="{{ (printf "/categories/%s" ($cat | urlize)) | relURL }}">
+          {{ $cat }}
+        </a>
+      {{ end }}
+    {{ end }}
+  </span>
+</div>

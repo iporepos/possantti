@@ -1,5 +1,6 @@
 {{ define "main" }}
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
 <div class="wrapper post">
 
     <main class="page-content" aria-label="Content">
@@ -106,11 +107,20 @@
                 </div>
                 {{ end }}
 
+                {{ if eq .Section "blog" }}
+                  {{ partial "post-author.html" . }}
+                {{ end }}
+
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content">
                 {{ .Content }}
             </div>
+
+            {{ if eq .Section "blog" }}
+              {{ partial "post-footer.html" . }}
+            {{ end }}
+
         </article>
         {{- partial "comments.html" . -}}
     </main>
