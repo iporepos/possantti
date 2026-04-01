@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2010 - 2016"
+title_edu: "Bachelor's degree in Environmental Engineering"
+title: "Evaluating the effectiveness of a stormwater wetland project in improving water quality and regulating streamflow in the Arroio do Salso - Porto Alegre/RS"
+author: "Iporã Brito Possantti"
+year: "2016"
+advisor: "Fernando Dornelles"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/156550"
+download: "https://drive.google.com/file/d/1CQU2maCclhL4FjIWplasEbAPzuMObKqJ/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "This study explores the hypothetical implementation of a stormwater wetland as a Best Management Practice (BMP) to mitigate urbanization impacts on stream waters within a 106-acre catchment of the Arroio do Salso creek watershed in Porto Alegre, RS. This watershed is part of the larger Lake Guaíba watershed, which is the sole water source for Porto Alegre and is regulated under the Class 2 water quality standard of CONAMA’s Resolution 357/2005. Additionally, the Arroio do Salso creek watershed is the focus of urban planning efforts aimed at waterways recovery, situating this research within the broader context of environmental planning at both regional and municipal levels. The study assessed the effectiveness of the stormwater wetland technology in improving water quality and regulating runoff flow across three scenarios: pre-development, post-development, and future. These assessments were conducted using a quali-quantitative hydrological model simulation that included non-point source pollution and utilized the EPA SWMM 5.0 and CLIMABR applications over a period of ten years of synthetic rainfall. The analysis of exceedance curves for various water quality components demonstrated significant improvements in water quality in the post-development and future scenarios, with system treatment removal efficiencies between 80 to 90% at least 50% of the time. However, compliance with water quality standards was only achievable in the future scenario, within a range of 30% to 35% of the time, due to enhanced infrastructure measures such as separate sewer coupling and combined sewer control. Regarding runoff flow regimes, the stormwater wetland notably regularized moderate discharges in both the post-development and future scenarios, maintaining available flows between 1 to 100 liters per second for extended durations compared to other conditions. Despite relying heavily on model parameters transposed from the literature, the findings suggest that stormwater wetlands represent a viable option within a suite of strategies for environmental recovery programs aimed at improving urban waterways."
+cite_bibli: "Possantti, Iporã Brito (2016). Evaluating the effectiveness of a stormwater wetland project in improving water quality and regulating streamflow in the Arroio do Salso - Porto Alegre/RS (Bachelor's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/156550"
+---

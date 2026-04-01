@@ -35,9 +35,9 @@
             {{ .Site.Params.author.intro }}
 
         </p>
-        <a href="/about/" class="read-more">
-            {{ T "home.read_more_about" }}
-          </a>
+        <a href="{{ relref . "about" }}" class="read-more">
+          {{ T "home.read_more_about" }}
+        </a>
     </div>
 </div>
 

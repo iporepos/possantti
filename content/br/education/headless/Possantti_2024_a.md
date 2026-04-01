@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2020 - 2024"
+title_edu: "PhD in Water Resources Engineering"
+title: "Uma síntese sobre princípios e problemas fundamentais no uso de modelos hidrológicos para planejar a conservação de bacias hidrográficas"
+author: "Iporã Brito Possantti"
+year: "2024"
+advisor: "Guilherme Marques"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/285312"
+download: "https://drive.google.com/file/d/1V7UC2ANu7oZ-1a6ZyDnEJQbgxnxjeNC3/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "Esta tese é uma síntese que organiza as bases conceituais e filosóficas para o uso de modelos hidrológicos no planejamento da conservação de bacias hidrográficas e da expansão da infraestrutura verde. Com o objetivo de criar um mapa de ideias integrado, o trabalho não apenas conecta fundamentos teóricos e práticos, mas oferece um guia estruturado para futuras investigações e aplicações na área. O capítulo inicial apresenta as bases epistemológicas, abordando as justificações e limitações dos modelos hidrológicos. O segundo capítulo desenvolve uma abordagem ontológica com a Dinâmica de Sistemas, explorando como a arquitetura dos modelos define as respostas hidrológicas e identificando pontos de intervenção estratégica. No terceiro capítulo, a tese revisa a evolução dos paradigmas hidrológicos, culminando na Teoria da Conectividade, que propõe uma unificação dos processos de escoamento superficial e subterrâneo. O último capítulo explora o papel da Economia Ecológica na gestão de bacias, utilizando o modelo PLANS em esquemas de Pagamentos por Serviços Ambientais (PSA) para priorizar áreas de conservação na escala dos lotes rurais. Ao sintetizar esses conceitos, a tese estabelece um conhecimento estruturado que facilita o avanço de novas pesquisas, permitindo que a comunidade científica articule com maior clareza e objetividade soluções sustentáveis e adaptativas para a gestão de bacias hidrográficas."
+cite_bibli: "Uma síntese sobre princípios e problemas fundamentais no uso de modelos hidrológicos para planejar a conservação de bacias hidrográficas (PhD's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/285312"
+---

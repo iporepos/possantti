@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2010 - 2016"
+title_edu: "Bachelor's degree in Environmental Engineering"
+title: "Avaliação da eficácia de banhado de chuva na melhoria da qualidade da água e na regulação das vazões do Arroio do Salso - Porto Alegre/RS"
+author: "Iporã Brito Possantti"
+year: "2016"
+advisor: "Fernando Dornelles"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/156550"
+download: "https://drive.google.com/file/d/1CQU2maCclhL4FjIWplasEbAPzuMObKqJ/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "O presente estudo aborda o uso hipotético de um banhado de chuva (stormwater wetland) como técnica compensatória dos impactos da urbanização nas águas superficiais em uma micro-bacia de 43 hectares localizada na bacia hidrográfica do Arroio do Salso, Porto Alegre/RS. Na escala regional, essa região faz parte da bacia hidrográfica do Lago Guaíba, único manancial de Porto Alegre, sendo assim alvo de enquadramento de Classe 2 da Resolução CONAMA nº 357/2005. Além disso, a bacia do Arroio do Salso também é sujeita à diretrizes urbanas para a recuperação de corpos d’água. Nesse sentido, este estudo se integra do contexto municipal e regional de planejamento ambiental. A eficácia da tecnologia de banhados de chuva em melhorar a qualidade da água e regular as vazões de escoamento superficial foi avaliada em cenário “nativo”, “atual” e “futuro”, lançando mão de simulação de modelo hidrológico quali-quantitativo (incluindo poluição difusa) por 10 anos com série sintética de chuva através dos aplicativos EPA SWMM 5.0 e CLIMABR. A análise das curvas de permanência para cada parâmetro de qualidade simulado permitiu concluir que, no cenário atual e futuro, houve grande melhoria na qualidade da água, com o sistema de tratamento apresentando eficiência de remoção de 80 a 90% em 50% do tempo. Entretanto, o atendimento ao padrão de qualidade da Classe 2 só foi viável no cenário futuro, em faixas de 30 a 35% do tempo, graças à integração da rede cloacal e interceptação a tempo seco da rede pluvial definidas para esse cenário. Quanto ao regime de vazões de escoamento superficial, em ambos os cenários o efeito do banhado de chuva foi de regularização das vazões moderadas, diponibilizando por mais tempo vazões na faixa de 1 a 100 l/s em relação às outras condições. Apesar da elevada transposição de parâmetros de modelagem advindas da literatura, o presente estudo demostra que o uso de banhados de chuva podem ser uma alternativa chave no leque de ações de programas de recuperação ambiental dos corpos d’água."
+cite_bibli: "Possantti, Iporã Brito (2016). Avaliação da eficácia de banhado de chuva na melhoria da qualidade da água e na regulação das vazões do Arroio do Salso – Porto Alegre/RS (Bachelor's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/156550"
+---

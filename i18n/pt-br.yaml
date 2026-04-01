@@ -18,7 +18,7 @@
   translation: "Ver projetos →"
 
 - id: "home.read_more_about"
-  translation: "Ler mais →"
+  translation: "Mais informações →"
 
 ## CATEGORIES ##
 
@@ -37,15 +37,15 @@
   translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
 
 ## BLOG ##
-## BLOG ##
+
 - id: "blog.blog_intro_title"
-  translation: "Ipoverso"
+  translation: "O ipoverso"
 
 - id: "blog.blog_intro_subtitle"
-  translation: "Hidrologia • Meio ambiente • Ciência • Dados • Filosofia • Fotografia • Vida"
+  translation: "Hidrologia • Ambiente • Dados • Ciência • Filosofia • Fotografia • Vida"
 
 - id: "blog.blog_intro_text"
-  translation: "Explorando as interseções entre hidrologia, ciência e meio ambiente. Este é o meu espaço para compartilhar o que tenho aprendido, as imagens que capturo e minhas reflexões sobre como habitamos este planeta."
+  translation: "Boas-vindas ao meu blog! Este é um espaço onde compartilho o que tenho aprendido, as imagens que capturo, opiniões em alguns assuntos e reflexões diversas sobre a vida."
 
 - id: "blog.published_by"
   translation: "publicado por"

@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2018 - 2020"
+title_edu: "Master's in Water Resources Engineering"
+title: "Planning the expansion of nature-based solutions for water considering the relationship between cost and benefit"
+author: "Iporã Brito Possantti"
+year: "2020"
+advisor: "Guilherme Marques"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/231318"
+download: "https://drive.google.com/file/d/1CQHGcjyvNjpkTFf9VRe-0muBD-gKaVt3/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "Nature-based solutions (NBS), especially associated with payment schemes for environmental services (PES), are an emerging issue in water resource planning. Thus, this research aimed to contribute to improving the understanding of how NBS can be developed in the long-term planning of water systems that supply cities. We sought to answer (1) how to identify the best strategy to expand a set of NBS in a given water system and (2) how to estimate the cost and benefit ratio of developing a set of NBS. The research was successful in its objectives because a metamodel was developed that integrates simulation models with optimization by dynamic programming. These models were conceived, as well as their parameters, based on what case studies, experimental studies and observational studies found in the literature suggest. The objective function of the optimization was to identify the expansion path that minimizes, over the planning horizon, the total cost of the water system, which was considered the sum of the scarcity cost, treatment cost and cost of NBS expansion. The benefit of the NBS expansion was conceived as the reduction in the total cost compared to the inaction scenario. The best expansion strategy was understood by the one that temporarily optimizes the advantages of each NBS in relation to the pressures presented by the future scenario. The application of the research problem to the Rio dos Sinos watershed suggested that terraced grasslands would consist of the NBS most suitable for improving water availability, while reforestation would be more suitable for improving water quality. Even so, the results pointed out that the large-scale expansion of NBS over the water systems responsible for supplying big cities would be economically unfeasible when assessing the direct costs and benefits. These results made it evident that the PES and similar programs observed in practice in Brazil operate in areas at least ten times smaller than those necessary to produce noticeable impacts on the water availability of large water systems, which generally occupy hundreds of square kilometers."
+cite_bibli: "Possantti, I. (2020). Planejamento da expansão de soluções baseadas na natureza para água considerando a relação de custo e benefício (Master's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/231318"
+---

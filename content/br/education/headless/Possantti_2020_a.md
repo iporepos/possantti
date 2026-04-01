@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2018 - 2020"
+title_edu: "Master's in Water Resources Engineering"
+title: "Planejamento da expansão de soluções baseadas na natureza para água considerando a relação de custo e benefício"
+author: "Iporã Brito Possantti"
+year: "2020"
+advisor: "Guilherme Marques"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/231318"
+download: "https://drive.google.com/file/d/1CQHGcjyvNjpkTFf9VRe-0muBD-gKaVt3/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "Soluções baseadas na natureza (SBN), especialmente associadas a esquemas de pagamentos por serviços ambientais (PSA), são uma temática emergente no planejamento de recursos hídricos. Assim, a presente pesquisa objetivou contribuir para melhorar o entendimento de como SBN podem ser desenvolvidas no planejamento de longo prazo dos sistemas hídricos que abastecem cidades. Buscou-se responder (1) como identificar a melhor estratégia para expandir um conjunto de SBN em um dado sistema hídrico e (2) como estimar a relação de custo e benefício do desenvolvimento de um conjunto de SBN. A pesquisa obteve êxito em seus objetivos pois foi desenvolvido um metamodelo que integra modelos de simulação com otimização por programação dinâmica. Esses modelos foram concebidos, assim como seus parâmetros, com base no que sugerem estudos de caso, estudos experimentais e estudos observacionais encontrados na literatura. A função objetivo da otimização consistiu em identificar a rota de expansão que minimiza, ao longo do horizonte de planejamento, o custo total do sistema hídrico, que foi considerado a soma do custo da escassez, custo de tratamento e custo de expansão de SBN. O benefício da expansão de SBN foi concebido como a redução no custo total em relação ao cenário de inação. A melhor estratégia de expansão foi entendida por aquela que otimiza temporalmente as vantagens de cada SBN em relação às pressões apresentadas pelo cenário de futuro. que pastagens com terraços consistiriam na SBN mais indicada para a melhoria da disponibilidade de água, enquanto que o reflorestamento seria mais adequado para a melhoria da qualidade de água. Ainda assim, os resultados apontaram que a expansão de SBN em larga escala sobre os sistemas hídricos responsáveis pelo abastecimento de metrópoles seria inviável economicamente quando avaliado os custos e benefícios diretos. Tais resultados deixaram evidente que os programas de PSA e similares observados na prática no Brasil atuam sobre áreas pelo menos dez vezes menores que as necessárias para produzir impactos perceptíveis sobre a diponibilidade de água de grandes sistemas hídricos, que em geral ocupam centenas de quilômetros quadrados."
+cite_bibli: "Possantti, Iporã Brito (2020). Planejamento da expansão de soluções baseadas na natureza para água considerando a relação de custo e benefício (Master's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/231318"
+---

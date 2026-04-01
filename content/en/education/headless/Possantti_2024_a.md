@@ -1,0 +1,15 @@
+---
+type: "education"
+period: "2020 - 2024"
+title_edu: "PhD in Water Resources Engineering"
+title: "A synthesis on fundamental principles and problems in the use of hydrological models for planning watershed conservation"
+author: "Iporã Brito Possantti"
+year: "2024"
+advisor: "Guilherme Marques"
+institution: "Universidade Federal do Rio Grande do Sul"
+uri: "https://hdl.handle.net/10183/285312"
+download: "https://drive.google.com/file/d/142BAvAeqCsHKAXBEyH25ntE1dn0RYQCT/view?usp=drive_link"
+thumbnail: "images/education/ufrgs.png"
+abstract: "This thesis is a synthesis that organizes the conceptual and philosophical foundations for the use of hydrological models in planning watershed conservation and expansion of green infrastructure. With the aim of creating an integrated map of ideas, the work not only connects theoretical and practical foundations but also offers a structured guide for future investigations and applications in the field. The initial chapter presents the epistemological bases, addressing the justifications and limitations of hydrological models. The second chapter develops an ontological approach with Systems Dynamics, exploring how model architecture defines hydrological responses and identifying points for strategic intervention. In the third chapter, the thesis reviews the evolution of hydrological paradigms, culminating in the Theory of Connectivity, which proposes an unification of surface and subsurface flow processes. The final chapter explores the role of Ecological Economics in watershed management, using the PLANS model in Payment for Ecosystem Services (PES) schemes to prioritize conservation areas at the operational scale of the farms. By synthesizing these concepts, the thesis establishes a structured body of knowledge that facilitates the advancement of new research, enabling the scientific community to articulate sustainable and adaptive solutions for watershed management with greater clarity and objectivity."
+cite_bibli: "Possantti, I. (2024). A synthesis on fundamental principles and problems in the use of hydrological models for planning watershed conservation (PhD's Thesis). Universidade Federal do Rio Grande do Sul. https://hdl.handle.net/10183/285312"
+---

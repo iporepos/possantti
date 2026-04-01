@@ -18,7 +18,7 @@
   translation: "View projects →"
 
 - id: "home.read_more_about"
-  translation: "Read more →"
+  translation: "More info →"
 
 ## CATEGORIES ##
 
@@ -38,13 +38,13 @@
 
 ## BLOG ##
 - id: "blog.blog_intro_title"
-  translation: "Ipoverse"
+  translation: "The ipoverse"
 
 - id: "blog.blog_intro_subtitle"
-  translation: "Hydrology • Environment • Science • Data • Philosophy • Photography • Life"
+  translation: "Hydrology • Environment • Data • Science • Philosophy • Photography • Life"
 
 - id: "blog.blog_intro_text"
-  translation: "Exploring the intersections of hydrology, science, and the environment. This is my space for sharing what I’m learning, the sights I capture, and my reflections on how we inhabit this planet."
+  translation: "Welcome to my blog! This is a space where I share what I’ve been learning, the images I capture, my opinions on certain topics, and various reflections on life."
 
 - id: "blog.published_by"
   translation: "published by"

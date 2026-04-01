@@ -1,0 +1,74 @@
+<section class="education">
+
+    {{ $edu := where site.RegularPages "Type" "education" }}
+    {{ $sorted := sort $edu ".Params.year" "desc" }}
+
+    {{ range $sorted }}
+
+
+      <div class="edu-header">
+
+        {{ .Params.period }}<br>
+        <strong>{{ .Params.title_edu }}</strong><br>
+        {{ .Params.institution }}<br>
+
+      </div>
+
+    <div class="pub-item">
+      {{ with .Params.thumbnail }}
+        <div class="pub-thumb">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+        </div>
+      {{ end }}
+
+      <div class="pub-content">
+        <h3 class="pub-title">
+            <a href="{{ .Params.uri }}" target="_blank" rel="noopener">
+              {{ .Title }}
+            </a>
+          </h3>
+
+        <div class="pub-meta">
+          {{ .Params.author }} — {{ .Params.year }}
+        </div>
+
+        <div class="pub-links">
+
+            {{ with .Params.download }}
+              <a href="{{ . | relURL }}" class="pub-pdf" target="_blank" title="Download PDF">
+                <img src="/icons/pdf-b.svg" class="pdf-icon" alt="PDF">
+              </a>
+            {{ end }}
+
+            {{ with .Params.uri }}
+              <a href="{{ . }}"  target="_blank" rel="noopener">
+                {{ . }}
+              </a>
+            {{ end }}
+
+
+
+          </div>
+
+        {{ with .Params.abstract }}
+            <details class="pub-abstract">
+              <summary>{{ T "pub.abstract" }}</summary>
+              <p>{{ . }}</p>
+            </details>
+          {{ end }}
+
+          {{ with .Params.cite_bibli }}
+            <details class="pub-citation">
+              <summary>{{ T "pub.citation" }}</summary>
+              <pre><code>{{ . }}</code></pre>
+            </details>
+          {{ end }}
+
+      </div>
+    </div>
+    {{ end }}
+
+  <hr>
+</section>
+
+
