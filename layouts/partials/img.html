@@ -1,46 +1,102 @@
-{{ $img := index site.Data.images .key }}
 {{ $lang := site.Language.Lang }}
 
-{{ if not $img }}
-  <p style="color:red;">Missing image: {{ .key }}</p>
-{{ else }}
+{{/* ---------------------------------- */}}
+{{/* Resolve image source + metadata */}}
+{{/* ---------------------------------- */}}
 
-  {{/* Resolve src */}}
-  {{ $src := $img.src }}
-  {{ if not (strings.HasPrefix $src "http") }}
-    {{ $src = $src | relURL }}
+{{ $img := dict }}
+{{ $hasKey := .key }}
+{{ $hasSrc := .src }}
+{{ $hasWidth := .width }}
+
+{{ if $hasKey }}
+  {{ $img = index site.Data.images .key }}
+  {{ if not $img }}
+    <p style="color:red;">Missing image key: {{ .key }}</p>
+    {{ return }}
   {{ end }}
-
-  {{/* Resolve alt */}}
-  {{ $alt := index $img.alt $lang | default (index $img.alt "en") }}
-
-  {{/* Resolve caption */}}
-  {{/* Resolve caption with override */}}
-  {{ $defaultCaption := index $img.caption $lang | default (index $img.caption "en") }}
-  {{ $caption := .caption | default $defaultCaption }}
-  {{ $credit := .credit | default (index $img.credit $lang | default (index $img.credit "en")) }}
-
-  <figure class="{{ .class }}">
-    <img src="{{ $src }}" alt="{{ .alt | default $alt }}" loading="lazy">
-
-    {{ if or $caption $credit }}
-      <figcaption class="post-caption">
-
-        {{ with $caption }}
-          <span class="caption">{{ . }}</span>
-        {{ end }}
-
-        {{ if and $caption $credit }}
-          <span class="separator"> — </span>
-        {{ end }}
-
-        {{ with $credit }}
-          <span class="credit">{{ . }}</span>
-        {{ end }}
-
-      </figcaption>
-    {{ end }}
-
-  </figure>
-
 {{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve src (priority: param > data) */}}
+{{/* ---------------------------------- */}}
+
+{{ $src := "" }}
+
+{{ if $hasSrc }}
+  {{ $src = .src }}
+{{ else if $hasKey }}
+  {{ $src = $img.src }}
+{{ else }}
+  <p style="color:red;">Image requires either 'src' or 'key'</p>
+  {{ return }}
+{{ end }}
+
+{{ if not (strings.HasPrefix $src "http") }}
+  {{ $src = $src | relURL }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve alt */}}
+{{/* ---------------------------------- */}}
+
+{{ $alt := "" }}
+{{ if $hasKey }}
+  {{ $alt = index $img.alt $lang | default (index $img.alt "en") }}
+{{ end }}
+{{ $alt = .alt | default $alt }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption + credit */}}
+{{/* ---------------------------------- */}}
+
+{{ $defaultCaption := "" }}
+{{ $defaultCredit := "" }}
+
+{{ if $hasKey }}
+  {{ $defaultCaption = index $img.caption $lang | default (index $img.caption "en") }}
+  {{ $defaultCredit = index $img.credit $lang | default (index $img.credit "en") }}
+{{ end }}
+
+{{ $caption := .caption | default $defaultCaption }}
+{{ $credit := .credit | default $defaultCredit }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve width (priority: param > data > default) */}}
+{{/* ---------------------------------- */}}
+
+{{ $width := "100%" }}
+
+{{ if $hasWidth }}
+  {{/* Use the width passed directly to the shortcode/partial */}}
+  {{ $width = .width }}
+{{ else if (and $hasKey (isset $img "width")) }}
+  {{/* Fallback to the width defined in site.Data.images */}}
+  {{ $width = $img.width }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Render */}}
+{{/* ---------------------------------- */}}
+
+<figure style="width: {{ $width }}; margin-left: auto; margin-right: auto;">
+  <img src="{{ $src }}" alt="{{ $alt }}" style="width: 100%; height: auto;">
+
+  {{ if or $caption $credit }}
+    <figcaption class="post-caption">
+
+      {{ with $caption }}
+        <span class="caption">{{ . }}</span>
+      {{ end }}
+
+      {{ if and $caption $credit }}
+        <span class="separator"> — </span>
+      {{ end }}
+
+      {{ with $credit }}
+        <span class="credit">{{ . }}</span>
+      {{ end }}
+
+    </figcaption>
+  {{ end }}
+</figure>

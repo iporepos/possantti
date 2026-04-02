@@ -1,0 +1,17 @@
+<div class="carousel-wrapper">
+    <div class="carousel">
+      {{ $path := .Get "path" }}
+      {{ $files := readDir (print "static/" $path) }}
+
+      {{ range $files }}
+        {{ if not .IsDir }}
+        <div class="carousel-item">
+            <a href="/">
+                <img src="{{ $path | absURL }}/{{ .Name }}" alt="Gallery Image">
+                <p class="carousel-caption">Click to go home</p>
+            </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+</div>

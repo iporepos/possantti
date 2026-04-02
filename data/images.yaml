@@ -83,7 +83,7 @@ Photo_Possantti_2025_a:
     pt-br: "Foto de água"
   caption:
     en: "Creek at Cave Park (a), Santa Cruz do Sul, Fall of 2025"
-    pt-br: "Sanga no Parque da Gruta (a), Maquiné, Outono de 2025"
+    pt-br: "Sanga no Parque da Gruta (a), Santa Cruz do Sul, Outono de 2025"
   credit:
     en: "© Iporã Possantti"
     pt-br: "© Iporã Possantti"
@@ -96,6 +96,30 @@ Photo_Possantti_2025_c:
   caption:
     en: "Lake Guaíba ripples, Porto Alegre, Fall of 2025"
     pt-br: "Ondulações no Lago Guaíba, Porto Alegre, Outono de 2025"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2025_d:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2025_v0P2_d.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Lake Guaíba ripples, Porto Alegre, Winter of 2025"
+    pt-br: "Ondulações no Lago Guaíba, Porto Alegre, Inverno de 2025"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+Photo_Possantti_2025_e:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2025_v0P2_e.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  caption:
+    en: "Lake Guaíba reflections, Porto Alegre, Fall of 2025"
+    pt-br: "Reflexos no Lago Guaíba, Porto Alegre, Outono de 2025"
   credit:
     en: "© Iporã Possantti"
     pt-br: "© Iporã Possantti"

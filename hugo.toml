@@ -14,6 +14,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 # traditional way: theme component resides in directory 'themes'
 theme = "hugo-blog-awesome"
 
+[params]
+  math = true
+
 [taxonomies]
   category = "categories"
   tag = "tags"

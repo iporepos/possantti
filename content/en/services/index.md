@@ -6,6 +6,8 @@ author: Iporã Brito Possantti
 
 Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sob a [Licença Apache 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo suporta os tipos de arquivos de dados TOML, YAML e JSON, arquivos de conteúdo em Markdown e HTML, e usa shortcodes para adicionar conteúdo rico. Outras funcionalidades notáveis incluem taxonomias, modo multilíngue, processamento de imagens, formatos de saída personalizados, minificação de HTML/CSS/JS e suporte para fluxos de trabalho com Sass e SCSS. [Obsidian]
 
+{{< carousel path="images/journals" >}}
+
 Hugo faz uso de uma variedade de projetos de código aberto, incluindo:
 
 * https://github.com/yuin/goldmark

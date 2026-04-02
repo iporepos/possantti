@@ -1,8 +1,10 @@
 {{ partial "img.html" (dict
   "key" (.Get "key")
+  "src" (.Get "src")
   "caption" (.Get "caption")
   "credit" (.Get "credit")
   "alt" (.Get "alt")
+  "width" (.Get "width")
   "class" (.Get "class")
   "page" .Page
 ) }}
