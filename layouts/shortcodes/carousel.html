@@ -1,8 +1,9 @@
 <div class="carousel-wrapper">
-    <div class="carousel">
+    <div class="scroll-hint-arrow">→</div>
+
+    <div class="carousel" id="hugo-carousel">
       {{ $path := .Get "path" }}
       {{ $files := readDir (print "static/" $path) }}
-
       {{ range $files }}
         {{ if not .IsDir }}
         <div class="carousel-item">
