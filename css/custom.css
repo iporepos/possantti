@@ -1,3 +1,60 @@
+.carousel-wrapper {
+    width: 80vw; /* Exactly 80% of the viewport width */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* The 'magic' to center an absolute/relative width element */
+
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    /* ADD PADDING HERE */
+    /* This aligns the first image with your text start point */
+    padding-left: calc((100vw - 800px) / 2);
+    padding-right: calc((100vw - 800px) / 2);
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: center; /* Snaps to the center of the screen */
+    margin-right: 20px;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 15px;
+    text-align: center; /* Centers the caption under the image */
+}
+
+.carousel-item a {
+    text-decoration: none; /* Removes the blue underline from the link */
+    display: block;
+}
+
+.carousel-item img {
+    width: 300px;
+    max-width: 85vw;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.carousel-caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    font-family: sans-serif;
+}
+
 .edu-header {
   line-height: 1.5;   /* tighter lines (default is ~1.5–1.6) */
   margin-bottom: 1.5rem; /* more space below */
