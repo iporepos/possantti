@@ -1,6 +1,6 @@
 ---
 author: Iporã Possantti
-title: "The Era of Communication"
+title: "The era of communication"
 date: 2025-09-02
 featured_image: "Photo_Possantti_2025_d"
 categories:

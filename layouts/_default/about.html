@@ -8,7 +8,9 @@
 {{ $image2x := $image.Fill "140x140 center webp" }}
 {{ $image3x := $image.Fill "600x600 center webp" }}
 
-<section class="about">
+<div class="wrapper about-page">
+
+  <section class="about">
 
   <section class="about-hero">
 
@@ -52,5 +54,8 @@
   {{ end }}
 
 </section>
+
+</div>
+
 
 {{ end }}

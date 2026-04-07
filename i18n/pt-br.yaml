@@ -18,7 +18,7 @@
   translation: "Ver projetos →"
 
 - id: "home.read_more_about"
-  translation: "Mais informações →"
+  translation: "Mais sobre mim →"
 
 ## CATEGORIES ##
 
@@ -39,10 +39,10 @@
 ## BLOG ##
 
 - id: "blog.blog_intro_title"
-  translation: "O ipoverso"
+  translation: "Ipoverso"
 
 - id: "blog.blog_intro_subtitle"
-  translation: "Hidrologia • Ambiente • Dados • Ciência • Filosofia • Fotografia • Vida"
+  translation: "Hidrologia • Ambiente • Ciência • Filosofia • Fotografia • Vida"
 
 - id: "blog.blog_intro_text"
   translation: "Boas-vindas ao meu blog! Este é um espaço onde compartilho o que tenho aprendido, as imagens que capturo, opiniões em alguns assuntos e reflexões diversas sobre a vida."

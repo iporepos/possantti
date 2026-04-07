@@ -3,6 +3,8 @@
 
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
+<div class="wrapper blog">
+
 <div class="blog-container">  <!-- NEW wrapper -->
 
   <div class="blog-intro">
@@ -115,6 +117,8 @@
   {{ if $paginator.HasNext }}
     <a href="{{ $paginator.Next.URL }}">Next →</a>
   {{ end }}
+</div>
+
 </div>
 
 {{ end }}

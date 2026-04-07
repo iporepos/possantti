@@ -21,6 +21,10 @@
         {{ partial "bio" . }}
         <main aria-label="Content">
 
+<div class="page-content">
+{{ .Content }}
+    </div>
+
       {{ range site.Params.mainSections }}
 
       <section class="home-section">
@@ -54,6 +58,9 @@
 
     </main>
     </div>
+
+
+
     {{- partial "footer.html" . -}}
     {{- partial "scriptsBodyEnd.html" . -}}
 </body>

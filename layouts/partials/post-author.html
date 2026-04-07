@@ -26,7 +26,7 @@
       {{ T "blog.published_in" }}
       {{ range $i, $cat := . }}
         {{ if $i }}, {{ end }}
-        <a href="{{ (printf "/categories/%s" ($cat | urlize)) | relURL }}">
+        <a href="{{ (printf "categories/%s/" ($cat | urlize)) | relLangURL }}">
           {{ $cat }}
         </a>
       {{ end }}
