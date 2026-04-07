@@ -1,9 +1,8 @@
 .carousel-wrapper {
-    width: 80vw; /* Exactly 80% of the viewport width */
+    width: 70vw; /* viewport width */
     position: relative;
     left: 50%;
     transform: translateX(-50%); /* The 'magic' to center an absolute/relative width element */
-
     overflow: hidden;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -292,6 +291,13 @@
   margin: 0 0.2rem;
 }
 
+.wrapper.blog {
+    max-width: 1400px;   /* your custom width */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+  }
+
 /* Make the container centered and constrain width */
 .blog-container {
   max-width: 1200px;   /* adjust to your site width */
@@ -303,7 +309,7 @@
 .blog-intro {
   text-align: center; /* center text above gallery */
   margin-bottom: 2rem;
-  width: 60%;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
 }
