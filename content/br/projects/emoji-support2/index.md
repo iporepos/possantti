@@ -4,7 +4,7 @@ date: 2023-02-01
 author: Hugo Authors
 description: Guide to emoji usage in Hugo
 featured_image: https://raw.githubusercontent.com/iporepos/plans-assets/refs/heads/main/docs/gallery/example2.gif
-gallery_src: "/images/journals/Journal of Hydrology.jpeg"
+gallery_src: "/images/journals/Journal of Hydrology.jpg"
 gallery_title: "Testing Title 2"
 gallery_caption: "Testing Caption 2"
 tags:

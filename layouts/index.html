@@ -21,9 +21,10 @@
         {{ partial "bio" . }}
         <main aria-label="Content">
 
-<div class="page-content">
-{{ .Content }}
-    </div>
+         <h3 class="posts-item-note"> Gallery </h3>
+    <div class="page-content">
+    {{ .Content }}
+        </div>
 
       {{ range site.Params.mainSections }}
 
@@ -63,6 +64,7 @@
 
     {{- partial "footer.html" . -}}
     {{- partial "scriptsBodyEnd.html" . -}}
+    <script src="{{ "js/carousel.js" | relURL }}"></script>
 </body>
 
 </html>

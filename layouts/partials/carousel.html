@@ -1,0 +1,42 @@
+<div class="carousel-wrapper">
+    <button class="gallery-nav prev">&#10094;</button>
+    <div class="carousel" id="hugo-carousel">
+      {{ range .pages }}
+        {{ $page := . }}
+
+        {{ with $page.Params.gallery_src }}
+          {{ $src := . }}
+          {{ $title := $page.Params.gallery_title | default $page.Title }}
+          {{ $caption := $page.Params.gallery_caption | default $page.Params.description }}
+          {{ $url := $page.Params.gallery_url | default $page.RelPermalink }}
+
+            <div class="carousel-item">
+                {{ if $url }}
+                    <a href="{{ $url }}">
+                {{ end }}
+
+                        <img src="{{ $src | relURL }}" alt="{{ $title }}">
+
+                        <div class="carousel-title">
+                            <strong>{{ $title }}</strong>
+                        </div>
+
+                {{ if $url }}
+                    </a>
+                {{ end }}
+
+                <div class="carousel-caption">
+                    {{ with $caption }}
+                <p>{{ . }}</p>
+                {{ end }}
+
+                </div>
+
+
+            </div>
+
+        {{ end }}
+      {{ end }}
+    </div>
+    <button class="gallery-nav next">&#10095;</button>
+</div>

@@ -1,0 +1,43 @@
+<div class="gallery-container">
+  <button class="gallery-nav prev">&#10094;</button>
+
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      {{ range .pages }}
+        {{ $page := . }}
+
+        {{ with $page.Params.gallery_src }}
+          {{ $src := . }}
+          {{ $title := $page.Params.gallery_title | default $page.Title }}
+          {{ $caption := $page.Params.gallery_caption | default $page.Params.description }}
+          {{ $url := $page.Params.gallery_url | default $page.RelPermalink }}
+
+          <div class="gallery-item">
+            {{ if $url }}
+              <a href="{{ $url }}">
+            {{ end }}
+
+              <div class="gallery-card">
+                <img src="{{ $src | relURL }}" alt="{{ $title }}">
+
+                <div class="gallery-overlay">
+                  <h3>{{ $title }}</h3>
+                  {{ with $caption }}
+                    <p>{{ . }}</p>
+                  {{ end }}
+                </div>
+              </div>
+
+            {{ if $url }}
+              </a>
+            {{ end }}
+
+          </div>
+
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <button class="gallery-nav next">&#10095;</button>
+</div>

@@ -3,10 +3,9 @@ author: Hugo Authors
 title: Rich Content 2
 date: 2023-02-09
 description: A brief description of Hugo Shortcodes
-gallery_src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chobe_River_Front%2C_Botswana_%282625496300%29.jpg/960px-Chobe_River_Front%2C_Botswana_%282625496300%29.jpg"
+gallery_src: "/images/journals/Ecological Economics.jpg"
 gallery_title: "Testing Title"
-gallery_caption: "Research project"
-gallery_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chobe_River_Front%2C_Botswana_%282625496300%29.jpg/960px-Chobe_River_Front%2C_Botswana_%282625496300%29.jpg"
+gallery_caption: "Testing Caption 1"
 categories:
   - remote-sensing
   - photography

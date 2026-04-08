@@ -10,6 +10,6 @@ Usage:
 {{ $pages = where $pages "Lang" .Page.Site.Language.Lang }}
 {{ $pages = first $limit $pages }}
 
-{{ partial "carousel.html" (dict
+{{ partial "gallery.html" (dict
     "pages" $pages
 ) }}
