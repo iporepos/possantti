@@ -6,7 +6,7 @@ title: "A synthesis on fundamental principles and problems in the use of hydrolo
 author: "Iporã Brito Possantti"
 year: "2024"
 advisor: "Guilherme Marques"
-institution: "Universidade Federal do Rio Grande do Sul"
+institution: "Universidade Federal do Rio Grande do Sul | IPH"
 uri: "https://hdl.handle.net/10183/285312"
 download: "https://drive.google.com/file/d/142BAvAeqCsHKAXBEyH25ntE1dn0RYQCT/view?usp=drive_link"
 thumbnail: "images/education/ufrgs.png"

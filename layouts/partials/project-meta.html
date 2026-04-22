@@ -1,0 +1,15 @@
+{{/* Generic meta renderer */}}
+
+{{- $label := .label -}}
+{{- $value := .value -}}
+
+{{ with $value }}
+  <div class="project-meta-item">
+    <strong>{{ $label }}:</strong>
+    {{- if reflect.IsSlice . -}}
+      {{ delimit . ", " }}
+    {{- else -}}
+      {{ . }}
+    {{- end }}
+  </div>
+{{ end }}

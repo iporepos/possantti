@@ -5,9 +5,7 @@ layout: "about"
 
 ## Why I work
 
-Honestly, I do what I do because it is fun. And meaningful. And it pays the bills.
-
-Nature draw me through scientific curiosity and technical challenge, as well as through personal, sublime experience. I perceive the elements not only as objects of study, but as systems with structure, rhythm, and beauty. It's a great source of inspiration.
+Nature has always been a great source of inspiration for me. Natural environments attract me both through scientific curiosity and through personal and sublime experience. I see their elements not only as objects of study, but as systems with structure, rhythm, and beauty. It is a great source of inspiration.
 
 I started working in Environmental Engineering in 2011, throughout my academic training in southern Brazil. In particular, I became involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.
 

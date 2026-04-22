@@ -5,7 +5,7 @@ author: Iporã Brito Possantti
 
 ## How I work
 
-I operate as an **independent working unit** focused on **technical execution**, delivering high-quality outputs for addressing environmental problems. My service system is structured around three core values: (1) **well-defined scope**, (2) **predictable workflow**, and; (3) **standalone outputs**. Clients and collaborators can expect minimal coordination overhead.
+I operate as a **technical working unit** of great autonomy, delivering high-quality outputs for addressing environmental problems. My service system is structured around three core values: (1) **well-defined scope**, (2) **predictable workflow**, and; (3) **standalone outputs**. Clients and collaborators can expect minimal coordination overhead.
 
 > Reach out: {{< contact >}}
 

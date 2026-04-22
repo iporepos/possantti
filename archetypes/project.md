@@ -10,11 +10,12 @@ project_title: "A very interesting project"
 project_client: "Water Agency"
 project_intermediate: "The Nice NGO"
 project_role: "Hydrologist"
-project_abstract: "This project was a complex problem in catchment hydrology. Earum laudantium iste voluptates rerum placeat ipsum. Asperiores ducimus dolores rerum et dolor possimus sit nihil. Nam quae ex magnam. Vel minima animi quisquam sit."
+project_abstract: "This project was a complex problem in catchment hydrology"
+project_gabs_src: "/images/default.jpg"
 project_domain: "Hydrology"
 project_category: "Standard Methods"
 project_tools: ["Python", "QGIS", "SQL"]
-categories: ["projects"]
+categories: ["project"]
 tags: ["floods"] 
 ---
 
@@ -45,4 +46,3 @@ A workflow combining Python-based processing and GIS analysis was developed to s
 ## Outcomes
 
 The results supported interpretation of flood dynamics and informed technical evaluation.
-

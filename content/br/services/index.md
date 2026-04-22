@@ -5,7 +5,7 @@ author: Iporã Brito Possantti
 
 ## Como eu trabalho
 
-Opero como uma **unidade de trabalho independente** focada na **execução técnica**, entregando resultados de alta qualidade para a resolução de problemas ambientais. Meu sistema de serviços é estruturado em torno de três valores fundamentais: (1) **escopo bem definido**, (2) **fluxo de trabalho previsível** e (3) **produtos autossuficientes**. Clientes e colaboradores podem esperar o mínimo de sobrecarga de coordenação.
+Opero como uma **unidade de trabalho técnico** de grande autonomia, entregando resultados de alta qualidade para a resolução de problemas ambientais. Meu sistema de serviços é estruturado em torno de três valores fundamentais: (1) **escopo bem definido**, (2) **fluxo de trabalho previsível** e (3) **produtos autossuficientes**. Clientes e colaboradores podem esperar o mínimo de sobrecarga de coordenação.
 
 > Entre em contato: {{< contact >}}
 

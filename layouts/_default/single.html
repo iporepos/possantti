@@ -69,7 +69,7 @@
 
                 {{/* 5. Final render */}}
 
-                {{ if $img }}
+                {{ if and $img (ne .Section "projects") }}
                 <figure class="post-featured">
 
                   <img src="{{ $img }}" alt="{{ $alt | default .Title }}">

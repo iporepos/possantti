@@ -5,9 +5,7 @@ layout: "about"
 
 ## Por que eu trabalho
 
-Honestamente, faço o que faço porque me divirto. E dá sentido para a vida. E paga as contas.
-
-A natureza me atrai tanto pela curiosidade científica e desafio técnico, quanto pela experiência pessoal e sublime. Vejo os elementos não apenas como objetos de estudo, mas como sistemas com estrutura, ritmo e beleza. É uma grande fonte de inspiração.
+A Natureza sempre foi uma grande fonte de inspiração para mim. Os ambientes naturais me atraem tanto pela curiosidade científica quanto pela experiência pessoal e sublime. Vejo os seus elementos não apenas como objetos de estudo, mas como sistemas com estrutura, ritmo e beleza. É uma grande fonte de inspiração.
 
 Comecei a atuar na Engenharia Ambiental em 2011, ao longo da minha formação acadêmica no sul do Brasil. Em particular, envolvi-me em contextos onde processos naturais e decisões humanas se cruzam, como tratamento de efluentes, desenvolvimento urbano, conservação de bacias hidrográficas e, mais recentemente, eventos extremos de inundação. Essas experiências revelaram como a compreensão científica pode influenciar o debate público e orientar as decisões de planejamento ambiental.
 
@@ -21,9 +19,9 @@ Essa trajetória direciona meu foco para dados e visualização científica: des
 
 Desenvolvo soluções para estudos ambientais e hidrológicos utilizando ferramentas de código aberto. Meu trabalho é centrado em Python, onde construo *pipelines* reprodutíveis para análise de dados, modelagem e visualização, incluindo ilustrações científicas.
 
-Além disso, trabalho com *frameworks* de modelagem amplamente utilizados, como `SWMM`, `HEC-RAS` e a suíte `InVEST`. Paralelamente a isso, crio modelos e fluxos de trabalho personalizados quando as ferramentas padrão não são suficientes (o que é muito comum!).
+Além disso, trabalho com aplicações de modelagem amplamente utilizados, como `SWMM`, `HEC-RAS` e a suíte `InVEST`. Paralelamente a isso, crio modelos e fluxos de trabalho personalizados quando as ferramentas padrão não são suficientes (o que é muito comum!).
 
-Meu fluxo de trabalho integra SQL, Python e SIG (GIS), com forte ênfase na reprodutibilidade através do Git e GitHub. Para a visualização e produção de figuras, geralmente combino Python com Inkscape e GIMP.
+Meu fluxo de trabalho integra SQL, Python e SIG, com forte ênfase na reprodutibilidade através do Git e GitHub. Para a visualização e produção de figuras, geralmente combino Python com Inkscape e GIMP.
 
 Trabalho em ambientes Windows e Linux, mantendo compatibilidade com formatos abertos, ao mesmo tempo em que priorizo a documentação técnica estruturada utilizando $\LaTeX$, Markdown e Sphinx.
 
@@ -33,7 +31,7 @@ Trabalho em ambientes Windows e Linux, mantendo compatibilidade com formatos abe
 
 Minha formação acadêmica foi realizada na Universidade Federal do Rio Grande do Sul (Brasil), onde cursei Engenharia Ambiental. Comecei trabalhando com processos de tratamento de efluentes, passando por análise geoespacial e mudando posteriormente para o manejo de águas pluviais e modelagem hidrológica no final da graduação.
 
-Na pós-graduação, meu foco se expandiu para engenharia de recursos hídricos e análises em escala de bacia hidrográfica. Integrei dados geoespaciais e análise espacial aos fluxos de trabalho de modelagem hidrológica, aplicando essas abordagens para apoiar a conservação de bacias e o desenvolvimento de soluções baseadas na natureza.
+Na pós-graduação, meu foco se expandiu para engenharia de recursos hídricos e análises em escala de bacia hidrográfica. Integrei dados e análise geoespaciais com modelagem hidrológica, aplicando essas abordagens para apoiar a conservação de bacias e o desenvolvimento de soluções baseadas na natureza.
 
 Veja abaixo a lista das minhas titulações e produções:
 

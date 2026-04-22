@@ -1,7 +1,7 @@
 ---
 type: "education"
 period: "2010 - 2016"
-title_edu: "Bachelor's degree in Environmental Engineering"
+title_edu: "Graduação em Engenharia Ambiental"
 title: "Avaliação da eficácia de banhado de chuva na melhoria da qualidade da água e na regulação das vazões do Arroio do Salso - Porto Alegre/RS"
 author: "Iporã Brito Possantti"
 year: "2016"

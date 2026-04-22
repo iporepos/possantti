@@ -6,7 +6,7 @@ title: "Planning the expansion of nature-based solutions for water considering t
 author: "Iporã Brito Possantti"
 year: "2020"
 advisor: "Guilherme Marques"
-institution: "Universidade Federal do Rio Grande do Sul"
+institution: "Universidade Federal do Rio Grande do Sul | IPH"
 uri: "https://hdl.handle.net/10183/231318"
 download: "https://drive.google.com/file/d/1CQHGcjyvNjpkTFf9VRe-0muBD-gKaVt3/view?usp=drive_link"
 thumbnail: "images/education/ufrgs.png"
