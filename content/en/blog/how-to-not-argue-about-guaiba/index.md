@@ -6,6 +6,7 @@ featured_image: "Photo_Possantti_2025_e"
 categories:
   - notes
   - opinion
+tags:
   - "Guaíba Lake"
 ---
 

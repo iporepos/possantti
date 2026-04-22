@@ -1,25 +1,75 @@
 ---
 title: Serviços
-description: 'Hugo, o framework mais rápido do mundo para contruir páginas da web'
 author: Iporã Brito Possantti
 ---
 
-Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sob a [Licença Apache 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo suporta os tipos de arquivos de dados TOML, YAML e JSON, arquivos de conteúdo em Markdown e HTML, e usa shortcodes para adicionar conteúdo rico. Outras funcionalidades notáveis incluem taxonomias, modo multilíngue, processamento de imagens, formatos de saída personalizados, minificação de HTML/CSS/JS e suporte para fluxos de trabalho com Sass e SCSS.
+## Como eu trabalho
 
-Hugo faz uso de uma variedade de projetos de código aberto, incluindo:
+Opero como uma **unidade de trabalho independente** focada na **execução técnica**, entregando resultados de alta qualidade para a resolução de problemas ambientais. Meu sistema de serviços é estruturado em torno de três valores fundamentais: (1) **escopo bem definido**, (2) **fluxo de trabalho previsível** e (3) **produtos autossuficientes**. Clientes e colaboradores podem esperar o mínimo de sobrecarga de coordenação.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+> Entre em contato: {{< contact >}}
 
-## Aplicações
+## Áreas de atuação
 
-Hugo é ideal para blogs, sites corporativos, portfólios criativos, revistas online, aplicações de uma só página ou até mesmo um site com milhares de páginas.
+**Hidrologia Aplicada e Sistemas Ambientais**. Soluções práticas em hidrologia de bacias hidrográficas, engenharia de recursos hídricos, estudos ambientais e análise geoespacial.
 
-Hugo é para pessoas que desejam codificar seu próprio site sem se preocupar em configurar runtimes complicados, dependências e bancos de dados.
+**Pesquisa e Desenvolvimento**. Trabalho científico em sistemas ambientais, incluindo a prototipagem de estruturas analíticas, desenvolvimento de conjuntos de dados e *software*, além da redação ou coautoria de publicações revisadas por pares.
 
-Sites construídos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluindo AWS, GitHub Pages, Heroku, Netlify e qualquer outro provedor de hospedagem.
+**Ilustração Científica e Narrativa Visual**. Produção de figuras técnicas, mapas e narrativas visuais que esclarecem sistemas ambientais para relatórios, pôsteres e publicações.
 
-Saiba mais e contribua no [GitHub](https://github.com/gohugoio).
+> Leia também: [Sobre mim]({{< ref "about" >}})    
+
+## Categorias de serviços
+
+Trabalho com um conjunto de categorias de serviços, cada uma definida por um nível específico de engajamento e fluxo de trabalho.
+
+### 1. Métodos padronizados
+
+**Entregas para problemas bem definidos**  
+Aplicação de métodos consolidados na área ambiental. Os resultados incluem pareceres e relatórios técnicos formais (documentos assinados), bem como produtos analíticos ou visuais típicos da área.
+
+**Fluxo de trabalho linear**. Um processo direto: reunião inicial (*kickoff*) para definição de escopo, uma primeira versão viável para validação e uma entrega final refinada. A interação durante a produção é mínima. Os resultados são autossuficientes, com documentação técnica completa e responsabilidade atribuída.
+
+---
+
+### 2. Suporte ao desenvolvimento
+
+**Soluções sob medida para problemas desafiadores**  
+O trabalho nesta categoria envolve trabalho criativo, abordagens de modelagem, processos automatizados e sistemas de visualização adaptados ao contexto do projeto.
+
+**Fluxo de trabalho iterativo**. O processo se desenrola por uma estruturação inicial detalhada e execução com pontos de controle (*check-ins*) intermediários. Espera-se um ciclo de refinamento mais longo. As entregas são feitas como instâncias versionadas e documentadas.
+
+---
+
+### 3. Assessoria estratégica
+
+**Orientação técnica para projetos complexos**  
+Foco em assessorar trabalhos em andamento. O objetivo aqui não é a execução, mas sim melhorar a qualidade e a consistência das decisões técnicas. Breves memorandos escritos podem complementar as discussões quando necessário.
+
+**Fluxo de trabalho baseado em eventos**. Estruturado em torno de sessões agendadas — como reuniões ou *workshops* — focadas na revisão de métodos, avaliação de premissas e contribuição para os rumos do projeto.
+
+---
+
+### 4. Palestras e treinamentos
+
+**Conhecimento e experiência compartilhados**  
+Palestras sobre hidrologia e planejamento ambiental, além de treinamentos em modelagem hidrológica, análise ambiental e ferramentas essenciais de pesquisa, como Python e $\LaTeX$, para a automação de fluxos de trabalho.
+
+---
+
+# Comunicação e formato de trabalho
+
+O valor do meu trabalho depende da capacidade de sustentar o **trabalho profundo** (*deep work*, com foco técnico ininterrupto).
+
+A comunicação é, portanto, intencionalmente mínima. Um único canal — normalmente o *e-mail* — é utilizado para definir o escopo, documentar *feedbacks* e consolidar decisões. Reuniões por vídeo são reservadas para etapas-chave, como estruturação inicial, validação, *workshops* ou outras fases críticas.
+
+O trabalho é conduzido predominantemente de forma **remota** e **assíncrona**. Reuniões presenciais podem ser organizadas dependendo do contexto do projeto.
+
+---
+
+## Informações Legais
+
+As operações são baseadas no Brasil, sob pessoa jurídica registrada (CNPJ), permitindo contratação formal e emissão de notas fiscais. O trabalho pode ser realizado internacionalmente, com os pagamentos processados em diversas moedas.
+
+> Iporã Possantti Consultoria Ambiental LTDA  
+> CNPJ: 27.643.216/0001-21

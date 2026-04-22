@@ -6,22 +6,18 @@
   <div class="blog-container">  <!-- NEW wrapper -->
 
     <div class="blog-intro">
-    {{ if .IsNode }}
-      {{ if in .Permalink "/categories/" }}
+      {{ if .IsNode }}
         <p class="category-filter-info">
-          {{ i18n "categories.intro_text" }}: <strong>{{ .Title }}</strong>
+          {{ i18n (printf "%s.intro_text" .Data.Plural) }}:
+          <strong>{{ .Title }}</strong>
         </p>
       {{ else }}
         <p class="category-filter-info">
-          {{ i18n "categories.intro_text" }}: <strong> Unknown </strong>
+          {{ i18n "categories.intro_text" }}:
+          <strong>Unknown</strong>
         </p>
       {{ end }}
-    {{ else }}
-      <p class="category-filter-info">
-        {{ i18n "categories.intro_text" }}: <strong> Unknown </strong>
-      </p>
-    {{ end }}
-  </div>
+    </div>
 
     {{ $paginator := .Paginate .Pages.ByDate.Reverse 12 }} <!-- 3 posts per page -->
 

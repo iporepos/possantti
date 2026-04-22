@@ -1,10 +1,47 @@
 ---
 title: "Sobre"
 layout: "about"
-short_bio: "I am a researcher working at the intersection of hydrology, modeling, and optimization, with a focus on computational approaches to water systems."
 ---
 
-## Redes sociais e perfis
+## Por que eu trabalho
+
+Honestamente, faço o que faço porque me divirto. E dá sentido para a vida. E paga as contas.
+
+A natureza me atrai tanto pela curiosidade científica e desafio técnico, quanto pela experiência pessoal e sublime. Vejo os elementos não apenas como objetos de estudo, mas como sistemas com estrutura, ritmo e beleza. É uma grande fonte de inspiração.
+
+Comecei a atuar na Engenharia Ambiental em 2011, ao longo da minha formação acadêmica no sul do Brasil. Em particular, envolvi-me em contextos onde processos naturais e decisões humanas se cruzam, como tratamento de efluentes, desenvolvimento urbano, conservação de bacias hidrográficas e, mais recentemente, eventos extremos de inundação. Essas experiências revelaram como a compreensão científica pode influenciar o debate público e orientar as decisões de planejamento ambiental.
+
+Essa trajetória direciona meu foco para dados e visualização científica: desenvolver ferramentas que traduzam processos naturais complexos em uma linguagem visual clara e acessível. Tenho muito interesse em transformar métodos quantitativos em comunicação — onde o entendimento e a estética se encontram.
+
+> Leia também: [Serviços]({{< ref "services" >}})    
+
+---
+
+## Minhas habilidades
+
+Desenvolvo soluções para estudos ambientais e hidrológicos utilizando ferramentas de código aberto. Meu trabalho é centrado em Python, onde construo *pipelines* reprodutíveis para análise de dados, modelagem e visualização, incluindo ilustrações científicas.
+
+Além disso, trabalho com *frameworks* de modelagem amplamente utilizados, como `SWMM`, `HEC-RAS` e a suíte `InVEST`. Paralelamente a isso, crio modelos e fluxos de trabalho personalizados quando as ferramentas padrão não são suficientes (o que é muito comum!).
+
+Meu fluxo de trabalho integra SQL, Python e SIG (GIS), com forte ênfase na reprodutibilidade através do Git e GitHub. Para a visualização e produção de figuras, geralmente combino Python com Inkscape e GIMP.
+
+Trabalho em ambientes Windows e Linux, mantendo compatibilidade com formatos abertos, ao mesmo tempo em que priorizo a documentação técnica estruturada utilizando $\LaTeX$, Markdown e Sphinx.
+
+---
+
+## Formação
+
+Minha formação acadêmica foi realizada na Universidade Federal do Rio Grande do Sul (Brasil), onde cursei Engenharia Ambiental. Comecei trabalhando com processos de tratamento de efluentes, passando por análise geoespacial e mudando posteriormente para o manejo de águas pluviais e modelagem hidrológica no final da graduação.
+
+Na pós-graduação, meu foco se expandiu para engenharia de recursos hídricos e análises em escala de bacia hidrográfica. Integrei dados geoespaciais e análise espacial aos fluxos de trabalho de modelagem hidrológica, aplicando essas abordagens para apoiar a conservação de bacias e o desenvolvimento de soluções baseadas na natureza.
+
+Veja abaixo a lista das minhas titulações e produções:
+
+{{< education >}}
+
+---
+
+## Perfis
 
  - [LinkedIn](https://www.linkedin.com/in/possantti/)
  - [Research Gate](https://www.researchgate.net/profile/Ipora-Brito-Possantti)
@@ -13,40 +50,6 @@ short_bio: "I am a researcher working at the intersection of hydrology, modeling
  - [Web of Science](https://www.webofscience.com/wos/author/record/KZU-2600-2024)
  - [Lattes](http://lattes.cnpq.br/1333463646836198)
  - [ORCiD](https://orcid.org/0000-0002-2194-4516)
-
----
-
-## Habilidades técnicas
-
-[![NumPy](https://img.shields.io/badge/NumPy-3F6A96?logo=numpy&logoColor=fff)](#)
-[![SciPy](https://img.shields.io/badge/SciPy-3F6A96?logo=scipy&logoColor=fff)](#)
-[![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-3F6A96?logo=matplotlib&logoColor=fff)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-3F6A96?logo=pandas&logoColor=fff)](#)
-[![Geopandas](https://img.shields.io/badge/GeoPandas-3F6A96?logo=geopandas&logoColor=fff)](#)
-[![Sphinx](https://img.shields.io/badge/Sphinx-3F6A96?logo=sphinx&logoColor=fff)](#)
-[![Python](https://img.shields.io/badge/Python-0D47A1.svg?logo=python&logoColor=fff)](#)
-[![Postgres](https://img.shields.io/badge/Postgres-0D47A1.svg?logo=postgresql&logoColor=white)](#)
-[![Markdown](https://img.shields.io/badge/Markdown-0D47A1.svg?logo=markdown&logoColor=white)](#)
-[![LaTeX](https://img.shields.io/badge/LaTeX-0D47A1.svg?logo=LaTeX&logoColor=white)](#)
-[![Obsidian](https://img.shields.io/badge/Obsidian-150458.svg?&logo=obsidian&logoColor=white)](#)
-[![PyCharm](https://img.shields.io/badge/PyCharm-150458?logo=pycharm&logoColor=fff)](#)
-[![QGIS](https://img.shields.io/badge/QGIS-150458?logo=QGIS&logoColor=white)](#)
-[![Inkscape](https://img.shields.io/badge/Inkscape-150458?logo=Inkscape&logoColor=white)](#)
-[![GIMP](https://img.shields.io/badge/GIMP-150458?logo=GIMP&logoColor=white)](#)
-[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-000000?logo=windows11&logoColor=white)](#)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-000000?logo=ubuntu&logoColor=white)](#)
-
-Trabalho principalmente com tecnologias open source, com foco em Python e bibliotecas como `NumPy`, `pandas` e `Matplotlib` para análise e visualização de dados. Utilizo `SQL` para manipulação e armazenamento de dados, e `QGIS` em fluxos de trabalho geoespaciais.
-
-Organizo e versiono meus projetos com `Git` e `GitHub`, que são centrais na construção de pipelines reproduzíveis. Integro também `LaTeX` para geração de relatórios e documentos técnicos, com desenvolvimento concentrado no `PyCharm`.
-
-Atuo majoritariamente em `Windows 11`, mas também utilizo `Ubuntu`, o que me permite operar em diferentes ambientes. Para edição visual, `utilizo` Inkscape e `GIMP` na produção de ilustrações científicas.
-
----
-
-## Formação
-
-{{< education >}}
 
 ---
 

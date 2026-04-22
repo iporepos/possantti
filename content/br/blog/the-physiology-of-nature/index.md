@@ -3,7 +3,8 @@ author: Iporã Possantti
 title: "A fisiologia da natureza"
 date: 2025-05-16
 featured_image: "Photo_Possantti_2025_c"
-categories:
+categories: ["notas"]
+tags:
   - "enchentes de 2024"
   - "sensoriamento remoto"
 ---

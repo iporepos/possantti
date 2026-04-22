@@ -111,6 +111,10 @@
                   {{ partial "post-author.html" . }}
                 {{ end }}
 
+                {{ if eq .Section "projects" }}
+                  {{ partial "post-author.html" . }}
+                {{ end }}
+
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content">

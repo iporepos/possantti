@@ -5,6 +5,7 @@ date: 2025-05-20
 featured_image: "Photo_Possantti_2025_a"
 categories:
   - "notas"
+tags:
   - "estilo de vida"
   - "produtividade"
 ---

@@ -3,9 +3,8 @@ author: Iporã Possantti
 title: "Como argumentar sobre o Guaíba"
 date: 2025-05-28
 featured_image: "Photo_Possantti_2024_c"
-categories:
-  - "opinião"
-  - "Lago Guaíba"
+categories: ["opinião"]
+tags: ["Lago Guaíba"]
 ---
 
 No [post anterior]({{< ref "blog/how-to-not-argue-about-guaiba" >}}) eu avaliei como não argumentar sobre o Guaíba, no contexto da discussão se esse corpo hídrico é um rio ou um lago. Dando continuidade, irei avançar agora sobre princípios básicos de uma discussão racional sobre o tema, e porque eu entendo que o Guaíba é um _lago_.

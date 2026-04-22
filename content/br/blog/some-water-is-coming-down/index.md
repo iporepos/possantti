@@ -5,6 +5,7 @@ date: 2025-04-28
 featured_image: "Photo_Possantti_2023_b"
 categories:
   - "notas"
+tags:
   - "enchentes"
   - "enchentes de 2024"
   - "hidrologia"

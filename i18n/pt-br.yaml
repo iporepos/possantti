@@ -28,13 +28,19 @@
 - id: "categories.intro_text"
   translation: "Apresentando posts na categoria"
 
+- id: "tags.title"
+  translation: "Filtrar por tag"
+
+- id: "tags.intro_text"
+  translation: "Exibindo posts com a tag"
+
 ## PROJECTS ##
 
 - id: "projects.title"
   translation: "Projetos de destaque"
 
 - id: "projects.intro"
-  translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
+  translation: "Explore aqui uma seleção dos meus projetos em destaque."
 
 ## BLOG ##
 
@@ -52,6 +58,9 @@
 
 - id: "blog.published_in"
   translation: "em"
+
+- id: "blog.tagged_in"
+  translation: "tags:"
 
 - id: "blog.share"
   translation: "Compartilhar"

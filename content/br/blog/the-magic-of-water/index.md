@@ -3,7 +3,8 @@ author: Iporã Possantti
 title: "A magia da água"
 date: 2025-04-11
 featured_image: "Photo_Possantti_2024_a"
-categories:
+categories: ["notas"]
+tags:
   - hidrologia
   - fotografia
 ---

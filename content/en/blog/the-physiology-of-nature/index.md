@@ -4,6 +4,8 @@ title: "The physiology of nature"
 date: 2025-05-16
 featured_image: "Photo_Possantti_2025_c"
 categories:
+  - "notes"
+tags:
   - "2024 floods"
   - "remote sensing"
 ---

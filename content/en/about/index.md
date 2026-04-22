@@ -1,10 +1,48 @@
 ---
 title: "About"
 layout: "about"
-short_bio: "I am a researcher working at the intersection of hydrology, modeling, and optimization, with a focus on computational approaches to water systems."
 ---
 
-## Social media and profiles
+## Why I work
+
+Honestly, I do what I do because it is fun. And meaningful. And it pays the bills.
+
+Nature draw me through scientific curiosity and technical challenge, as well as through personal, sublime experience. I perceive the elements not only as objects of study, but as systems with structure, rhythm, and beauty. It's a great source of inspiration.
+
+I started working in Environmental Engineering in 2011, throughout my academic training in southern Brazil. In particular, I became involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.
+
+This trajectory drives my focus on data and scientific visualization: developing tools that translate complex natural processes into clear and accessible visual language. I am very interested in turning quantitative methods into communication—where insight and aesthetics meet.
+
+> Read also: [Services]({{< ref "services" >}})    
+
+---
+
+
+## My skills
+
+I develop solutions for environmental and hydrological studies using open-source tools. My work is centered on Python, where I build reproducible pipelines for data analysis, modeling, and visualization, including scientific artwork.
+
+Also, I work with widely used modeling frameworks such as `SWMM`, `HEC-RAS`, and the `InVEST` suite. Alongside these, I design custom models and workflows when standard tools are not sufficient (which is very common!).
+
+My workflow integrates SQL, Python, and GIS, with a strong emphasis on reproducibility through Git and GitHub. For visualization and figure production, I usually combine Python with Inkscape and GIMP.
+
+I work across Windows and Linux environments, maintaining compatibility with open formats while prioritizing structured technical documentation using $\LaTeX$, Markdown, and Sphinx.
+
+---
+
+## Education
+
+My academic training was completed at the Federal University of Rio Grande do Sul (Brazil), where I studied Environmental Engineering. I began working with wastewater treatment processes, passing on geospatial analysis and later shifting toward stormwater management and hydrological modeling during my final undergraduate studies.
+
+In graduate school, my focus expanded to water resources and watershed-scale analysis. I integrated geospatial data and spatial analysis into hydrological modeling workflows, applying these approaches to support watershed conservation and the development of nature-based solutions.
+
+See below the list of my degrees and outputs: 
+
+{{< education >}}
+
+---
+
+## Profiles
 
  - [LinkedIn](https://www.linkedin.com/in/possantti/)
  - [Research Gate](https://www.researchgate.net/profile/Ipora-Brito-Possantti)
@@ -15,36 +53,3 @@ short_bio: "I am a researcher working at the intersection of hydrology, modeling
  - [ORCiD](https://orcid.org/0000-0002-2194-4516)
 
 ---
-
-## Technical skills
-
-[![NumPy](https://img.shields.io/badge/NumPy-3F6A96?logo=numpy&logoColor=fff)](#)
-[![SciPy](https://img.shields.io/badge/SciPy-3F6A96?logo=scipy&logoColor=fff)](#)
-[![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-3F6A96?logo=matplotlib&logoColor=fff)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-3F6A96?logo=pandas&logoColor=fff)](#)
-[![Geopandas](https://img.shields.io/badge/GeoPandas-3F6A96?logo=geopandas&logoColor=fff)](#)
-[![Sphinx](https://img.shields.io/badge/Sphinx-3F6A96?logo=sphinx&logoColor=fff)](#)
-[![Python](https://img.shields.io/badge/Python-0D47A1.svg?logo=python&logoColor=fff)](#)
-[![Postgres](https://img.shields.io/badge/Postgres-0D47A1.svg?logo=postgresql&logoColor=white)](#)
-[![Markdown](https://img.shields.io/badge/Markdown-0D47A1.svg?logo=markdown&logoColor=white)](#)
-[![LaTeX](https://img.shields.io/badge/LaTeX-0D47A1.svg?logo=LaTeX&logoColor=white)](#)
-[![Obsidian](https://img.shields.io/badge/Obsidian-150458.svg?&logo=obsidian&logoColor=white)](#)
-[![PyCharm](https://img.shields.io/badge/PyCharm-150458?logo=pycharm&logoColor=fff)](#)
-[![QGIS](https://img.shields.io/badge/QGIS-150458?logo=QGIS&logoColor=white)](#)
-[![Inkscape](https://img.shields.io/badge/Inkscape-150458?logo=Inkscape&logoColor=white)](#)
-[![GIMP](https://img.shields.io/badge/GIMP-150458?logo=GIMP&logoColor=white)](#)
-[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-000000?logo=windows11&logoColor=white)](#)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-000000?logo=ubuntu&logoColor=white)](#)
-
-I work primarily with open-source technologies, focusing on Python and libraries such as `NumPy`, `pandas`, and `Matplotlib` for data analysis and visualization. I use `SQL` for data manipulation and storage, and `QGIS` for geospatial workflows.
-
-I organize and version my projects using `Git` and `GitHub`, which are central to building reproducible pipelines. I also integrate `LaTeX` for generating reports and technical documents, with development centered around `PyCharm`.
-
-I work mainly on `Windows 11`, but also use `Ubuntu`, which allows me to operate across different environments. For visual work, I use Inkscape and `GIMP` to produce scientific illustrations.
-
-
----
-
-## Education
-
-{{< education >}}

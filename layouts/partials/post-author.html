@@ -8,7 +8,6 @@
 {{ with resources.Get $avatar }}
   {{ $avatarURL = .RelPermalink }}
 {{ else }}
-  {{/* fallback if it's not in /assets */}}
   {{ if not (strings.HasPrefix $avatar "http") }}
     {{ $avatarURL = $avatar | relURL }}
   {{ else }}
@@ -31,5 +30,16 @@
         </a>
       {{ end }}
     {{ end }}
+
+    {{ with .Params.tags }}
+      | {{ T "blog.tagged_in" }}
+      {{ range $i, $tag := . }}
+        {{ if $i }}, {{ end }}
+        <a href="{{ (printf "tags/%s/" ($tag | urlize)) | relLangURL }}">
+          #{{ $tag }}
+        </a>
+      {{ end }}
+    {{ end }}
+
   </span>
 </div>

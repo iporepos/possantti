@@ -3,9 +3,8 @@ author: Iporã Possantti
 title: "How to argue about the Guaíba"
 date: 2025-05-28
 featured_image: "Photo_Possantti_2024_c"
-categories:
-  - "opinion"
-  - "Guaíba Lake"
+categories: ["opinion"]
+tags: ["Guaíba Lake"]
 ---
 
 In the [previous post]({{< ref "blog/how-to-not-argue-about-guaiba" >}}) I evaluated how not to argue about the Guaíba, in the context of the discussion on whether this water body is a river or a lake. Following up, I will now move forward with the basic principles of a rational discussion on the subject, and why I understand the Guaíba to be a *lake*.
