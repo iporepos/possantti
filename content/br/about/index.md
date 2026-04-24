@@ -5,11 +5,11 @@ layout: "about"
 
 ## Por que eu trabalho
 
-A Natureza sempre foi uma grande fonte de inspiração para mim. Os ambientes naturais me atraem tanto pela curiosidade científica quanto pela experiência pessoal e sublime. Vejo os seus elementos não apenas como objetos de estudo, mas como sistemas com estrutura, ritmo e beleza. É uma grande fonte de inspiração.
+A **Natureza** sempre foi uma grande fonte de inspiração para mim. Os ambientes naturais me atraem tanto pela curiosidade científica quanto pela experiência pessoal e sublime. Vejo os seus elementos não apenas como objetos de estudo, mas como sistemas com estrutura, ritmo e beleza. 
 
-Comecei a atuar na Engenharia Ambiental em 2011, ao longo da minha formação acadêmica no sul do Brasil. Em particular, envolvi-me em contextos onde processos naturais e decisões humanas se cruzam, como tratamento de efluentes, desenvolvimento urbano, conservação de bacias hidrográficas e, mais recentemente, eventos extremos de inundação. Essas experiências revelaram como a compreensão científica pode influenciar o debate público e orientar as decisões de planejamento ambiental.
+Durante a minha formação acadêmica no sul do Brasil, me envolvi em contextos onde processos naturais e decisões humanas se cruzam, como tratamento de efluentes, desenvolvimento urbano, conservação de bacias hidrográficas e, mais recentemente, eventos extremos de inundação. Essas experiências revelaram como a compreensão científica pode influenciar o debate público e orientar as decisões do planejamento ambiental.
 
-Essa trajetória direciona meu foco para dados e visualização científica: desenvolver ferramentas que traduzam processos naturais complexos em uma linguagem visual clara e acessível. Tenho muito interesse em transformar métodos quantitativos em comunicação — onde o entendimento e a estética se encontram.
+Essa trajetória direciona o meu foco para **dados e visualização científica**: desenvolver ferramentas que traduzam processos naturais complexos numa linguagem visual clara e acessível. Tenho muito interesse em transformar métodos quantitativos em comunicação — onde o conhecimento, a utilidade e a estética se encontram.
 
 > Leia também: [Serviços]({{< ref "services" >}})    
 
@@ -31,7 +31,7 @@ Trabalho em ambientes Windows e Linux, mantendo compatibilidade com formatos abe
 
 Minha formação acadêmica foi realizada na Universidade Federal do Rio Grande do Sul (Brasil), onde cursei Engenharia Ambiental. Comecei trabalhando com processos de tratamento de efluentes, passando por análise geoespacial e mudando posteriormente para o manejo de águas pluviais e modelagem hidrológica no final da graduação.
 
-Na pós-graduação, meu foco se expandiu para engenharia de recursos hídricos e análises em escala de bacia hidrográfica. Integrei dados e análise geoespaciais com modelagem hidrológica, aplicando essas abordagens para apoiar a conservação de bacias e o desenvolvimento de soluções baseadas na natureza.
+Tornei-me um **Hidrólogo** na pós-graduação, quando o meu foco se expandiu para engenharia de recursos hídricos e análises em escala de bacia hidrográfica. Integrei dados e análise geoespaciais com modelagem hidrológica, aplicando essas abordagens para apoiar a conservação de bacias e o desenvolvimento de soluções baseadas na natureza.
 
 Veja abaixo a lista das minhas titulações e produções:
 

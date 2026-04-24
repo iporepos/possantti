@@ -5,11 +5,11 @@ layout: "about"
 
 ## Why I work
 
-Nature has always been a great source of inspiration for me. Natural environments attract me both through scientific curiosity and through personal and sublime experience. I see their elements not only as objects of study, but as systems with structure, rhythm, and beauty. It is a great source of inspiration.
+**Nature** has always been a great source of inspiration for me. Natural environments attract me both through scientific curiosity and through personal and sublime experience. I see their elements not only as objects of study, but as systems with structure, rhythm, and beauty. 
 
-I started working in Environmental Engineering in 2011, throughout my academic training in southern Brazil. In particular, I became involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.
+During my academic training in southern Brazil, I got involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.
 
-This trajectory drives my focus on data and scientific visualization: developing tools that translate complex natural processes into clear and accessible visual language. I am very interested in turning quantitative methods into communication—where insight and aesthetics meet.
+This trajectory drives my focus on **data and scientific visualization**: developing tools that translate complex natural processes into clear and accessible visual language. I am very interested in turning quantitative methods into communication—where insight and aesthetics meet.
 
 > Read also: [Services]({{< ref "services" >}})    
 
@@ -18,7 +18,7 @@ This trajectory drives my focus on data and scientific visualization: developing
 
 ## My skills
 
-I develop solutions for environmental and hydrological studies using open-source tools. My work is centered on Python, where I build reproducible pipelines for data analysis, modeling, and visualization, including scientific artwork.
+I develop solutions for environmental and hydrological studies using **open-source tools**. My work is centered on Python, where I build reproducible pipelines for data analysis, modeling, and visualization, including scientific artwork.
 
 Also, I work with widely used modeling frameworks such as `SWMM`, `HEC-RAS`, and the `InVEST` suite. Alongside these, I design custom models and workflows when standard tools are not sufficient (which is very common!).
 
@@ -30,9 +30,9 @@ I work across Windows and Linux environments, maintaining compatibility with ope
 
 ## Education
 
-My academic training was completed at the Federal University of Rio Grande do Sul (Brazil), where I studied Environmental Engineering. I began working with wastewater treatment processes, passing on geospatial analysis and later shifting toward stormwater management and hydrological modeling during my final undergraduate studies.
+My academic training was completed at the Federal University of Rio Grande do Sul (Brazil), where I studied **Environmental Engineering**. I began working with wastewater treatment processes, passing on geospatial analysis and later shifting toward stormwater management and hydrological modeling during my final undergraduate studies.
 
-In graduate school, my focus expanded to water resources and watershed-scale analysis. I integrated geospatial data and spatial analysis into hydrological modeling workflows, applying these approaches to support watershed conservation and the development of nature-based solutions.
+I became a **Hydrologist** in graduate school, when my focus expanded to water resources and watershed-scale analysis. I integrated geospatial data and spatial analysis into hydrological modeling workflows, applying these approaches to support watershed conservation and the development of nature-based solutions.
 
 See below the list of my degrees and outputs: 
 
