@@ -1,4 +1,12 @@
+.project-motivation {
+    font-size: 1.5rem;
+}
 
+.project-footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
 
 .gallery-nav {
   position: absolute;
