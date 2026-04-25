@@ -2,61 +2,21 @@
 
 <header class="project-header">
 
-  {{/* Domain + Type */}}
-  <div class="project-meta-primary">
-    {{ with .Params.project_domain }}
-      <span class="project-domain">{{ . }}</span>
-    {{ end }}
-
-    {{ if and .Params.project_domain .Params.project_category }}
-      <span class="separator"> | </span>
-    {{ end }}
-
-    {{ with .Params.project_category }}
-      <span class="project-category">{{ . }}</span>
-    {{ end }}
-  </div>
-
   {{/* Project official title */}}
-  {{ with .Params.project_title }}
-    <strong class="project-official-title">
+  {{ with .Params.project_motivation }}
+    <strong class="project-motivation">
      {{ . }}
     </strong>
   {{ end }}
 
 
-
   {{/* Abstract / summary */}}
   {{ with .Params.project_abstract }}
     <p class="project-abstract">
-      <strong>Abstract:</strong> {{ . }}
+      {{ . }}
     </p>
   {{ end }}
 
-
-  {{/* Secondary metadata */}}
-  <div class="project-meta-secondary">
-
-    {{ with .Params.project_client }}
-      <div><strong>Ultimate client:</strong> {{ . }}</div>
-    {{ end }}
-
-    {{ with .Params.project_intermediate }}
-      <div><strong>Intermediate:</strong> {{ . }}</div>
-    {{ end }}
-
-    {{ with .Params.project_role }}
-      <div><strong>My role:</strong> {{ . }}</div>
-    {{ end }}
-
-    {{ with .Params.project_tools }}
-      <div>
-        <strong>Tools applied:</strong>
-        {{ delimit . ", " }}
-      </div>
-    {{ end }}
-
-  </div>
 
 
 </header>

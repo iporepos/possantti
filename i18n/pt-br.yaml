@@ -42,6 +42,33 @@
 - id: "projects.intro"
   translation: "Explore aqui uma seleção dos meus projetos em destaque."
 
+- id: "projects.meta_title"
+  translation: "Título oficial do projeto:"
+
+- id: "projects.meta_client"
+  translation: "Cliente final:"
+
+- id: "projects.meta_intermediate"
+  translation: "Intermediário:"
+
+- id: "projects.meta_role"
+  translation: "Meu papel:"
+
+- id: "projects.meta_tools"
+  translation: "Ferramentas aplicadas:"
+
+- id: "projects.context"
+  translation: "Contexto"
+
+- id: "projects.approach"
+  translation: "Abordagem"
+
+- id: "projects.outcomes"
+  translation: "Resultados"
+
+- id: "projects.metadata"
+  translation: "Ficha técnica"
+
 ## BLOG ##
 
 - id: "blog.blog_intro_title"

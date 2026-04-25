@@ -44,6 +44,33 @@
 - id: "projects.intro"
   translation: "Explore here a selection of my featured projects."
 
+- id: "projects.meta_title"
+  translation: "Project official title:"
+
+- id: "projects.meta_client"
+  translation: "Ultimate client:"
+
+- id: "projects.meta_intermediate"
+  translation: "Intermediate:"
+
+- id: "projects.meta_role"
+  translation: "My role:"
+
+- id: "projects.meta_tools"
+  translation: "Tools applied:"
+
+- id: "projects.context"
+  translation: "Context"
+
+- id: "projects.approach"
+  translation: "Approach"
+
+- id: "projects.outcomes"
+  translation: "Outcomes"
+
+- id: "projects.metadata"
+  translation: "Metadata"
+
 ## BLOG ##
 - id: "blog.blog_intro_title"
   translation: "Ipoverse"

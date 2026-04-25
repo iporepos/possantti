@@ -1,0 +1,49 @@
+{{/* Project Footer Partial */}}
+
+<header class="project-footer">
+
+  {{/* Domain + Type */}}
+  <div class="project-meta-primary">
+    {{ with .Params.project_domain }}
+      <span class="project-domain">{{ . }}</span>
+    {{ end }}
+
+    {{ if and .Params.project_domain .Params.project_category }}
+      <span class="separator"> | </span>
+    {{ end }}
+
+    {{ with .Params.project_category }}
+      <span class="project-category">{{ . }}</span>
+    {{ end }}
+  </div>
+
+  {{/* Secondary metadata */}}
+  <div class="project-meta-secondary">
+
+    {{ with .Params.project_title }}
+      <div><strong>{{ T "projects.meta_title" }}</strong> {{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.project_client }}
+      <div><strong>{{ T "projects.meta_client" }}</strong> {{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.project_intermediate }}
+      <div><strong>{{ T "projects.meta_intermediate" }}</strong> {{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.project_role }}
+      <div><strong>{{ T "projects.meta_role" }}</strong> {{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.project_tools }}
+      <div>
+        <strong>{{ T "projects.meta_tools" }}</strong>
+        {{ delimit . ", " }}
+      </div>
+    {{ end }}
+
+  </div>
+
+
+</header>

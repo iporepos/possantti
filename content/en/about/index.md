@@ -9,32 +9,42 @@ layout: "about"
 
 During my academic training in southern Brazil, I got involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.
 
-This trajectory drives my focus on **data and scientific visualization**: developing tools that translate complex natural processes into clear and accessible visual language. I am very interested in turning quantitative methods into communication—where insight and aesthetics meet.
+This trajectory drives my focus on **data and scientific visualization**: I seek developing tools that translate complex natural processes into clear and accessible visual language. I am very interested in turning quantitative methods into communication—where insight and aesthetics meet.
 
-> Read also: [Services]({{< ref "services" >}})    
+> Visit my [Blog]({{< ref "blog" >}})  
 
 ---
 
 
 ## My skills
 
-I develop solutions for environmental and hydrological studies using **open-source tools**. My work is centered on Python, where I build reproducible pipelines for data analysis, modeling, and visualization, including scientific artwork.
+My working skills focuses on solving environmental and hydrological problems using open-source tools.
 
-Also, I work with widely used modeling frameworks such as `SWMM`, `HEC-RAS`, and the `InVEST` suite. Alongside these, I design custom models and workflows when standard tools are not sufficient (which is very common!).
+**Scientific Computing**. Reproducible Python workflows for data analysis, modeling, and visualization, including scientific figures.
 
-My workflow integrates SQL, Python, and GIS, with a strong emphasis on reproducibility through Git and GitHub. For visualization and figure production, I usually combine Python with Inkscape and GIMP.
+**Model Application**. Use of established frameworks (`SWMM`, `HEC-RAS`, `InVEST`) alongside custom models and workflows when standard tools are insufficient.
 
-I work across Windows and Linux environments, maintaining compatibility with open formats while prioritizing structured technical documentation using $\LaTeX$, Markdown, and Sphinx.
+**Integrated Workflow**. Combined use of SQL, Python, and GIS, with version control through Git and GitHub.
+
+**Visualization and Artwork**. Figure and artwork production using Python, Inkscape, and GIMP.
+
+**Systems and Documentation**. Work across Windows and Linux, prioritizing open formats and structured documentation with $\LaTeX$, Markdown, and Sphinx.
+
+> Check out my [Services]({{< ref "services" >}}) 
+
+> Visit my [Projects]({{< ref "projects" >}}) page  
 
 ---
 
 ## Education
 
-My academic training was completed at the Federal University of Rio Grande do Sul (Brazil), where I studied **Environmental Engineering**. I began working with wastewater treatment processes, passing on geospatial analysis and later shifting toward stormwater management and hydrological modeling during my final undergraduate studies.
+**Environmental Engineer**. Trained at the Engineering School of the Federal University of Rio Grande do Sul (UFRGS, Brazil). Early work focused on wastewater treatment, followed by geospatial analysis, and later a transition to stormwater management and hydrological modeling during the final undergraduate stage.
 
-I became a **Hydrologist** in graduate school, when my focus expanded to water resources and watershed-scale analysis. I integrated geospatial data and spatial analysis into hydrological modeling workflows, applying these approaches to support watershed conservation and the development of nature-based solutions.
+**Hydrologist**. Graduate studies (Master and PhD) in hydrology and water resources planning at the Hydraulics Research Institute (IPH/UFRGS). Integration of geospatial data and spatial analysis into modeling workflows, applied to watershed conservation and nature-based solutions.
 
-See below the list of my degrees and outputs: 
+See below the list of my degrees and academic outputs: 
+
+> Check out my papers at [Publications]({{< ref "publications" >}})  
 
 {{< education >}}
 
@@ -49,5 +59,7 @@ See below the list of my degrees and outputs:
  - [Web of Science](https://www.webofscience.com/wos/author/record/KZU-2600-2024)
  - [Lattes](http://lattes.cnpq.br/1333463646836198)
  - [ORCiD](https://orcid.org/0000-0002-2194-4516)
+ - [Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Possantti%2C%20Ipor%C3%A3%22&l=list&p=1&s=10&sort=bestmatch)
+ - [Wikimedia](https://commons.wikimedia.org/wiki/Special:ListFiles/Possantti)
 
 ---
