@@ -35,17 +35,17 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
 //////////////// 3. Fonts preferences /////////////////
-$sans-family: "Computer Modern", serif;
+$sans-family: Noto Serif, serif;//"Computer Modern", serif;
 $mono-family: Consolas, monospace;
 $base-font-size: 16px;
-$medium-font-size: $base-font-size * 0.938;
-$small-font-size: $base-font-size * 0.875;
+$medium-font-size: $base-font-size * 0.9;
+$small-font-size: $base-font-size * 0.8;
 $base-line-height: 1.85;
 
 // Font weight
 // $light-weight: 300; // uncomment if necessary
 $normal-weight: 400;
-$bold-weight: 700;
+$bold-weight: 600;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////

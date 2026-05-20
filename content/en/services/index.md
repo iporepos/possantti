@@ -69,4 +69,6 @@ Operations are based in Brazil, under a registered legal entity (CNPJ), enabling
 Work can be conducted internationally, with payments handled in multiple currencies.
 
 > Iporã Possantti Consultoria Ambiental LTDA  
-> CNPJ: 27.643.216/0001-21
+> CNPJ: 27.643.216/0001-21  
+> possantti@gmail.com  
+> R. Marechal Hermes, 155, unit 503, Porto Alegre, RS, Brazil. ZIP-Code: 91910-290  

@@ -68,4 +68,6 @@ As entregas são consistentemente documentadas, versionadas quando aplicável, e
 As operações são baseadas no Brasil, sob pessoa jurídica registrada (CNPJ), permitindo contratação formal e emissão de notas fiscais. O trabalho pode ser realizado internacionalmente, com os pagamentos processados em diversas moedas.
 
 > Iporã Possantti Consultoria Ambiental LTDA  
-> CNPJ: 27.643.216/0001-21
+> CNPJ: 27.643.216/0001-21  
+> possantti@gmail.com  
+> R. Marechal Hermes, 155, complemento 503, Porto Alegre, RS, Brasil. CEP: 91910-290.  
