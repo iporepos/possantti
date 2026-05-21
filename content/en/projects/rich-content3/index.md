@@ -3,7 +3,7 @@ author: Hugo Authors
 title: Rich Content 3
 date: 2023-02-09
 description: A brief description of Hugo Shortcodes
-gallery_src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Fields_Zangla_Zanskar_River_Ladakh_Jun24_A7CR_00981.jpg/960px-Fields_Zangla_Zanskar_River_Ladakh_Jun24_A7CR_00981.jpg"
+gallery_src: 
 gallery_title: "Testing Title"
 gallery_caption: "Testing Caption 1"
 categories:

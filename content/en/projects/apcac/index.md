@@ -2,7 +2,7 @@
 author: "Iporã Possantti"
 title: "Water conservation across the Cerrado biome"
 date: 2026-04-10
-featured_image: "https://images.possantti.net/story/A030/story_apcac_gallery3_en.jpg"
+featured_image: "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/08/19173608/4-End_of_monitoring_Cerrado_3-1536x890.jpg"
 gallery_src: "https://images.possantti.net/story/A030/story_apcac_gallery3_en.jpg"
 gallery_title: "Water conservation in the Cerrado biome"
 gallery_caption: "Mapping hotspots for infiltration in the Cerrado across multiple scales."

@@ -3,7 +3,7 @@ author: "Iporã Possantti"
 title: "A great project"
 date: 2025-04-10
 featured_image: "Photo_Possantti_2023_a"
-gallery_src: "/images/journals/Ecosystem Services.jpeg"
+gallery_src: 
 gallery_title: "Title for the gallery"
 gallery_caption: "Caption for home page gallery"
 project_motivation: "A callout motivation!"
