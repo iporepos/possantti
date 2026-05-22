@@ -6,6 +6,62 @@
     margin-top: 20px;
     margin-bottom: 0px;
     line-height: 1.5;
+    border: 0.5px solid var(--color-border-tertiary, #e0e0e0);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-footer-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-bottom: 0.5px solid var(--color-border-tertiary, #e0e0e0);
+    background: var(--color-background-secondary, #f7f7f7);
+}
+
+.project-footer-head span {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-text-secondary, #666);
+}
+
+.project-footer-sep {
+    color: var(--color-text-tertiary, #aaa) !important;
+    font-weight: 400 !important;
+}
+
+.project-footer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.project-footer-table tr {
+    border-bottom: 0.5px solid var(--color-border-tertiary, #e0e0e0);
+}
+
+.project-footer-table tr:last-child {
+    border-bottom: none;
+}
+
+.project-footer-label {
+    padding: 8px 16px;
+    font-size: 12px;
+    width: 120px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.project-footer-value {
+    padding: 8px 16px;
+    font-size: 13px;
+
+}
+
+.project-footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 1.5;
 }
 
 .gallery-nav {
@@ -25,7 +81,7 @@
 
 
 .carousel-wrapper {
-    width: 1500px; /* viewport width */
+    width: 1000px; /* viewport width */
     position: relative;
     left: 50%;
     transform: translateX(-50%); /* The 'magic' to center an absolute/relative width element */

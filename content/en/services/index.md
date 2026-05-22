@@ -70,5 +70,5 @@ Work can be conducted internationally, with payments handled in multiple currenc
 
 > Iporã Possantti Consultoria Ambiental LTDA  
 > CNPJ: 27.643.216/0001-21  
-> possantti@gmail.com  
-> R. Marechal Hermes, 155, unit 503, Porto Alegre, RS, Brazil. ZIP-Code: 91910-290  
+> possantti@gmail.com
+
