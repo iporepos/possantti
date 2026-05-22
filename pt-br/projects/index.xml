@@ -1,29 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Iporã Brito Possantti</title><link>https://www.possantti.net/pt-br/projects/</link><description>Recent content in Projects on Iporã Brito Possantti</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/pt-br/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Um grande projeto</title><link>https://www.possantti.net/pt-br/projects/rich-content2/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/rich-content2/</guid><description>&lt;header class="project-header"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Iporã Brito Possantti</title><link>https://www.possantti.net/pt-br/projects/</link><description>Recent content in Projects on Iporã Brito Possantti</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/pt-br/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Conservação da água no bioma Cerrado</title><link>https://www.possantti.net/pt-br/projects/apcac/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/apcac/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
-A callout motivation!
+Onde concentrar os esforços de conservação de água no maior bioma savânico do Brasil?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-This project was a complex problem in catchment hydrology. Earum laudantium iste voluptates rerum placeat ipsum. Asperiores ducimus dolores rerum et dolor possimus sit nihil. Nam quae ex magnam. Vel minima animi quisquam sit. Earum laudantium iste voluptates rerum placeat ipsum.
+Avaliação hidrológica multiescalar do bioma Cerrado para identificação de áreas prioritárias para a conservação da água — da dinâmica de infiltração nas encostas à recarga de aquíferos regionais — traduzindo os resultados em um framework de planejamento territorial para orientar políticas públicas.
 &lt;/p&gt;
 &lt;/header&gt;
 &lt;figure style="width: 100; margin-left: auto; margin-right: auto;"&gt;
-&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Stage_levels_at_Guaiba_Lake.jpg/960px-Stage_levels_at_Guaiba_Lake.jpg" alt="" style="width: 100%; height: auto;"&gt;
+&lt;img src="https://photos.possantti.net/cerrado/luiz-flamarion.jpg" alt="" style="width: 100%; height: auto;"&gt;
 &lt;figcaption class="post-caption"&gt;
-&lt;span class="caption"&gt;Level gauges at Guaíba Lake. Ipanema, Winter 2019&lt;/span&gt;
+&lt;span class="caption"&gt;Vereda em primeiro plano com platôs elevados ao fundo — o mesmo mosaico de paisagem que define onde a infiltração ocorre e onde ela não ocorre.&lt;/span&gt;
 &lt;span class="separator"&gt; — &lt;/span&gt;
-&lt;span class="credit"&gt;© Iporã Possantti&lt;/span&gt;
+&lt;span class="credit"&gt;© Luiz Flamarion&lt;/span&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h2 id="hahahugoshortcode75s2hbhb"&gt;Contexto&lt;/h2&gt;
-&lt;p&gt;The project addressed hydrological behavior in a catchment with recurring flood issues and limited prior analysis.&lt;/p&gt;</description></item><item><title>Tabela de Conteúdo</title><link>https://www.possantti.net/pt-br/projects/table-of-content/</link><pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/table-of-content/</guid><description>&lt;h2 id="tabela-de-conteúdo"&gt;Tabela de Conteúdo&lt;/h2&gt;
-&lt;p&gt;Este tema suporta a exibição de um tabela de conteúdo (ToC) em postagens de blog.&lt;/p&gt;
-&lt;h2 id="parâmetros"&gt;Parâmetros&lt;/h2&gt;
-&lt;p&gt;Você pode gerenciar o tabela de conteúdo com dois parâmetros:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;parâmetro global &lt;code&gt;toc&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;parâmetro de postagem &lt;code&gt;toc&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;O parâmetro &lt;code&gt;toc&lt;/code&gt; da postagem tem prioridade mais alta que o parâmetro global &lt;code&gt;toc&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="habilitar-a-tabela-de-conteúdo-em-todas-as-postagens"&gt;Habilitar a Tabela de Conteúdo em todas as postagens&lt;/h2&gt;
-&lt;p&gt;Para habilitar o tabela de conteúdo (ToC) em todas as postagens (globalmente), defina o parâmetro &lt;code&gt;toc&lt;/code&gt; como &lt;code&gt;true&lt;/code&gt; no arquivo &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Conteúdo Rico 2</title><link>https://www.possantti.net/pt-br/projects/rich-content/</link><pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/rich-content/</guid><description>&lt;p&gt;O Hugo vem com vários &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes"&gt;Shortcodes Integrados&lt;/a&gt; para conteúdo rico, juntamente com uma &lt;a href="https://gohugo.io/about/hugo-and-gdpr/"&gt;Configuração de Privacidade&lt;/a&gt; e um conjunto de Shortcodes Simples que permitem versões estáticas e sem JavaScript de diversas página embutidas de mídias sociais.&lt;/p&gt;</description></item><item><title>Texto de Substituição</title><link>https://www.possantti.net/pt-br/projects/placeholder-text2/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/placeholder-text2/</guid><description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description></item><item><title>Emoji Support 2</title><link>https://www.possantti.net/pt-br/projects/emoji-support2/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/emoji-support2/</guid><description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="contexto"&gt;Contexto&lt;/h2&gt;
+&lt;p&gt;O Cerrado é a savana mais biodiversa do planeta e a nascente de três dos maiores sistemas fluviais da América do Sul — São Francisco, Paraná e Araguaia. Sua hidrologia é governada por um regime sazonal marcado: uma estação chuvosa concentrada seguida por um longo período seco, durante o qual os &lt;strong&gt;rios dependem quase inteiramente do escoamento de base&lt;/strong&gt; para manter suas vazões. Esse mecanismo está diretamente condicionado à fração da chuva que efetivamente infiltra no solo em vez de escoar superficialmente. &lt;strong&gt;O uso do solo é a válvula de controle do sistema.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Planejamento Espacial Marinho no Sul do Brasil</title><link>https://www.possantti.net/pt-br/projects/pem/project/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/pem/project/</guid><description>&lt;header class="project-header"&gt;
+&lt;strong class="project-motivation"&gt;
+Como planejar o espaço ocêanico entre usuários concorrentes?
+&lt;/strong&gt;
+&lt;p class="project-abstract"&gt;
+O PEM Sul é o projeto-piloto nacional do Planejamento Espacial Marinho no Brasil, cobrindo a região marinha sul nos estados do Paraná, Santa Catarina e Rio Grande do Sul. O trabalho desenvolve indicadores espacialmente explícitos — incluindo um Índice de Desempenho de Uso composto — para subsidiar a gestão sustentável e multissetorial do oceano.
+&lt;/p&gt;
+&lt;/header&gt;
+&lt;figure style="width: 100; margin-left: auto; margin-right: auto;"&gt;
+&lt;img src="https://photos.possantti.net/A001/ian-stewart.jpg" alt="" style="width: 100%; height: auto;"&gt;
+&lt;figcaption class="post-caption"&gt;
+&lt;span class="caption"&gt;O desafio do PEM consiste em alocar o espaço do oceano de forma justa e sustentável.&lt;/span&gt;
+&lt;span class="separator"&gt; — &lt;/span&gt;
+&lt;span class="credit"&gt;(c) Ian Stewart&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id="contexto"&gt;Contexto&lt;/h2&gt;
+&lt;p&gt;O &lt;strong&gt;Planejamento Espacial Marinho (PEM)&lt;/strong&gt; é um processo público e participativo de distribuição das atividades humanas no espaço marinho — com objetivos ecológicos, econômicos e sociais simultâneos. No Brasil, o oceano responde por cerca de &lt;strong&gt;19% do PIB&lt;/strong&gt; em uma jurisdição de &lt;strong&gt;5,7 milhões de km²&lt;/strong&gt;. Gerir esse espaço sem acumular conflitos exige mais do que regulação setorial; exige um marco espacial.&lt;/p&gt;</description></item></channel></rss>
