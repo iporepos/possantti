@@ -24,12 +24,10 @@
     {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.name }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
-
-    <div class="author-abstract">
-        <a href="/projects/" class="read-more">
-            {{ T "home.read_more_projects" }}
-        </a>
+    <div class="author-social-icons">
+        {{- partial "socialIcons.html" .Site.Params.socialIcons -}}
     </div>
+
     <div class="author-intro">
         <p class="author-intro-text">
             {{ .Site.Params.author.intro }}

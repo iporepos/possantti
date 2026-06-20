@@ -363,6 +363,10 @@ carousel-title {
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .blog-container {
+    padding: 0;
   }
 }
 

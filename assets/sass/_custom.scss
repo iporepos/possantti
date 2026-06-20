@@ -10,6 +10,22 @@ html.dark body {
   max-width: 460px;
 }
 
+.author-social-icons {
+  margin: 0.4rem 0 0.6rem;
+  a {
+    text-decoration: none;
+    margin-right: 0.4rem;
+  }
+  svg {
+    color: #888a90;
+    height: 22px;
+    width: 22px;
+    &:hover {
+      color: rgb(221, 221, 221);
+    }
+  }
+}
+
 .author-name,
 .author-bio {
   font-family: 'Source Sans 3', sans-serif;

@@ -1,4 +1,7 @@
 <!-- most recent first -->
+- 2026-06-19: Fixed excess lateral margins on mobile for blog/projects gallery list pages — zeroed .blog-container and .gallery padding at ≤768px in custom.css so only .wrapper padding (20px) applies
+- 2026-06-19: Added GitHub/LinkedIn/ResearchGate social icons (.author-social-icons) in bio.html between author name and subtitle; styled in _custom.scss
+- 2026-06-19: Removed "View projects →" callout div (.author-abstract) from layouts/partials/bio.html
 - 2026-06-19: Dark mode body background set to #1a1a1a via html.dark body in _custom.scss (theme uses html.dark, not .dark)
 - 2026-06-19: Gallery-meta (project/blog grid) styling settled: h3 font-size 1.2rem / line-height 1.1 / margin-bottom 0; small font-size 1rem / display block / margin-top 2px; .gallery-meta padding 0 0 0.5rem (zero top to sit flush under image)
 - 2026-06-19: Enforced Source Sans 3 on .gallery-meta (dates in project/blog gallery pages)
