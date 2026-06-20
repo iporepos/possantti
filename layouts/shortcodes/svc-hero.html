@@ -1,0 +1,12 @@
+{{ partial "svc-styles.html" . }}
+{{ $h := .Page.Params.svc.hero }}
+<div class="svc-hero">
+  <span class="svc-eyebrow">{{ $h.eyebrow }}</span>
+  <h1 class="svc-hero-title">{{ $h.title }}</h1>
+  <p class="svc-hero-desc">{{ $h.desc }}</p>
+  <div class="svc-pills">
+    {{ range $h.pills }}
+    <span class="svc-pill">{{ . }}</span>
+    {{ end }}
+  </div>
+</div>

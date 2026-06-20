@@ -1,0 +1,20 @@
+{{ $w := .Page.Params.svc.workflow }}
+<span class="svc-label">{{ i18n "svc_label_workflow" }}</span>
+<div class="svc-workflow">
+  {{ range $w.items }}
+  <div class="svc-wf-item">
+    <span class="svc-wf-type">{{ .type }}</span>
+    <span class="svc-wf-name">{{ .name }}</span>
+    <p class="svc-wf-desc">{{ .desc }}</p>
+  </div>
+  {{ end }}
+</div>
+<div class="svc-setting">
+  {{ range $i, $s := $w.settings }}
+  {{ $notes := slice (i18n "svc_setting_remote_note") (i18n "svc_setting_inperson_note") (i18n "svc_setting_intl_note") }}
+  <div class="svc-setting-item">
+    <span class="svc-dot"></span>
+    <span><strong>{{ $s.label }}</strong> — {{ index $notes $i }}</span>
+  </div>
+  {{ end }}
+</div>

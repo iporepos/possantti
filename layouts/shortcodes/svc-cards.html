@@ -1,0 +1,16 @@
+<span class="svc-label">{{ i18n "svc_label_categories" }}</span>
+<div class="svc-cards">
+  {{ range .Page.Params.svc.cards }}
+  <div class="svc-card">
+    <div class="svc-card-header">
+      <span class="svc-tag">{{ .tag }}</span>
+      <span class="svc-card-name">{{ .name }}</span>
+    </div>
+    <p class="svc-tagline">{{ .tagline }}</p>
+    <div class="svc-divider"></div>
+    <ul class="svc-bullets">
+      {{ range .bullets }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>

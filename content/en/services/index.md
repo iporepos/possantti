@@ -1,74 +1,112 @@
 ---
-title: Services
-author: Iporã Brito Possantti
+title: "Services"
+description: "Hydrology and Environmental Planning, driven by data and scientific illustrations."
+
+svc:
+  hero:
+    eyebrow: "Independent Consultant · Brazil"
+    title: "Hydrology & Environmental Planning, driven by data."
+    desc: >
+      I operate as an independent technical unit — delivering well-scoped,
+      documented outputs for environmental problems.
+      Minimal coordination overhead, predictable workflow.
+    pills:
+      - "Well-defined scope"
+      - "Predictable workflow"
+      - "Standalone outputs"
+
+  domains:
+    - icon: "🌊"
+      title: "Applied Hydrology & Environmental Systems"
+      desc: >
+        Catchment hydrology, water resources engineering,
+        environmental assessment, and geospatial analysis.
+    - icon: "⚗️"
+      title: "Research & Development"
+      desc: >
+        Environmental systems science — analytical frameworks,
+        datasets, software prototyping, and scientific writing.
+    - icon: "🗺️"
+      title: "Scientific Illustration & Storytelling"
+      desc: >
+        Technical figures, maps, and visual narratives for
+        reports, posters, and publications.
+
+  cards:
+    - tag: "Standard"
+      name: "Standard Methods"
+      tagline: "Deliverables for well-defined problems."
+      bullets:
+        - "Application of established environmental methods"
+        - "Formal technical reports (signed documents)"
+        - "Standard analytical and cartographic outputs"
+    - tag: "Development"
+      name: "Development Support"
+      tagline: "Tailored solutions for challenging problems."
+      bullets:
+        - "Custom hydrological and environmental models"
+        - "Automated analytical workflows and pipelines"
+        - "Project-specific visualization systems"
+    - tag: "Advisory"
+      name: "Strategic Advisory"
+      tagline: "Technical guidance for complex projects."
+      bullets:
+        - "Quality and consistency review of technical decisions"
+        - "Support for ongoing environmental studies"
+        - "Short written technical memos when needed"
+    - tag: "Training"
+      name: "Lectures & Training"
+      tagline: "Shared knowledge and experience."
+      bullets:
+        - "Hydrology and environmental planning"
+        - "Hydrological modelling methods"
+        - "Core research tools: Python and LaTeX"
+
+  workflow:
+    items:
+      - type: "Linear"
+        name: "Scope → Delivery"
+        desc: "Direct execution from a fixed scope definition to a final standalone output."
+      - type: "Iterative"
+        name: "Staged development"
+        desc: "Intermediate validation and refinement cycles for complex or evolving problems."
+      - type: "Event-based"
+        name: "Scheduled sessions"
+        desc: "Focused review, guidance, and decision-support meetings at agreed intervals."
+    settings:
+      - label: "Remote & async"
+      - label: "In-person"
+      - label: "International"
+
+  cta:
+    title: "Let's work together."
+    desc: >
+      Reach out with a brief description of your problem.
+      I'll respond with a scope proposal or a short call to clarify.
+    email: "possantti@gmail.com"
+    links:
+      - label: "LinkedIn"
+        url: "https://www.linkedin.com/in/possantti/"
+      - label: "ResearchGate"
+        url: "https://www.researchgate.net/profile/Ipora-Brito-Possantti"
+      - label: "GitHub"
+        url: "https://github.com/iporepos/"
+
+  legal:
+    - label: "Legal entity"
+      value: "Iporã Possantti Consultoria Ambiental LTDA"
+    - label: "CNPJ"
+      value: "27.643.216/0001-21"
+    - label: "Based in"
+      value: "Brazil — formal contracting & invoicing available"
 ---
 
-## How I work
+{{< svc-hero >}}
 
-I operate as an independent **technical working unit**, delivering high-quality outputs for addressing environmental problems. 
+{{< svc-domains >}}
 
-My service system is structured around three core values: (1) **well-defined scope**, (2) **predictable workflow**, and; (3) **standalone outputs**. 
+{{< svc-cards >}}
 
-Clients and collaborators can expect minimal coordination overhead.
+{{< svc-workflow >}}
 
-> Reach out: {{< contact >}}
-
----
-
-## Domains of my work
-
-**Applied Hydrology & Environmental Systems**. Practical solutions in catchment hydrology, water resources engineering, environmental assessment, and geospatial analysis.
-
-**Research & Development**. Scientific work in environmental systems, including prototyping of analytical frameworks, development of datasets and software, and writing or co-authorship of publications.
-
-**Scientific Illustration & Storytelling**. Production of technical figures, maps, and visual narratives that clarify environmental systems for reports, posters, and publications.
-
-> Read also: [About Me]({{< ref "about" >}})    
-
----
-
-## Categories of services
-
-> I work across a set of service categories, defined by different levels of engagement and delivery.
-
-### 1. Standard methods
-
-**Deliverables for well-defined problems**. Application of established methods in the environmental field, producing formal technical reports (signed documents) and standard analytical or visual outputs.
-
-### 2. Development support
-
-**Tailored solutions for challenging problems**. Design of custom models, automated workflows, and visualization systems adapted to specific project contexts.
-
-### 3. Strategic advisory
-
-**Technical guidance for complex projects**. Advisory support focused on improving the quality and consistency of technical decisions in ongoing work, occasionally complemented by short written memos.
-
-### 4. Lectures and training
-
-**Shared knowledge and experience**. Lectures and training in hydrology, environmental planning, hydrological modeling, and core research tools such as Python and $\LaTeX$.
-
----
-
-## Workflows and setting
-
-Work is conducted primarily in a **remote and asynchronous setting**, with in-person meetings arranged when needed.
-
-Depending on the service category, work is structured through:
-
-- **Linear workflows**: direct execution from scope definition to final delivery;  
-- **Iterative workflows**: staged development with intermediate validation and refinement;
-- **Event-based workflows**: scheduled sessions focused on review, guidance, and decision support;
-
-Outputs are consistently documented, versioned when applicable, and delivered as standalone technical products.
-
----
-
-## Legal Information
-
-Operations are based in Brazil, under a registered legal entity (CNPJ), enabling formal contracting and invoicing.
-Work can be conducted internationally, with payments handled in multiple currencies.
-
-> Iporã Possantti Consultoria Ambiental LTDA  
-> CNPJ: 27.643.216/0001-21  
-> possantti@gmail.com
-
+{{< svc-cta >}}

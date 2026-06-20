@@ -1,72 +1,112 @@
 ---
-title: Serviços
-author: Iporã Brito Possantti
+title: "Serviços"
+description: "Hidrologia e Planejamento Ambiental, orientados por dados e ilustrações científicas."
+
+svc:
+  hero:
+    eyebrow: "Consultor Independente · Brasil"
+    title: "Hidrologia e Planejamento Ambiental, orientados por dados."
+    desc: >
+      Atuo como uma unidade de trabalho técnico independente — entregando produtos
+      bem delimitados e documentados para problemas ambientais.
+      Mínima sobrecarga de coordenação, fluxo de trabalho previsível.
+    pills:
+      - "Escopo bem definido"
+      - "Fluxo de trabalho previsível"
+      - "Entregas autossuficientes"
+
+  domains:
+    - icon: "🌊"
+      title: "Hidrologia Aplicada e Sistemas Ambientais"
+      desc: >
+        Hidrologia de bacias, engenharia de recursos hídricos,
+        estudos ambientais e análise geoespacial.
+    - icon: "⚗️"
+      title: "Pesquisa e Desenvolvimento"
+      desc: >
+        Ciência em sistemas ambientais — frameworks analíticos,
+        conjuntos de dados, prototipagem de software e escrita científica.
+    - icon: "🗺️"
+      title: "Ilustração Científica e Narrativa Visual"
+      desc: >
+        Figuras técnicas, mapas e narrativas visuais para
+        relatórios, pôsteres e publicações.
+
+  cards:
+    - tag: "Padrão"
+      name: "Métodos Padronizados"
+      tagline: "Soluções para problemas bem definidos."
+      bullets:
+        - "Aplicação de métodos ambientais consolidados"
+        - "Relatórios técnicos formais (documentos assinados)"
+        - "Produtos analíticos e cartográficos padronizados"
+    - tag: "Desenvolvimento"
+      name: "Suporte ao Desenvolvimento"
+      tagline: "Soluções sob medida para problemas desafiadores."
+      bullets:
+        - "Modelos hidrológicos e ambientais personalizados"
+        - "Fluxos de trabalho analíticos automatizados"
+        - "Sistemas de visualização adaptados ao projeto"
+    - tag: "Assessoria"
+      name: "Assessoria Estratégica"
+      tagline: "Orientação técnica para projetos complexos."
+      bullets:
+        - "Revisão de qualidade e consistência de decisões técnicas"
+        - "Suporte a estudos ambientais em andamento"
+        - "Notas técnicas curtas quando necessário"
+    - tag: "Treinamento"
+      name: "Palestras e Treinamentos"
+      tagline: "Compartilhamento de conhecimento e experiência."
+      bullets:
+        - "Hidrologia e planejamento ambiental"
+        - "Métodos de modelagem hidrológica"
+        - "Ferramentas de pesquisa: Python e LaTeX"
+
+  workflow:
+    items:
+      - type: "Linear"
+        name: "Escopo → Entrega"
+        desc: "Execução direta desde a definição do escopo até um produto técnico autossuficiente."
+      - type: "Iterativo"
+        name: "Desenvolvimento em etapas"
+        desc: "Ciclos de validação e refinamento intermediários para problemas complexos ou em evolução."
+      - type: "Por eventos"
+        name: "Sessões programadas"
+        desc: "Reuniões focadas em revisão, orientação e apoio à tomada de decisão em intervalos acordados."
+    settings:
+      - label: "Remoto e assíncrono"
+      - label: "Presencial"
+      - label: "Internacional"
+
+  cta:
+    title: "Vamos trabalhar juntos."
+    desc: >
+      Entre em contato com uma breve descrição do seu problema.
+      Responderei com uma proposta de escopo ou uma conversa rápida para esclarecer.
+    email: "possantti@gmail.com"
+    links:
+      - label: "LinkedIn"
+        url: "https://www.linkedin.com/in/possantti/"
+      - label: "ResearchGate"
+        url: "https://www.researchgate.net/profile/Ipora-Brito-Possantti"
+      - label: "GitHub"
+        url: "https://github.com/iporepos/"
+
+  legal:
+    - label: "Pessoa jurídica"
+      value: "Iporã Possantti Consultoria Ambiental LTDA"
+    - label: "CNPJ"
+      value: "27.643.216/0001-21"
+    - label: "Localização"
+      value: "Brasil — contratação formal e nota fiscal disponíveis"
 ---
 
-## Como eu trabalho
+{{< svc-hero >}}
 
-Opero como uma **unidade de trabalho técnico** independente, entregando resultados de alta qualidade para a resolução de problemas ambientais.
+{{< svc-domains >}}
 
-Meu sistema de serviços é estruturado em torno de três valores fundamentais: (1) **escopo bem definido**, (2) **fluxo de trabalho previsível** e (3) **produtos autossuficientes**. 
+{{< svc-cards >}}
 
-Clientes e colaboradores podem esperar o mínimo de sobrecarga de coordenação.
+{{< svc-workflow >}}
 
-> Entre em contato: {{< contact >}}
-
----
-
-## Áreas de atuação
-
-**Hidrologia Aplicada e Sistemas Ambientais**. Soluções práticas em hidrologia de bacias hidrográficas, engenharia de recursos hídricos, estudos ambientais e análise geoespacial.
-
-**Pesquisa e Desenvolvimento**. Trabalho científico em sistemas ambientais, incluindo a prototipagem de estruturas analíticas, desenvolvimento de conjuntos de dados e *software*, além da redação ou coautoria de publicações.
-
-**Ilustração Científica e Narrativa Visual**. Produção de figuras técnicas, mapas e narrativas visuais que esclarecem sistemas ambientais para relatórios, pôsteres e publicações.
-
-> Leia também: [Sobre mim]({{< ref "about" >}})    
-
----
-
-## Categorias de serviços
-
-> Atuo em um conjunto de categorias de serviços, definidas por diferentes níveis de envolvimento e entrega.
-
-### 1. Métodos padronizados
-
-**Soluções para problemas bem definidos**. Aplicação de métodos consolidados na área ambiental, com produção de relatórios técnicos formais (documentos assinados) e produtos analíticos ou visuais padronizados.
-
-### 2. Suporte ao desenvolvimento
-
-**Soluções sob medida para problemas desafiadores**. Desenvolvimento de modelos e sistemas personalizados, fluxos de trabalho automatizados e visualização adaptadas ao contexto de cada projeto.
-
-### 3. Assessoria estratégica
-
-**Orientação técnica para projetos complexos**. Apoio consultivo voltado à melhoria da qualidade e consistência das decisões técnicas em trabalhos em andamento, eventualmente complementado por notas técnicas curtas.
-
-### 4. Palestras e treinamentos
-
-**Compartilhamento de conhecimento e experiência**. Palestras e treinamentos em hidrologia, planejamento ambiental, modelagem hidrológica e ferramentas centrais de pesquisa, como Python e $\LaTeX$.
-
----
-
-## Fluxos de trabalho e configuração
-
-O trabalho é conduzido principalmente em um **formato remoto e assíncrono**, com encontros presenciais quando necessário.
-
-Dependendo da categoria de serviço, o trabalho é estruturado por meio de:
-
-- **Fluxos lineares**: execução direta desde a definição do escopo até a entrega final;  
-- **Fluxos iterativos**: desenvolvimento em etapas, com validações intermediárias e refinamento;
-- **Fluxos baseados em eventos**: sessões programadas focadas em revisão, orientação e suporte à tomada de decisão;
-
-As entregas são consistentemente documentadas, versionadas quando aplicável, e fornecidas como produtos técnicos independentes.
-
----
-
-## Informações Legais
-
-As operações são baseadas no Brasil, sob pessoa jurídica registrada (CNPJ), permitindo contratação formal e emissão de notas fiscais. O trabalho pode ser realizado internacionalmente, com os pagamentos processados em diversas moedas.
-
-> Iporã Possantti Consultoria Ambiental LTDA  
-> CNPJ: 27.643.216/0001-21  
-> possantti@gmail.com  
+{{< svc-cta >}}

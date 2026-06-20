@@ -1,0 +1,22 @@
+{{ $c := .Page.Params.svc.cta }}
+<div class="svc-cta">
+  <div class="svc-cta-text">
+    <h2>{{ $c.title }}</h2>
+    <p class="svc-cta-desc">{{ $c.desc }}</p>
+  </div>
+  <div class="svc-cta-actions">
+    <a href="mailto:{{ $c.email }}" class="svc-cta-email">{{ $c.email }}</a>
+    <div class="svc-cta-links">
+      {{ range $c.links }}
+      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<div class="svc-legal">
+  {{ range .Page.Params.svc.legal }}
+  <div class="svc-legal-item">
+    <strong>{{ .label }}</strong>{{ .value }}
+  </div>
+  {{ end }}
+</div>

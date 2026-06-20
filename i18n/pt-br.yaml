@@ -117,3 +117,22 @@
 
 - id: "errors.404_description"
   translation: "O caminho que você acessou não existe"
+
+## SERVICES ##
+- id: "svc_label_domains"
+  translation: "Domínios de atuação"
+
+- id: "svc_label_categories"
+  translation: "Categorias de serviço"
+
+- id: "svc_label_workflow"
+  translation: "Como o trabalho é estruturado"
+
+- id: "svc_setting_remote_note"
+  translation: "formato principal"
+
+- id: "svc_setting_inperson_note"
+  translation: "quando necessário"
+
+- id: "svc_setting_intl_note"
+  translation: "múltiplas moedas aceitas"

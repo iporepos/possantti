@@ -118,3 +118,22 @@
 
 - id: "errors.404_description"
   translation: "You just hit a route that doesn't exist."
+
+## SERVICES ##
+- id: "svc_label_domains"
+  translation: "Domains of work"
+
+- id: "svc_label_categories"
+  translation: "Service categories"
+
+- id: "svc_label_workflow"
+  translation: "How work is structured"
+
+- id: "svc_setting_remote_note"
+  translation: "primary setting"
+
+- id: "svc_setting_inperson_note"
+  translation: "arranged when needed"
+
+- id: "svc_setting_intl_note"
+  translation: "multiple currencies accepted"
