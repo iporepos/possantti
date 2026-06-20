@@ -1,7 +1,15 @@
 <!-- most recent first -->
+- 2026-06-19: Dark mode body background set to #1a1a1a via html.dark body in _custom.scss (theme uses html.dark, not .dark)
+- 2026-06-19: Gallery-meta (project/blog grid) styling settled: h3 font-size 1.2rem / line-height 1.1 / margin-bottom 0; small font-size 1rem / display block / margin-top 2px; .gallery-meta padding 0 0 0.5rem (zero top to sit flush under image)
+- 2026-06-19: Enforced Source Sans 3 on .gallery-meta (dates in project/blog gallery pages)
+- 2026-06-19: Enforced Source Sans 3 on .post-meta (date + published-by block in blog/project posts)
+- 2026-06-19: Enforced Source Sans 3 on .project-motivation (headline in project_header shortcode)
+- 2026-06-19: Enforced Source Sans 3 on .author-bio (bio subtitle)
+- 2026-06-19: Enforced Source Sans 3 on post/project date in home page recent lists (.post-item-meta)
+- 2026-06-19: Carousel switches to vertical stack on mobile (≤768px) — flex-direction: column, full-width items, nav buttons hidden
 - 2026-06-19: Enforced Source Sans 3 on category filter (.category-toc) in projects and blog
 - 2026-06-19: Enforced Source Sans 3 on carousel captions (.carousel-title, .carousel-caption) and gallery overlay (.gallery-overlay)
-- 2026-06-19: Exception — .author-name uses serif (Source Serif 4) in both bio and about, overriding the h2 sans-serif rule
+- 2026-06-19: .author-name reverted to sans-serif (Source Sans 3) after brief serif experiment
 - 2026-06-19: Increased .author-bio max-width from 393px to 460px (felt narrow after font change)
 - 2026-06-19: Increased figcaption font-size to $base-font-size (16px) after two rounds of adjustment
 - 2026-06-19: Enforced Source Sans 3 on project metadata table (.project-footer-table) and header row (.project-footer-head)

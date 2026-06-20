@@ -2,12 +2,17 @@
   font-family: 'Source Serif 4', serif;
 }
 
+html.dark body {
+  background-color: #1a1a1a;
+}
+
 .author-bio {
   max-width: 460px;
 }
 
-.author-name {
-  font-family: 'Source Serif 4', serif;
+.author-name,
+.author-bio {
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 .gallery-overlay,
@@ -31,10 +36,14 @@ figcaption,
 }
 
 .toc,
-.category-toc {
+.category-toc,
+.post-item-meta,
+.post-meta,
+.gallery-meta {
   font-family: 'Source Sans 3', sans-serif;
 }
 
+.project-motivation,
 .project-footer-head,
 .project-footer-table {
   font-family: 'Source Sans 3', sans-serif;
