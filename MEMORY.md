@@ -1,0 +1,11 @@
+<!-- most recent first -->
+- 2026-06-19: Enforced Source Sans 3 on category filter (.category-toc) in projects and blog
+- 2026-06-19: Enforced Source Sans 3 on carousel captions (.carousel-title, .carousel-caption) and gallery overlay (.gallery-overlay)
+- 2026-06-19: Exception — .author-name uses serif (Source Serif 4) in both bio and about, overriding the h2 sans-serif rule
+- 2026-06-19: Increased .author-bio max-width from 393px to 460px (felt narrow after font change)
+- 2026-06-19: Increased figcaption font-size to $base-font-size (16px) after two rounds of adjustment
+- 2026-06-19: Enforced Source Sans 3 on project metadata table (.project-footer-table) and header row (.project-footer-head)
+- 2026-06-19: Enforced Source Sans 3 on table of contents (.toc) in posts
+- 2026-06-19: Enforced Source Sans 3 on publication sub-items (.pub-content) except abstract text (.pub-abstract p stays serif)
+- 2026-06-19: Enforced Source Sans 3 on figcaption via `figcaption` rule in `assets/sass/_custom.scss`
+- 2026-06-19: Enforced Source Sans 3 on navbar via `.navbar, .menu, .menu-link` in `assets/sass/_custom.scss`
