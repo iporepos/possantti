@@ -131,19 +131,17 @@
     border-radius: 0px;
 }
 
-carousel-title {
-    width: 100%; /* fills item width */
-    margin: 5px auto 0; /* auto left/right centers the block */
-    margin-bottom: 0px;
+.carousel-title {
+    width: 100%;
+    margin: 0.6rem auto 0;
     line-height: 1.6;
     text-align: center;
 }
 
 .carousel-caption {
-    width: 80%; /* fills item width */
+    width: 80%;
     line-height: 1.2;
-    margin: 0 auto 30px; /* auto left/right centers the block */
-    margin-bottom: 30px;
+    margin: 0.6rem auto 30px;
     text-decoration: none !important;
     text-align: center;
 }
