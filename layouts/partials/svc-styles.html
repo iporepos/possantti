@@ -19,6 +19,7 @@
   font-family: 'Source Serif 4', serif;
 }
 
+
 .svc-hero {
   padding: 3rem 0 2.5rem;
   border-bottom: 1px solid currentColor;
@@ -33,7 +34,10 @@
   opacity: 0.55;
   margin-bottom: 1rem;
 }
-.svc-hero-title { margin-bottom: 1.2rem; }
+.svc-hero-title { margin-bottom: 1.2rem; line-height: 1.2; }
+@media (max-width: 680px) {
+  .svc-hero-title { line-height: 1.15; }
+}
 .svc-hero-desc {
   max-width: 560px;
   margin-bottom: 2rem;
@@ -201,7 +205,6 @@
   text-decoration: none;
 }
 .svc-cta-email:hover { text-decoration: none; }
-.svc-cta-links { display: flex; gap: 0.8rem; font-size: 0.75rem; }
 
 /* Legal */
 .svc-legal {

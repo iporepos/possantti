@@ -2,6 +2,12 @@
   font-family: 'Source Serif 4', serif;
 }
 
+.home-gallery-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 html.dark body {
   background-color: #1a1a1a;
 }
@@ -11,7 +17,7 @@ html.dark body {
 }
 
 .author-social-icons {
-  margin: 0.4rem 0 0.6rem;
+  margin: 0.4rem 0 0.45rem;
   a {
     text-decoration: none;
     margin-right: 0.4rem;
@@ -43,6 +49,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar, .menu, .menu-link {
   font-family: 'Source Sans 3', sans-serif;
+}
+
+.menu .mobile-home { display: none; }
+@media (max-width: 768px) {
+  .menu .mobile-home { display: block; }
+  .menu input[type="checkbox"]:checked ~ .trigger {
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  html.dark .menu input[type="checkbox"]:checked ~ .trigger {
+    background: rgba(19, 20, 24, 0.45);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
+
+.navbar-sitename {
+  float: left;
+  margin: 0.5rem 0 0 0.45rem;
+  line-height: 25px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  opacity: 1;
+  &:hover { opacity: 1; }
+  @media (max-width: 768px) { font-size: 0.9rem; margin-top: 0.8rem; }
 }
 
 figcaption,

@@ -84,6 +84,13 @@ svc:
       Reach out with a brief description of your problem.
       I'll respond with a scope proposal or a short call to clarify.
     email: "possantti@gmail.com"
+    links:
+      - label: "LinkedIn"
+        url: "https://www.linkedin.com/in/possantti/"
+      - label: "ResearchGate"
+        url: "https://www.researchgate.net/profile/Ipora-Brito-Possantti"
+      - label: "GitHub"
+        url: "https://github.com/iporepos/"
 
   legal:
     - label: "Legal entity"

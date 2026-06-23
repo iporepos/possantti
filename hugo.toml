@@ -41,14 +41,6 @@ theme = "hugo-blog-awesome"
 
 [Languages.en-gb.menu]
   [[Languages.en-gb.menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'Home'
-    url = '/'
-    weight = 10
-
- [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
@@ -132,14 +124,6 @@ description = "Hydrology and Environmental Planning powered by data analysis and
 
   [Languages.pt-br.menu]
   [[Languages.pt-br.menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'Início'
-    url = '/'
-    weight = 10
-
-[[Languages.pt-br.menu.main]]
     pageRef="projects"
     name = 'Projetos'
     url = '/projects/'

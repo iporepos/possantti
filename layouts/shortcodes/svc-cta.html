@@ -6,11 +6,6 @@
   </div>
   <div class="svc-cta-actions">
     <a href="mailto:{{ $c.email }}" class="svc-cta-email">{{ $c.email }}</a>
-    <div class="svc-cta-links">
-      {{ range $c.links }}
-      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
-      {{ end }}
-    </div>
   </div>
 </div>
 <div class="svc-legal">

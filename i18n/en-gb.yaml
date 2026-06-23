@@ -8,6 +8,9 @@
 - id: "home.see_all"
   translation: "See all →"
 
+- id: "home.gallery"
+  translation: "Gallery"
+
 - id: "home.recent_blogs"
   translation: "Recent blogs"
 
