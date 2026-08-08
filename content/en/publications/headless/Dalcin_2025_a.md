@@ -1,7 +1,7 @@
 ---
 type: "publication"
-title: "The economic value of hydrometeorological information in the planning of large-Scale hydropower system operations"
-author: "Dalcin, A.; Marques, G.; Espanmanesh, V.; Quedi, E.; Inada, M.; Tilmant, A.; Possantti, I.; Fan, F.; Paiva, R."
+title: "The economic value of hydrometeorological information in the planning of large-scale hydropower system operations"
+author: "Dalcin, A.; Marques, G.; Espanmanesh, V.; Quedi, E.; Inada, M.; Tilmant, A.; Possantti, I.; Fan, F.; Paiva, R. "
 journal: "Journal of Water Resources Planning and Management"
 volume: "151"
 year: "2025"
