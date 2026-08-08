@@ -23,6 +23,16 @@ local_example:
     en: ""
     pt-br: ""
 
+default_og:
+  src: "https://photos.possantti.net/water/Photo_Possantti_2023_v0P2_a.jpg"
+  alt:
+    en: "Water Photo"
+    pt-br: "Foto de água"
+  credit:
+    en: "© Iporã Possantti"
+    pt-br: "© Iporã Possantti"
+
+
 # --------------------------------------------------------------------
 # Water photos
 

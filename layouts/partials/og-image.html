@@ -1,0 +1,37 @@
+{{/* layouts/partials/og-image.html */}}
+{{- $data := site.Data.images -}}
+{{- $raw := .Params.featured_image -}}
+{{- $lang := .Language.Lang -}}
+{{- $src := "" -}}
+{{- $alt := "" -}}
+
+{{- if $raw -}}
+  {{- if or (strings.HasPrefix $raw "http://") (strings.HasPrefix $raw "https://") -}}
+    {{- $src = $raw -}}
+    {{- $alt = .Title -}}
+  {{- else -}}
+    {{- with index $data $raw -}}
+      {{- $src = .src -}}
+      {{- with .alt -}}
+        {{- $alt = index . $lang | default (index . "en") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $src -}}
+  {{- with index $data "default_og" -}}
+    {{- $src = .src -}}
+    {{- with .alt -}}
+      {{- $alt = index . $lang | default (index . "en") -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $src -}}
+<meta property="og:image" content="{{ . }}" />
+{{- with $alt }}
+<meta property="og:image:alt" content="{{ . }}" />
+{{- end }}
+<meta name="twitter:image" content="{{ . }}" />
+{{- end -}}
