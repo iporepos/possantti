@@ -4,11 +4,11 @@ description: "Hydrology and Environmental Planning, driven by data and scientifi
 
 svc:
   hero:
-    eyebrow: "Independent Consultant · Brazil"
+    eyebrow: "Research & Consultancy"
     title: "Hydrology & Environmental Planning, driven by data."
     desc: >
       I operate as an independent technical unit — delivering well-scoped,
-      documented outputs for environmental problems.
+      documented solutions for environmental problems.
       Minimal coordination overhead, predictable workflow.
     pills:
       - "Well-defined scope"

@@ -1,4 +1,4 @@
-title = "Iporã Brito Possantti"
+title = "Iporã Possantti, PhD"
 baseURL = "https://www.possantti.net/"
 
 # This is what goes in <html lang="">
@@ -77,7 +77,7 @@ theme = "hugo-blog-awesome"
 #    weight = 55
 
 [Languages.en-gb.params]
-  sitename = "Iporã Brito Possantti"
+  sitename = "Iporã Possantti, PhD"
   defaultColor = "light" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -102,13 +102,13 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Hydrologist, PhD in Water Resources Engineering. I work as a researcher and consultant in Hydrology and Environmental Planning, using data-driven methods and scientific illustration. I live in southern Brazil, in constant dialogue with nature."
-name = "Iporã Brito Possantti"
+  intro = "PhD in Water Resources Engineering. I work as a researcher and consultant in Hydrology and Environmental Planning, using data-driven methods and scientific illustration. I live in southern Brazil, in constant dialogue with nature."
+name = "Iporã Possantti"
 description = "Hydrology and Environmental Planning powered by data analysis and scientific illustrations."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
-  name = "Iporã Brito Possantti" # will use "params.sitename" or "title" by default
+  name = "Iporã Possantti, PhD" # will use "params.sitename" or "title" by default
   short_name = "Possantti" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
@@ -160,7 +160,7 @@ description = "Hydrology and Environmental Planning powered by data analysis and
     weight = 60
 
 [Languages.pt-br.params]
-  sitename = "Iporã Brito Possantti"
+  sitename = "Iporã Possantti, PhD"
   defaultColor = "light" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -185,13 +185,13 @@ description = "Hydrology and Environmental Planning powered by data analysis and
 [Languages.pt-br.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Hidrólogo, PhD em Recursos Hídricos e Saneamento Ambiental. Atuo como pesquisador e consultor em Hidrologia e Planejamento Ambiental, com uma abordagem orientada por dados e ilustrações científicas. Vivo no sul do Brasil, em constante diálogo com a natureza."
-  name = "Iporã Brito Possantti"
+  intro = "PhD em Recursos Hídricos e Saneamento Ambiental. Atuo como pesquisador e consultor em Hidrologia e Planejamento Ambiental, com uma abordagem orientada por dados e ilustrações científicas. Vivo no Brasil, em constante diálogo com a natureza."
+  name = "Iporã Possantti"
   description = "Hidrologia e Planejamento Ambiental fundamentados em análise de dados e ilustrações científicas"
 
 # Allow to override webmanifest options
 [Languages.pt-br.params.webmanifest]
-  name = "Iporã Brito Possantti" # will use "params.sitename" or "title" by default
+  name = "Iporã Possantti, PhD" # will use "params.sitename" or "title" by default
   short_name = "Possantti" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`

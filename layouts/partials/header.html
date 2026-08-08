@@ -1,9 +1,9 @@
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
         <a href="{{ .Site.Home.Permalink }}" class="logo">
-            {{ partial "svgs/home.svg" (dict "height" 25 "width" 25) . }}
+            <img src="/logo.png" alt="{{ .Site.Params.sitename }}" height="25" />
         </a>
-        <a href="{{ .Site.Home.Permalink }}" class="navbar-sitename">{{ .Site.Params.author.name }}</a>
+        <a href="{{ .Site.Home.Permalink }}" class="navbar-sitename">{{ .Site.Params.sitename }}</a>
         <input type="checkbox" id="menu-trigger" class="menu-trigger" />
         <label for="menu-trigger">
             <span class="menu-icon">

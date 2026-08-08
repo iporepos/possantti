@@ -4,11 +4,11 @@ description: "Hidrologia e Planejamento Ambiental, orientados por dados e ilustr
 
 svc:
   hero:
-    eyebrow: "Consultor Independente · Brasil"
+    eyebrow: "Pesquisa e Consultoria"
     title: "Hidrologia e Planejamento Ambiental, orientados por dados."
     desc: >
-      Atuo como uma unidade de trabalho técnico independente — entregando produtos
-      bem delimitados e documentados para problemas ambientais.
+      Atuo como uma unidade de trabalho técnico independente — entregando soluções
+      bem delimitadas e documentadas para problemas ambientais.
       Mínima sobrecarga de coordenação, fluxo de trabalho previsível.
     pills:
       - "Escopo bem definido"

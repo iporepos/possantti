@@ -1,4 +1,6 @@
 <!-- most recent first -->
+- 2026-08-08: Replaced browser tab favicon — swapped theme's PNG references (icons/favicon-32x32.png, icons/favicon-16x16.png) for assets/favicon-32.png and assets/favicon-16.png; removed SVG favicon link (was the book icon, takes priority in modern browsers) in layouts/partials/head.html
+- 2026-08-08: Replaced navbar house icon with logo.png — swapped SVG partial for <img src="/logo.png"> in layouts/partials/header.html; copied assets/logo.png to static/logo.png so Hugo serves it at /logo.png
 - 2026-06-22: Fixed .mobile-home specificity bug — used .menu .mobile-home to beat .menu li (0,2,0 vs 0,1,1) so author name only shows in mobile hamburger dropdown
 - 2026-06-22: Added frosted glass effect to mobile menu overlay — rgba + backdrop-filter: blur(14px), 45% opacity, covers both light (#fff) and dark (#131418) modes; fixes services page coloured blocks bleeding through
 - 2026-06-22: Added author name to navbar (layouts/partials/header.html override) as .navbar-sitename float-left next to home icon; removed Home/Início from menus; added mobile-home item in trigger for hamburger dropdown (desktop-hidden)
