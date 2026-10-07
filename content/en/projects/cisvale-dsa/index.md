@@ -1,10 +1,10 @@
 ---
 author: "Iporã Possantti"
-title: "Socio-Environmental Diagnostic in Rio Pardo valley"
+title: "Environmental Diagnostic in Rio Pardo valley"
 date: 2025-01-01
-featured_image: "/images/default.jpg"
-gallery_src: "/images/default.jpg"
-gallery_title: "Socio-Environmental Diagnostic in Rio Pardo valley"
+featured_image: "https://photos.possantti.net/covers/santa-cruz-1.png"
+gallery_src: "https://photos.possantti.net/covers/santa-cruz-1.png"
+gallery_title: "Environmental Diagnostic in Rio Pardo valley"
 gallery_caption: "Mapping flood and landslide hazard and vulnerability across 17 municipalities."
 project_motivation: "After the 2024 floods, how do you map hazard and vulnerability across 17 municipalities with no field budget?"
 project_title: "Hazard and vulnerability assessment for the socio-environmental diagnostic in the Vale do Rio Pardo" 
@@ -22,29 +22,29 @@ tags: ["floods", "landslides", "hazard", "vulnerability", "CNEFE", "HAND"]
 
 {{< project_header >}}
 
-{{< img src="/images/default.jpg" width=100 caption="The Vale do Rio Pardo landscape, Rio Grande do Sul." credit="">}}
+{{< img src="https://photos.possantti.net/covers/santa-cruz-1.png" width=100 caption="The Vale do Rio Pardo landscape, Rio Grande do Sul." credit="">}}
 
 ---
 
 ## Context
 
-The 2024 floods devastated municipalities across the Vale do Rio Pardo in Rio Grande do Sul. In response, the CISVALE — Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, an association of 17 municipalities — commissioned a broad Diagnóstico Socioambiental (DSA) to assess environmental risk factors across the region. The work was contracted through the Universidade de Santa Cruz do Sul (UNISC), which assembled a multidisciplinary team covering geological, social, and environmental dimensions.
+The 2024 floods devastated the Vale do Rio Pardo, Rio Grande do Sul. In response, CISVALE — the Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, representing 17 municipalities — commissioned a broad Diagnóstico Socioambiental (DSA), contracted through the Universidade de Santa Cruz do Sul (UNISC), which assembled a multidisciplinary team spanning geological, social, and environmental dimensions.
 
-I joined the project as a remote consultant, hired by UNISC to handle the analytical hazard and vulnerability mapping. The 2024 disaster provided an unusual amount of empirical data — flood extent maps, landslide scar inventories — that could ground-truth the models, even without dedicated field campaigns.
+I joined as a remote consultant hired by UNISC for the hazard and vulnerability mapping. The 2024 disaster itself provided unusually rich data — flood extent maps, landslide scar inventories — to ground-truth the models without field campaigns.
 
 ---
 
 ## Approach
 
-The goal was to produce hazard and vulnerability maps for each of the 17 municipalities — a fast, desk-based approach relying on available data rather than field surveys.
+The goal: hazard and vulnerability maps for all 17 municipalities, a fast desk-based approach using available data rather than field surveys.
 
-For **flood hazard**, I used a **multi-scale Height Above Nearest Drainage (HAND)** approach. A single HAND map depends on the threshold area used to define the drainage network — a small threshold picks up every stream, while a large one captures only major rivers. Neither alone gives the full picture. By computing HAND at multiple scales, I could characterize each location's exposure to small streams, medium channels, and large rivers simultaneously. A household sitting 3 meters above a small creek and 15 meters above the main river has a very different risk profile than one at the same elevation above just one of those.
+For **flood hazard**, I used a multi-scale **Height Above Nearest Drainage (HAND)** approach. A single HAND map depends on the threshold area defining the drainage network — small thresholds pick up every stream, large ones only major rivers — so neither alone gives the full picture. Computing HAND at multiple scales captured each location's exposure to small streams, medium channels, and large rivers at once: a household 3 m above a creek and 15 m above the main river has a very different risk than one at the same elevation above just one of those.
 
-For **mass movement and landslide hazard**, I used the **SHALSTAB** (Shallow Landsliding Stability) model, which combines slope geometry with a simplified hydrological model to estimate where the terrain is prone to shallow failures. Calibration was done by visual comparison with mapped landslide scars from the 2024 event — not a formal statistical calibration, but a practical expert-opinion validation that was adequate for the project's planning-level scope.
+For **landslide hazard**, I used the **SHALSTAB** model, combining slope geometry with a simplified hydrological model to estimate shallow-failure susceptibility, calibrated by visual comparison against mapped 2024 landslide scars — an expert-opinion validation adequate for the project's planning-level scope.
 
-The critical step was turning susceptibility into **vulnerability** by crossing the hazard maps with the **CNEFE database** — the national registry of addresses from IBGE. This allowed me to estimate how many households and addresses fall within each hazard zone, municipality by municipality. A susceptible hillslope with no one living on it is a different problem than one with a dense neighborhood.
+The critical step was turning susceptibility into **vulnerability** by crossing the hazard maps with **CNEFE**, IBGE's address registry — estimating households within each hazard zone, municipality by municipality. A susceptible hillslope with no one on it is a different problem than a dense neighborhood.
 
-I produced standardized reports for each municipality using **Python scripting and LaTeX**, so the output was consistent and reproducible. The reports and spatial data were delivered to the UNISC team, who integrated them with their own geological, social, and field-based analyses into the final DSA products for each municipality.
+I produced standardized, reproducible reports using **Python** and **LaTeX**, delivered to UNISC for integration with their geological, social, and field-based analyses into the final DSA products.
 
 {{< img src="/images/default.jpg" width=100 caption="Flood susceptibility map derived from multi-scale HAND, with CNEFE address points overlaid to assess vulnerability." credit="">}}
 
@@ -52,9 +52,9 @@ I produced standardized reports for each municipality using **Python scripting a
 
 ## Outcomes
 
-The DSA was approved by CISVALE in September 2023 and the contract with UNISC started in 2024, though it was temporarily suspended during the May 2024 flood event. Public hearings began in April 2026 and are being conducted municipality by municipality. The process is part of a broader CISVALE initiative that includes the revision of municipal sanitation plans, the Agenda Ambiental 2030, and the creation of a regional Comitê Pró-Clima for climate adaptation.
+The DSA, approved by CISVALE in September 2023, led to a UNISC contract starting 2024 (briefly suspended during the May 2024 flood); public hearings began in April 2026, running municipality by municipality as part of a broader CISVALE initiative — revising sanitation plans, the Agenda Ambiental 2030, and a regional Comitê Pró-Clima for climate adaptation.
 
-My deliverables were intermediate products — hazard and vulnerability layers plus per-municipality reports — assimilated by the UNISC team into the official DSA documents.
+My deliverables — hazard and vulnerability layers plus per-municipality reports — were assimilated by UNISC into the official DSA documents.
 
 ---
 

@@ -216,7 +216,7 @@
   border-radius: 4px;
   cursor: ew-resize;
   touch-action: none;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 3 / 2; /* fallback until JS measures the ruler image and overrides this */
 }
 
 .baf-stage img {
@@ -240,6 +240,10 @@
   clip-path: inset(0 calc(100% - var(--baf-pos, 50%)) 0 0);
 }
 
+.baf-stage.baf-vertical .baf-before {
+  clip-path: inset(0 0 calc(100% - var(--baf-pos, 50%)) 0);
+}
+
 .baf-handle {
   position: absolute;
   top: 0;
@@ -250,6 +254,16 @@
   z-index: 3;
   transform: translateX(-50%);
   pointer-events: none;
+}
+
+.baf-stage.baf-vertical .baf-handle {
+  top: var(--baf-pos, 50%);
+  bottom: auto;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 3px;
+  transform: translateY(-50%);
 }
 
 .baf-handle::after {
@@ -269,6 +283,14 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
+.baf-stage.baf-vertical .baf-handle::after {
+  content: "\2195";
+}
+
+.baf-stage.baf-vertical {
+  cursor: ns-resize;
+}
+
 .baf-tag {
   position: absolute;
   top: 10px;
@@ -286,6 +308,14 @@
 
 .baf-tag-before { left: 10px; }
 .baf-tag-after { right: 10px; }
+
+.baf-stage.baf-vertical .baf-tag {
+  left: 10px;
+  right: auto;
+}
+
+.baf-stage.baf-vertical .baf-tag-before { top: 10px; bottom: auto; }
+.baf-stage.baf-vertical .baf-tag-after { top: auto; bottom: 10px; }
 
 html.dark .baf-handle::after {
   background: #1b1d25;

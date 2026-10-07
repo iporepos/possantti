@@ -2,8 +2,8 @@
 author: "Iporã Possantti"
 title: "Gramado Expansion Plan"
 date: 2024-01-01
-featured_image: "/images/default.jpg"
-gallery_src: "/images/default.jpg"
+featured_image: "https://photos.possantti.net/covers/gramado-1.JPG"
+gallery_src: "https://photos.possantti.net/covers/gramado-1.JPG"
 gallery_title: "Gramado Expansion Plan"
 gallery_caption: "Defining a hydrologically-grounded buffer zone for urban expansion on a sensitive plateau."
 project_motivation: "How do you define environmental boundaries for urban expansion on a plateau with sensitive wetlands and a conservation unit?"
@@ -22,27 +22,27 @@ tags: ["urban planning", "expansion", "hydrology", "buffer zone", "wetlands", "d
 
 {{< project_header >}}
 
-{{< img src="/images/default.jpg" width=100 caption="Gramado's plateau landscape, Serra Gaúcha." credit="">}}
+{{< img src="https://photos.possantti.net/covers/gramado-1.JPG" width=100 caption="Gramado's plateau landscape, Serra Gaúcha." credit="">}}
 
 ---
 
 ## Context
 
-Gramado, a major tourism hub in the Serra Gaúcha and neighbor to Canela, was planning a significant urban expansion northward. The traditional urban zone was reaching saturation, and the municipality saw the northern plateau as the next development frontier — with plans for resorts and tourism-oriented infrastructure driven by the region's strong visitor economy.
+Gramado, a major tourism hub in the Serra Gaúcha neighboring Canela, was planning a significant urban expansion northward: the traditional zone was reaching saturation, and the municipality saw the northern plateau as the next frontier for resorts and tourism infrastructure.
 
-The expansion area sits on a plateau near a conservation unit (Parque dos Pinheiros) and includes a lake that provides important ecosystem services — scenic value, recreation — but was already showing signs of water quality degradation. The planning question was not just *where* to expand, but how to define meaningful environmental protection boundaries that could coexist with development. I was brought in through the NTU at UFRGS to provide the environmental characterization, following a similar approach to the Canela master plan work.
+The expansion area sits on a plateau near a conservation unit (Parque dos Pinheiros) and a lake of scenic and recreational value already showing water quality degradation. The question wasn't just *where* to expand, but how to define protection boundaries that could coexist with development. I was brought in through the NTU at UFRGS for the environmental characterization, following a similar approach to the Canela work.
 
 ---
 
 ## Approach
 
-The municipality provided a high-resolution DEM (~1 m) from a local topographic survey, which was unusually detailed for this kind of planning work. I used it to map the **drainage network** across the plateau and identify areas of potential **saturation and wetland formation** — critical information on a relatively flat plateau where surface water accumulation patterns aren't obvious from visual inspection alone.
+The municipality provided an unusually detailed high-resolution DEM (~1 m) from a local survey, which I used to map the **drainage network** and identify potential **saturation and wetland formation** — critical on a flat plateau, where water accumulation isn't obvious from visual inspection alone.
 
-The central piece of the analysis was proposing a **hydrologically-grounded buffer zone** for the conservation unit. Rather than using an arbitrary distance from the park boundary, I argued that the buffer should follow **catchment boundaries** — protecting the full drainage area that feeds the lake, regardless of whether it fell inside the old urban perimeter, the new expansion perimeter, or the conservation unit itself. Whatever affects the catchment affects the lake. Since the lake was already showing signs of sewage contamination despite being surrounded by green areas, protecting only the immediate shoreline wouldn't solve the underlying water quality problem.
+The central piece was proposing a **hydrologically-grounded buffer zone**: rather than an arbitrary distance from the park boundary, it should follow **catchment boundaries**, protecting the full drainage area feeding the lake regardless of administrative perimeter — whatever affects the catchment affects the lake. Since the lake already showed sewage contamination despite its green surroundings, protecting only the shoreline wouldn't solve the problem.
 
-This catchment-based buffer zone captured parts of both the existing and proposed urban zones, meaning development restrictions would apply across administrative boundaries — a stronger protection framework than a simple distance ring. The approach also supported the city's own interest in using the expansion as an opportunity to establish compensation and environmental protection strategies, rather than treating development and conservation as strictly opposed.
+This buffer captured parts of both existing and proposed urban zones, so restrictions applied across administrative boundaries — a stronger framework than a simple distance ring, and one supporting the city's interest in pairing expansion with compensation and protection strategies rather than treating development and conservation as opposed.
 
-I also ran the standard **land use assessment** (MapBiomas + OpenStreetMap, same blending approach as in Canela) and **topographic analysis** for terrain constraints. All outputs were delivered as GeoPackages and TIFF rasters for integration into the NTU team's broader planning products.
+I also ran the standard **land use assessment** (MapBiomas + OpenStreetMap, as in Canela) and **topographic analysis**, delivered as GeoPackages and TIFF rasters for the NTU team's broader planning products.
 
 {{< img src="/images/default.jpg" width=100 caption="Catchment-based buffer zone proposal, derived from the high-resolution drainage network of the plateau." credit="">}}
 
@@ -50,7 +50,7 @@ I also ran the standard **land use assessment** (MapBiomas + OpenStreetMap, same
 
 ## Outcomes
 
-The deliverables were technical reports produced as an independent consultant for the NTU team, serving as intermediate environmental layers for the broader expansion plan. As with the Canela project, the reports and spatial data were designed to be ingested by the NTU team into their official planning products.
+The deliverables were technical reports produced as an independent consultant for the NTU team — intermediate layers for the broader expansion plan, designed, as with Canela, for direct ingestion into their official planning products.
 
 **Resources:**
 

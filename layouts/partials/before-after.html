@@ -57,9 +57,17 @@
 {{ $caption := .caption }}
 {{ $credit := .credit }}
 {{ $width := .width | default "100%" }}
+{{/* Which image's aspect ratio sizes the box; the other is cropped (cover) to fill it. */}}
+{{ $ruler := .ruler | default "after" }}
+{{ $direction := .direction | default "horizontal" }}
+{{/* Initial reveal position (0-100). Passed via data-attribute, not an inline
+     --custom-property in style="", since Go's html/template CSS escaper
+     mangles interpolated values inside custom properties (renders "ZgotmplZ"
+     instead) — JS reads this attribute on load and sets --baf-pos itself. */}}
+{{ $position := .position | default "50" }}
 
 <figure class="before-after" style="width: {{ $width }}; margin-left: auto; margin-right: auto;">
-  <div class="baf-stage" style="--baf-pos: 50%;" tabindex="0" role="slider" aria-label="Before and after image comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+  <div class="baf-stage{{ if eq $direction "vertical" }} baf-vertical{{ end }}" data-baf-ruler="{{ $ruler }}" data-baf-direction="{{ $direction }}" data-baf-position="{{ $position }}" tabindex="0" role="slider" aria-label="Before and after image comparison" aria-orientation="{{ $direction }}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ $position }}">
     <img class="baf-after" src="{{ $afterSrc }}" alt="{{ $afterAlt }}" draggable="false">
     <img class="baf-before" src="{{ $beforeSrc }}" alt="{{ $beforeAlt }}" draggable="false">
     <span class="baf-tag baf-tag-before">{{ $beforeLabel }}</span>

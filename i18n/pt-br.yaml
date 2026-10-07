@@ -40,10 +40,10 @@
 ## PROJECTS ##
 
 - id: "projects.title"
-  translation: "Projetos de destaque"
+  translation: "Projetos"
 
 - id: "projects.intro"
-  translation: "Explore aqui uma seleção dos meus projetos em destaque."
+  translation: "Uma seleção dos meus trabalhos aplicados em planejamento ambiental, hidrologia e análise espacial — de planos diretores urbanos e mapeamento de risco de inundação a pesquisas em qualidade da água e ilustração científica em grande escala."
 
 - id: "projects.meta_title"
   translation: "Título oficial do projeto:"

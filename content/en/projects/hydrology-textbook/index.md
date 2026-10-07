@@ -1,10 +1,10 @@
 ---
 author: "Iporã Possantti"
-title: "Hydrology Textbook Figures"
-date: 2024-01-01
-featured_image: "/images/default.jpg"
-gallery_src: "/images/default.jpg"
-gallery_title: "Hydrology Textbook Figures"
+title: "Illustrations for Sivapalan et al. Hydrology Textbook"
+date: 2026-10-01
+featured_image: "https://photos.possantti.net/covers/main-cover.jpg"
+gallery_src: "https://photos.possantti.net/covers/main-cover.jpg"
+gallery_title: "Illustrations for Sivapalan et al. Hydrology Textbook"
 gallery_caption: "Illustrating 500+ figures for a hydrology textbook that unifies processes across scales."
 project_motivation: "How do you illustrate 500+ figures for a comprehensive hydrology textbook?"
 project_title: "Scientific illustration for Hydrology – unified principles and practices across scales" 
@@ -22,43 +22,45 @@ tags: ["illustration", "textbook", "hydrology", "3D rendering", "Wiley"]
 
 {{< project_header >}}
 
-{{< img src="/images/default.jpg" width=100 caption="From the Vienna authors' retreat for Hydrology – unified principles and practices across scales." credit="">}}
+{{< img src="https://photos.possantti.net/covers/main-cover.jpg" width=100 caption="From the Vienna authors' retreat for Hydrology – unified principles and practices across scales." credit="">}}
 
 ---
 
 ## Context
 
-This is an ongoing illustration project for **"Hydrology – unified principles and practices across scales"**, a textbook authored by Günter Blöschl (TU Wien), Murugesu Sivapalan (University of Illinois), and Peter Troch (University of Arizona), to be published by Wiley. The book is a comprehensive treatment of catchment hydrology across 15 chapters, with reviewers including Pedro Chaffe (UFSC, Brazil), Alberto Viglione (Politecnico di Torino), and Ralf Merz (Helmholtz Centre, Germany).
+This is an ongoing illustration project for **"Hydrology – unified principles and practices across scales,"** a textbook by Günter Blöschl (TU Wien), Murugesu Sivapalan (University of Illinois), and Peter Troch (University of Arizona), to be published by Wiley — a comprehensive treatment of catchment hydrology across 15 chapters.
 
-The book required a single illustrator who could handle the full range of hydrological concepts — from simple water balance diagrams to 3D terrain renders showing subsurface flow paths — while maintaining visual consistency across more than 500 figures. That's where I came in. The authors provide rough drafts for each figure, sometimes hand-drawn sketches, sometimes legacy diagrams from older publications. My job is to interpret these drafts and produce publication-quality figures that are both scientifically accurate and visually coherent.
+The book needed a single illustrator spanning the full range of hydrological concepts — from water balance diagrams to 3D terrain renders of subsurface flow paths — while keeping visual consistency across 500+ figures. Authors provide rough drafts, sometimes sketches, sometimes legacy diagrams; my job is interpreting these into figures that are scientifically accurate and visually coherent.
 
 ---
 
 ## Approach
 
-The scale of the project demanded a production system, not just drawing skills. The figures fall into a few broad categories, each with its own toolchain. **2D schematics** — process diagrams, hillslope cross-sections, soil-plant interaction models — are drawn in Inkscape. **3D schematics** requiring terrain renders, subsurface layers, or catchment-scale landscapes go through Blender and QGIS. **Global and local maps** are produced in QGIS and Inkscape; the global maps were a particular challenge because source data wasn't always available at consistent quality, so in several cases the maps had to be reconstructed from RGB classification to maintain a unified color palette across the book. **Python** scripts tie the system together, automating repetitive tasks and managing the catalog of figures through Markdown metadata files.
+The scale demanded a production system, not just drawing skills. **2D schematics** (process diagrams, hillslope cross-sections, soil-plant interaction) go in Inkscape; **3D schematics** (terrain renders, subsurface layers, catchment-scale landscapes) go through Blender and QGIS; **maps** come from QGIS and Inkscape — global ones were a particular challenge, since source data wasn't always consistent, so several were reconstructed from RGB classification to keep a unified palette. **Python** scripts tie it together, automating tasks and managing the figure catalog via Markdown metadata.
 
-All figures follow a unified design system: consistent fonts, spacing, line weights, and a controlled set of color palettes. The consistency system is what makes 500+ figures feel like they belong to the same book rather than a collection of disconnected diagrams.
+All figures follow a unified design system — fonts, spacing, line weights, a controlled palette set — making 500+ figures feel like one book, not a collection of disconnected diagrams.
 
-One of the more challenging aspects is interpreting the author drafts. Some are clear; others require significant hydrological knowledge to decode — a rough sketch of a hillslope process might imply three or four interacting mechanisms that need to be visually separated and made legible. This is not a job where you can just "make it pretty" — you need to understand what the figure is trying to teach.
-
-{{< img src="/images/default.jpg" width=100 caption="A sample of the figure categories: 2D schematics, 3D renders, maps, and data-driven plots." credit="">}}
+One of the harder parts is interpreting the drafts: some are clear, others require real hydrological knowledge to decode — a rough sketch might imply three or four interacting mechanisms that need visual separation and legibility. This isn't a job where you just "make it pretty" — you need to understand what the figure is teaching.
 
 Drag the slider below to compare a draft against its final figure — the actual draft/final pair is still pending, so this uses stand-in photos to demo the mechanism.
 
-{{< before_after before="Photo_Possantti_2023_a" after="Photo_Possantti_2023_b" before_label="Draft" after_label="Final" width="100%" caption="Mockup of the before/after comparison slider." credit="">}}
+{{< before_after before="https://images.possantti.net/story/B005/final-example-1.jpeg" after="https://images.possantti.net/story/B005/draft-example-1.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="Before and after of image treatment." credit="" ruler="before">}}
+
+{{< before_after before="https://images.possantti.net/story/B005/final-example-2.jpeg" after="https://images.possantti.net/story/B005/draft-example-2.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="Before and after of image treatment." credit="" ruler="before">}}
+
+{{< before_after before="https://images.possantti.net/story/B005/final-example-3.jpeg" after="https://images.possantti.net/story/B005/draft-example-3.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="Before and after of image treatment." credit="" ruler="before">}}
 
 ---
 
 ## Outcomes
 
-Beyond the figures themselves, the project has produced several companion tools and deliverables.
+Beyond the figures, the project produced several companion tools and deliverables.
 
-The **Galley Proof website** is a private review platform deployed on Cloudflare, developed together with Carolina Rezende Fachin. Authors receive access codes by email and can browse figures by chapter, approve them, and leave comments — turning the review process from scattered email threads into something structured and interactive. A static companion to this is the **figure catalog**, a LaTeX-built PDF document that serves as a printable reference of all figures and their metadata.
+The **Galley Proof website** is a private review platform on Cloudflare, built with Carolina Rezende Fachin: authors get access codes by email and can browse, approve, and comment on figures by chapter — turning review from scattered email threads into something structured. Its static companion, the **figure catalog**, is a LaTeX-built PDF reference of all figures and metadata.
 
-A secondary contract under the same project involved building a **LaTeX manuscript system** for the authors. The book is written in LaTeX, and I developed tooling to help enforce consistency in symbol notation, formatting, and cross-references across 15 chapters. This came with its own documentation: a guide for the figure production workflow and a guide for the LaTeX system, both delivered as PDF documents.
+A secondary contract built a **LaTeX manuscript system** for the authors — tooling enforcing consistency in symbol notation, formatting, and cross-references across 15 chapters — plus guides for the figure workflow and the LaTeX system, both delivered as PDFs.
 
-The book is currently in production, with figures being delivered chapter by chapter. After publication, the figures are expected to be made publicly available so that instructors and students can use them in lectures and course materials — extending the book's reach beyond the printed edition.
+The book is in production, figures delivered chapter by chapter. After publication, they're expected to go public for instructors and students to use in lectures and course materials — extending the book's reach beyond the printed edition.
 
 ---
 

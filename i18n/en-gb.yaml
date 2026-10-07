@@ -42,10 +42,10 @@
 ## PROJECTS ##
 
 - id: "projects.title"
-  translation: "Featured projects"
+  translation: "Projects"
 
 - id: "projects.intro"
-  translation: "Explore here a selection of my featured projects."
+  translation: "A selection of my applied work in environmental planning, hydrology, and spatial analysis — from urban master plans and flood hazard mapping to water quality research and large-scale scientific illustration."
 
 - id: "projects.meta_title"
   translation: "Project official title:"

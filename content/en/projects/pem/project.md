@@ -2,7 +2,7 @@
 author: "Iporã Possantti"
 title: "Marine Spatial Planning in Southern Brazil"
 date: 2026-04-20
-featured_image: "https://photos.possantti.net/A001/ian-stewart.jpg"
+featured_image: "https://photos.possantti.net/covers/tramandai-pier-1.jpg"
 gallery_src: "https://photos.possantti.net/A001/ian-stewart.jpg"
 gallery_title: "Marine Spatial Planning in Southern Brazil"
 gallery_caption: "Defining a shared vision for the sustainable use of the southern Brazilian ocean."
@@ -21,7 +21,7 @@ tags: ["msp", "ecosystem services"]
 
 {{< project_header >}}
 
-{{< img src="https://photos.possantti.net/A001/ian-stewart.jpg" width=100 caption="The challenge of PEM is to allocate the ocean space in a fair and sustainable manner" credit="(c) Ian Stewart" >}}
+{{< img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" width=100 caption="The challenge of PEM is to allocate the ocean space in a fair and sustainable manner" credit="(c) Ian Stewart" >}}
 
 ---
 
