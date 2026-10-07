@@ -1,4 +1,6 @@
 <!-- most recent first -->
+- 2026-10-07: Rewrote publications page landing text (description + body) in both content/en/publications/_index.md and content/br/publications/_index.md — added topic detail (hydrology, nature-based solutions, watershed restoration, flood risk, water resources planning); fixed "aquie"->"aqui" typo in pt-br
+- 2026-10-07: Fixed br/en publications mismatch — copied Possantti_2019_a.md, Possantti_2026_a.md, Tejadas_2019_a.md from content/en/publications/headless/ into content/br/publications/headless/ as exact copies (titles kept in original publication language, matching existing convention of not translating bibliographic title fields)
 - 2026-08-08: Replaced browser tab favicon — swapped theme's PNG references (icons/favicon-32x32.png, icons/favicon-16x16.png) for assets/favicon-32.png and assets/favicon-16.png; removed SVG favicon link (was the book icon, takes priority in modern browsers) in layouts/partials/head.html
 - 2026-08-08: Replaced navbar house icon with logo.png — swapped SVG partial for <img src="/logo.png"> in layouts/partials/header.html; copied assets/logo.png to static/logo.png so Hugo serves it at /logo.png
 - 2026-06-22: Fixed .mobile-home specificity bug — used .menu .mobile-home to beat .menu li (0,2,0 vs 0,1,1) so author name only shows in mobile hamburger dropdown

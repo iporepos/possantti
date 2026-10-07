@@ -1,9 +1,9 @@
 ---
 title: Publicações
-description: 'Uma seleção das minhas principais publicações revisadas por pares'
+description: 'Uma seleção dos meus trabalhos de pesquisa revisados por pares sobre hidrologia, soluções baseadas na natureza e modelagem ambiental.'
 author: Iporã Brito Possantti
 ---
 
-Explore aquie uma seleção das minhas principais publicações revisadas por pares.
+Uma seleção dos meus trabalhos de pesquisa revisados por pares, abrangendo hidrologia, soluções baseadas na natureza, restauração de bacias hidrográficas, risco de inundação e planejamento de recursos hídricos.
 
 ---
