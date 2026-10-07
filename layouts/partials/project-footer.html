@@ -53,6 +53,13 @@
       </tr>
     {{ end }}
 
+    {{ with .Params.project_team }}
+      <tr class="project-footer-team">
+        <td class="project-footer-label">{{ T "projects.meta_team" }}</td>
+        <td class="project-footer-value">{{ delimit . " | " }}</td>
+      </tr>
+    {{ end }}
+
   </table>
 
 </header>

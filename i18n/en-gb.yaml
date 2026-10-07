@@ -62,6 +62,9 @@
 - id: "projects.meta_tools"
   translation: "Tools applied:"
 
+- id: "projects.meta_team"
+  translation: "Team:"
+
 - id: "projects.context"
   translation: "Context"
 

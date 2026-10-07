@@ -1,0 +1,83 @@
+{{/* layouts/partials/before-after.html */}}
+{{ $lang := site.Language.Lang }}
+{{ $data := site.Data.images }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve BEFORE image */}}
+{{/* ---------------------------------- */}}
+
+{{ $beforeKey := .before }}
+{{ $beforeSrc := "" }}
+{{ $beforeAlt := "" }}
+
+{{ with index $data $beforeKey }}
+  {{ $beforeSrc = .src }}
+  {{ with .alt }}
+    {{ $beforeAlt = index . $lang | default (index . "en") }}
+  {{ end }}
+{{ end }}
+
+{{ if not $beforeSrc }}
+  {{ $beforeSrc = $beforeKey }}
+{{ end }}
+
+{{ if not (strings.HasPrefix $beforeSrc "http") }}
+  {{ $beforeSrc = $beforeSrc | relURL }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve AFTER image */}}
+{{/* ---------------------------------- */}}
+
+{{ $afterKey := .after }}
+{{ $afterSrc := "" }}
+{{ $afterAlt := "" }}
+
+{{ with index $data $afterKey }}
+  {{ $afterSrc = .src }}
+  {{ with .alt }}
+    {{ $afterAlt = index . $lang | default (index . "en") }}
+  {{ end }}
+{{ end }}
+
+{{ if not $afterSrc }}
+  {{ $afterSrc = $afterKey }}
+{{ end }}
+
+{{ if not (strings.HasPrefix $afterSrc "http") }}
+  {{ $afterSrc = $afterSrc | relURL }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Labels + caption + credit + width */}}
+{{/* ---------------------------------- */}}
+
+{{ $beforeLabel := .before_label | default "Before" }}
+{{ $afterLabel := .after_label | default "After" }}
+{{ $caption := .caption }}
+{{ $credit := .credit }}
+{{ $width := .width | default "100%" }}
+
+<figure class="before-after" style="width: {{ $width }}; margin-left: auto; margin-right: auto;">
+  <div class="baf-stage" style="--baf-pos: 50%;" tabindex="0" role="slider" aria-label="Before and after image comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+    <img class="baf-after" src="{{ $afterSrc }}" alt="{{ $afterAlt }}" draggable="false">
+    <img class="baf-before" src="{{ $beforeSrc }}" alt="{{ $beforeAlt }}" draggable="false">
+    <span class="baf-tag baf-tag-before">{{ $beforeLabel }}</span>
+    <span class="baf-tag baf-tag-after">{{ $afterLabel }}</span>
+    <div class="baf-handle"></div>
+  </div>
+
+  {{ if or $caption $credit }}
+    <figcaption class="post-caption">
+      {{ with $caption }}
+        <span class="caption">{{ . }}</span>
+      {{ end }}
+      {{ if and $caption $credit }}
+        <span class="separator"> — </span>
+      {{ end }}
+      {{ with $credit }}
+        <span class="credit">{{ . }}</span>
+      {{ end }}
+    </figcaption>
+  {{ end }}
+</figure>
