@@ -58,6 +58,12 @@
 
 }
 
+.project-footer-team .project-footer-value,
+.project-footer-team .project-footer-label {
+    font-size: 12px;
+    opacity: 0.75;
+}
+
 .project-footer {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -197,6 +203,123 @@
 /* Hide the arrow once the user scrolls slightly */
 .carousel-scrolled .scroll-hint-arrow {
     opacity: 0;
+}
+
+/* Before/after comparison slider */
+.before-after {
+  margin: 2rem auto;
+}
+
+.baf-stage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: ew-resize;
+  touch-action: none;
+  aspect-ratio: 3 / 2; /* fallback until JS measures the ruler image and overrides this */
+}
+
+.baf-stage img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+  pointer-events: none;
+}
+
+.baf-after {
+  z-index: 1;
+}
+
+.baf-before {
+  z-index: 2;
+  clip-path: inset(0 calc(100% - var(--baf-pos, 50%)) 0 0);
+}
+
+.baf-stage.baf-vertical .baf-before {
+  clip-path: inset(0 0 calc(100% - var(--baf-pos, 50%)) 0);
+}
+
+.baf-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--baf-pos, 50%);
+  width: 3px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 3;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.baf-stage.baf-vertical .baf-handle {
+  top: var(--baf-pos, 50%);
+  bottom: auto;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 3px;
+  transform: translateY(-50%);
+}
+
+.baf-handle::after {
+  content: "\2194";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.baf-stage.baf-vertical .baf-handle::after {
+  content: "\2195";
+}
+
+.baf-stage.baf-vertical {
+  cursor: ns-resize;
+}
+
+.baf-tag {
+  position: absolute;
+  top: 10px;
+  padding: 2px 10px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 3px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.baf-tag-before { left: 10px; }
+.baf-tag-after { right: 10px; }
+
+.baf-stage.baf-vertical .baf-tag {
+  left: 10px;
+  right: auto;
+}
+
+.baf-stage.baf-vertical .baf-tag-before { top: 10px; bottom: auto; }
+.baf-stage.baf-vertical .baf-tag-after { top: auto; bottom: 10px; }
+
+html.dark .baf-handle::after {
+  background: #1b1d25;
+  color: #eaeaea;
 }
 
 .edu-header {
