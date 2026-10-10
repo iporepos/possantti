@@ -3,10 +3,11 @@ author: "Iporã Possantti"
 title: "Planejamento espacial marinho no sul do Brasil"
 date: 2026-04-20
 featured_image: "https://photos.possantti.net/covers/tramandai-pier-1.jpg"
-gallery_src: "https://photos.possantti.net/A001/ian-stewart.jpg"
+gallery_src: "https://images.possantti.net/story/A001/gallery_pemsul_en.jpeg"
 gallery_title: "Planejamento espacial marinho no sul do Brasil"
 gallery_caption: "Definindo uma visão compartilhada para o uso sustentável do oceano no sul do Brasil."
-gallery_show: false
+gallery_show: true
+gallery_order: 3
 project_motivation: "Como alocar o espaço oceânico entre usuários concorrentes?"
 project_title: "Planejamento espacial marinho no sul do Brasil"
 project_client: "BNDES"
