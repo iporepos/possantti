@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wiley on Iporã Possantti, PhD</title><link>https://www.possantti.net/tags/wiley/</link><description>Recent content in Wiley on Iporã Possantti, PhD</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/tags/wiley/index.xml" rel="self" type="application/rss+xml"/><item><title>Illustrations for Sivapalan et al. Hydrology Textbook</title><link>https://www.possantti.net/projects/hydrology-textbook/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/hydrology-textbook/</guid><description>&lt;header class="project-header"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wiley on Iporã Possantti, PhD</title><link>https://www.possantti.net/tags/wiley/</link><description>Recent content in Wiley on Iporã Possantti, PhD</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/tags/wiley/index.xml" rel="self" type="application/rss+xml"/><item><title>Scientific hydrological concepts, illustrated</title><link>https://www.possantti.net/projects/hydrology-textbook/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/hydrology-textbook/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
-How do you illustrate 500&amp;#43; figures for a comprehensive hydrology textbook?
+How to consistently illustrate 500&amp;#43; figures for a comprehensive hydrology textbook?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures — ranging from 2D schematics to 3D rendered landscapes — all following a unified visual system for spacing, fonts, and color schemes. I work from rough author drafts, interpreting and translating hydrological concepts into publication-quality figures using a suite of tools including Inkscape, Blender, QGIS, and Python.
-&lt;/p&gt;</description></item></channel></rss>
+Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures, ranging from 2D schematics to 3D rendered landscapes, all produced with an entirely open-source toolchain: Inkscape, Blender, QGIS, and Python.
+&lt;/p&gt;
+&lt;/header&gt;
+&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;img src="https://photos.possantti.net/covers/main-cover.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
+&lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
+&lt;span class="caption"&gt;Terraced rice fields in northern Vietnam — a strong candidate photograph for the book cover. The landscape captures every hydrological scale at once: mountains, clouds, river, and the human interface with water.&lt;/span&gt;
+&lt;span class="separator"&gt; — &lt;/span&gt;
+&lt;span class="credit"&gt;©&amp;nbsp;&lt;em&gt;Undefined&lt;/em&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id="context"&gt;Context&lt;/h2&gt;
+&lt;p&gt;This is an ongoing illustration project for &lt;strong&gt;&amp;ldquo;Hydrology — unified principles and practices across scales,&amp;rdquo;&lt;/strong&gt; a textbook to be published by Wiley.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Textbook on Iporã Possantti, PhD</title><link>https://www.possantti.net/pt-br/tags/textbook/</link><description>Recent content in Textbook on Iporã Possantti, PhD</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/pt-br/tags/textbook/index.xml" rel="self" type="application/rss+xml"/><item><title>Conceitos científicos de hidrologia, ilustrados</title><link>https://www.possantti.net/pt-br/projects/hydrology-textbook/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/pt-br/projects/hydrology-textbook/</guid><description>&lt;header class="project-header"&gt;
+&lt;strong class="project-motivation"&gt;
+Como ilustrar de forma consistente mais de 500 figuras para um livro didático abrangente de hidrologia?
+&lt;/strong&gt;
+&lt;p class="project-abstract"&gt;
+Trabalho de ilustração técnica para um livro didático abrangente de hidrologia escrito por Günter Blöschl, Murugesu Sivapalan e Peter Troch, a ser publicado pela Wiley. O livro abrange 15 capítulos e requer mais de 500 figuras, de esquemas 2D a paisagens renderizadas em 3D, todas produzidas com um conjunto de ferramentas inteiramente de código aberto: Inkscape, Blender, QGIS e Python.
+&lt;/p&gt;</description></item></channel></rss>

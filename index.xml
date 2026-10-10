@@ -1,46 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Iporã Possantti, PhD</title><link>https://www.possantti.net/</link><description>Recent content in Home on Iporã Possantti, PhD</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Illustrations for Sivapalan et al. Hydrology Textbook</title><link>https://www.possantti.net/projects/hydrology-textbook/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/hydrology-textbook/</guid><description>&lt;header class="project-header"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Iporã Possantti, PhD</title><link>https://www.possantti.net/</link><description>Recent content in Home on Iporã Possantti, PhD</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.possantti.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Scientific hydrological concepts, illustrated</title><link>https://www.possantti.net/projects/hydrology-textbook/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/hydrology-textbook/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
-How do you illustrate 500&amp;#43; figures for a comprehensive hydrology textbook?
+How to consistently illustrate 500&amp;#43; figures for a comprehensive hydrology textbook?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures — ranging from 2D schematics to 3D rendered landscapes — all following a unified visual system for spacing, fonts, and color schemes. I work from rough author drafts, interpreting and translating hydrological concepts into publication-quality figures using a suite of tools including Inkscape, Blender, QGIS, and Python.
-&lt;/p&gt;</description></item><item><title>Water conservation across the Cerrado biome</title><link>https://www.possantti.net/projects/apcac/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/apcac/</guid><description>&lt;header class="project-header"&gt;
+Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures, ranging from 2D schematics to 3D rendered landscapes, all produced with an entirely open-source toolchain: Inkscape, Blender, QGIS, and Python.
+&lt;/p&gt;
+&lt;/header&gt;
+&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;img src="https://photos.possantti.net/covers/main-cover.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
+&lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
+&lt;span class="caption"&gt;Terraced rice fields in northern Vietnam — a strong candidate photograph for the book cover. The landscape captures every hydrological scale at once: mountains, clouds, river, and the human interface with water.&lt;/span&gt;
+&lt;span class="separator"&gt; — &lt;/span&gt;
+&lt;span class="credit"&gt;©&amp;nbsp;&lt;em&gt;Undefined&lt;/em&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id="context"&gt;Context&lt;/h2&gt;
+&lt;p&gt;This is an ongoing illustration project for &lt;strong&gt;&amp;ldquo;Hydrology — unified principles and practices across scales,&amp;rdquo;&lt;/strong&gt; a textbook to be published by Wiley.&lt;/p&gt;</description></item><item><title>Water conservation across the Cerrado biome</title><link>https://www.possantti.net/projects/apcac/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/apcac/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
 Where should water conservation efforts focus in Brazil&amp;#39;s largest savanna?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-A multi-scale hydrological assessment of the Cerrado biome identifying priority areas for water conservation — from hillslope infiltration dynamics to regional aquifer recharge — and translating the findings into a territorial planning framework to guide public policy.
+A multi-scale hydrological assessment of the Cerrado biome identifying priority areas for water conservation, from hillslope infiltration dynamics to regional aquifer recharge, and translating the findings into a territorial planning framework to guide public policy.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="width: 100; margin-left: auto; margin-right: auto;"&gt;
-&lt;img src="https://photos.possantti.net/cerrado/luiz-flamarion.jpg" alt="" style="width: 100%; height: auto;"&gt;
-&lt;figcaption class="post-caption"&gt;
-&lt;span class="caption"&gt;Riparian wetland in the foreground with elevated plateaus rising in the background — the same landscape mosaic that defines where infiltration happens and where it doesn&amp;#39;t.&lt;/span&gt;
+&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;img src="https://photos.possantti.net/cerrado/luiz-flamarion.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
+&lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
+&lt;span class="caption"&gt;Riparian wetland in the foreground with elevated plateaus rising in the background: the same landscape mosaic that defines where infiltration happens and where it doesn&amp;#39;t.&lt;/span&gt;
 &lt;span class="separator"&gt; — &lt;/span&gt;
-&lt;span class="credit"&gt;© Luiz Flamarion&lt;/span&gt;
+&lt;span class="credit"&gt;©&amp;nbsp;Luiz Flamarion&lt;/span&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id="context"&gt;Context&lt;/h2&gt;
-&lt;p&gt;The Cerrado is the most biodiverse savanna on Earth and the headwater of three of South America&amp;rsquo;s largest river systems — São Francisco, Paraná, and Araguaia. Its hydrology is governed by a sharp seasonal regime: a concentrated wet season followed by a long dry period in which &lt;strong&gt;rivers depend almost entirely on groundwater discharge&lt;/strong&gt; to keep flowing. That mechanism hinges on how much rainfall actually infiltrates into the soil rather than running off. &lt;strong&gt;Land use is the control valve of the system.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Marine Spatial Planning in Southern Brazil</title><link>https://www.possantti.net/projects/pem/project/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/pem/project/</guid><description>&lt;header class="project-header"&gt;
+&lt;p&gt;The Cerrado is the most biodiverse savanna on Earth and the headwater of three of South America&amp;rsquo;s largest river systems: São Francisco, Paraná, and Araguaia. Its hydrology is governed by a sharp seasonal regime: a concentrated wet season followed by a long dry period in which &lt;strong&gt;rivers depend almost entirely on groundwater discharge&lt;/strong&gt; to keep flowing. That mechanism hinges on how much rainfall actually infiltrates into the soil rather than running off. &lt;strong&gt;Land use is the control valve of the system.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Marine spatial planning in southern Brazil</title><link>https://www.possantti.net/projects/pem/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/pem/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
 How to allocate the ocean space among competing users?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-PEM Sul is the national pilot for Marine Spatial Planning in Brazil, covering the southern marine region across Paraná, Santa Catarina, and Rio Grande do Sul. The work develops spatially explicit indicators — including a composite Use Performance Index — to support sustainable, multi-sector ocean management.
+PEM Sul is the national pilot for marine spatial planning in Brazil, covering the southern marine region across Paraná, Santa Catarina, and Rio Grande do Sul. The work develops spatially explicit indicators (including a composite Performance Index) to support sustainable, multi-sector ocean management.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="width: 100; margin-left: auto; margin-right: auto;"&gt;
-&lt;img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" alt="" style="width: 100%; height: auto;"&gt;
-&lt;figcaption class="post-caption"&gt;
-&lt;span class="caption"&gt;The challenge of PEM is to allocate the ocean space in a fair and sustainable manner&lt;/span&gt;
+&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
+&lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
+&lt;span class="caption"&gt;The challenge of PEM-Sul is to allocate the ocean space in southern Brazil in a fair and sustainable manner&lt;/span&gt;
 &lt;span class="separator"&gt; — &lt;/span&gt;
-&lt;span class="credit"&gt;(c) Ian Stewart&lt;/span&gt;
+&lt;span class="credit"&gt;©&amp;nbsp;Gabriel Gomes&lt;/span&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id="context"&gt;Context&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Marine Spatial Planning (MSP)&lt;/strong&gt; is a public, participatory process for distributing human activities across marine space — targeting ecological, economic, and social objectives simultaneously. In Brazil, the ocean accounts for roughly &lt;strong&gt;19% of GDP&lt;/strong&gt; across some &lt;strong&gt;5.7 million km²&lt;/strong&gt; of national jurisdiction. Managing that space without accumulating conflicts requires more than sectoral regulation; it requires a spatial framework.&lt;/p&gt;</description></item><item><title>The era of communication</title><link>https://www.possantti.net/blog/the-era-of-communication/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/blog/the-era-of-communication/</guid><description>&lt;h2 id="the-global-risk"&gt;The global risk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Marine spatial planning (MSP)&lt;/strong&gt; is a public, participatory process for distributing human activities across marine space, targeting ecological, economic, and social objectives simultaneously. In Brazil, the ocean accounts for roughly &lt;strong&gt;19% of GDP&lt;/strong&gt; across some &lt;strong&gt;5.7 million km²&lt;/strong&gt; of national jurisdiction. Managing that space without accumulating conflicts requires more than sectoral regulation; it requires a spatial framework.&lt;/p&gt;</description></item><item><title>The era of communication</title><link>https://www.possantti.net/blog/the-era-of-communication/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/blog/the-era-of-communication/</guid><description>&lt;h2 id="the-global-risk"&gt;The global risk&lt;/h2&gt;
 &lt;p&gt;Once upon a time, information was a rare resource. Newspapers, TV anchors, and a few specialists told us what was happening. Manipulated? Often. But at the very least, it was &lt;em&gt;curated&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Then came smartphones, social media, and the algorithmic machine of chaos. Suddenly, everyone became a broadcaster—from your uncle in the family WhatsApp group to &lt;a href="https://www.youtube.com/watch?v=LJ6EYKRoUGM"&gt;youtubers who just discovered the word “hydrology”&lt;/a&gt; or the &lt;a href="https://www.instagram.com/p/DLHwU43OUeL/"&gt;councilwoman who believes she understands something about hydraulics&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>How to argue about the Guaíba</title><link>https://www.possantti.net/blog/how-to-argue-about-guaiba/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/blog/how-to-argue-about-guaiba/</guid><description>&lt;p&gt;In the &lt;a href="https://www.possantti.net/blog/how-to-not-argue-about-guaiba/"&gt;previous post&lt;/a&gt; I evaluated how not to argue about the Guaíba, in the context of the discussion on whether this water body is a river or a lake. Following up, I will now move forward with the basic principles of a rational discussion on the subject, and why I understand the Guaíba to be a &lt;em&gt;lake&lt;/em&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -58,10 +70,10 @@ PEM Sul is the national pilot for Marine Spatial Planning in Brazil, covering th
 &lt;p&gt;During the consultation, the doctor surprised me by inserting a small tube through my nose and instructed me to look at a screen. At that moment, I clearly saw the inside of my own pharynx — a sharp image of the ongoing infection, reddened and inflamed.&lt;/p&gt;
 &lt;p&gt;It was uncomfortable, revealing, and led me to take an antibiotic.&lt;/p&gt;</description></item><item><title>Water quality collapse in the Guaíba system</title><link>https://www.possantti.net/projects/climasano/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/climasano/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
-What happens to a city&amp;#39;s drinking water when every river in the basin floods at once?
+What happens to a city&amp;#39;s drinking water source during extreme flood coditions?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-A FAPERGS-funded research project (internally named CLIMASANO), led by the sanitation research group at IPH/UFRGS, investigating how the unprecedented 2024 compound flood degraded raw water quality in the Guaíba system — Porto Alegre&amp;#39;s primary drinking-water source serving 1.3 million people. I joined the project as a postdoc researcher on a one-year scholarship, working as data curator: building and maintaining the project&amp;#39;s spatial database and organizing water quality records from seven monitoring campaigns into a queryable GeoPackage.
+A FAPERGS-funded research project (internally named CLIMASANO), led by the sanitation research group at IPH/UFRGS, investigating how the unprecedented 2024 compound flood degraded raw water quality in the Guaíba system, Porto Alegre&amp;#39;s primary drinking-water source serving 1.3 million people. I joined the project as a postdoc researcher on a one-year scholarship, working as data curator: building and maintaining the project&amp;#39;s spatial database and organizing water quality records from seven monitoring campaigns into a queryable GeoPackage.
 &lt;/p&gt;</description></item><item><title>I think some water's coming down</title><link>https://www.possantti.net/blog/some-water-is-coming-down/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/blog/some-water-is-coming-down/</guid><description>&lt;h2 id="cinematic-reality"&gt;Cinematic reality&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I think some water&amp;rsquo;s coming down, eh&lt;/p&gt;
@@ -72,24 +84,24 @@ A FAPERGS-funded research project (internally named CLIMASANO), led by the sanit
 &lt;p&gt;The main culprit for this wasn&amp;rsquo;t my colleagues or local professors at the IPH, but the articles and books of a certain British hydrologist, &lt;a href="https://en.wikipedia.org/wiki/Keith_Beven"&gt;Keith Beven&lt;/a&gt;. This fellow, besides looking like a wizard of the Merlin or Gandalf variety, manages to make Hydrology a far more interesting (and mysterious) science than I had ever even considered.&lt;/p&gt;</description></item><item><title>Resetting</title><link>https://www.possantti.net/blog/resettings/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/blog/resettings/</guid><description>&lt;h2 id="the-ipoverse"&gt;The ipoverse&lt;/h2&gt;
 &lt;p&gt;Since 2007, I have been creating a fair number of blogs. None of them remained active for very long—perhaps three years at most.&lt;/p&gt;
 &lt;p&gt;In the beginning, some of the blogs I made were heavily focused on politics. Others were geared towards philosophies of life.&lt;/p&gt;
-&lt;p&gt;Others were thematic, such as one I wrote about Porto Alegre (which is still online &lt;a href="https://portoalegredecima.wordpress.com/"&gt;here&lt;/a&gt;). In that one, every post was related to a Google Earth image.&lt;/p&gt;</description></item><item><title>Environmental Diagnostic in Rio Pardo valley</title><link>https://www.possantti.net/projects/cisvale-dsa/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/cisvale-dsa/</guid><description>&lt;header class="project-header"&gt;
+&lt;p&gt;Others were thematic, such as one I wrote about Porto Alegre (which is still online &lt;a href="https://portoalegredecima.wordpress.com/"&gt;here&lt;/a&gt;). In that one, every post was related to a Google Earth image.&lt;/p&gt;</description></item><item><title>Environmental diagnostic in Rio Pardo valley</title><link>https://www.possantti.net/projects/cisvale-dsa/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/cisvale-dsa/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
 After the 2024 floods, how do you map hazard and vulnerability across 17 municipalities with no field budget?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-Environmental hazard and vulnerability assessment for the Diagnóstico Socioambiental (DSA) of 17 municipalities in the Vale do Rio Pardo, Rio Grande do Sul, coordinated by the CISVALE consortium. Working as a remote consultant hired by UNISC, I produced flood and landslide susceptibility maps for each municipality using Height Above Nearest Drainage, topographic analysis, and CNEFE address data to cross hazard with population exposure — turning susceptibility into vulnerability.
-&lt;/p&gt;</description></item><item><title>Gramado Expansion Plan</title><link>https://www.possantti.net/projects/gramado-expansion/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/gramado-expansion/</guid><description>&lt;header class="project-header"&gt;
+Environmental hazard and vulnerability assessment for the Diagnóstico Socioambiental (DSA) of 17 municipalities in the Vale do Rio Pardo, Rio Grande do Sul, coordinated by the CISVALE consortium. Working as a remote consultant hired by UNISC, I produced flood and landslide susceptibility maps for each municipality using Height Above Nearest Drainage, topographic analysis, and CNEFE address data to cross hazard with population exposure, turning susceptibility into vulnerability.
+&lt;/p&gt;</description></item><item><title>Natural capital assessment for Canela's master plan</title><link>https://www.possantti.net/projects/canela-master-plan/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/canela-master-plan/</guid><description>&lt;header class="project-header"&gt;
+&lt;strong class="project-motivation"&gt;
+How do you put a number on a city&amp;#39;s natural capital, and use it to balance development with conservation?
+&lt;/strong&gt;
+&lt;p class="project-abstract"&gt;
+Ecosystem services and natural capital assessment for the revision of Canela&amp;#39;s Plano Diretor (urban master plan). The core deliverable was a habitat quality map using InVEST and the Equivalent Biodiversity Area (EBA) metric, providing the scientific basis for a no-net-loss compensation mechanism within the municipality. The work also covered vegetation indices, hydrological indicators, water balance modeling, soil loss estimation, geological and hydrological risk mapping, and stream carrying capacity analysis.
+&lt;/p&gt;</description></item><item><title>Gramado expansion plan</title><link>https://www.possantti.net/projects/gramado-expansion/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/gramado-expansion/</guid><description>&lt;header class="project-header"&gt;
 &lt;strong class="project-motivation"&gt;
 How do you define environmental boundaries for urban expansion on a plateau with sensitive wetlands and a conservation unit?
 &lt;/strong&gt;
 &lt;p class="project-abstract"&gt;
-Environmental characterization for Gramado&amp;#39;s planned urban expansion to the north, conducted through the NTU at UFRGS. I provided land use assessment, topographic analysis, drainage mapping using high-resolution DEM (~1 m), and a hydrologically-grounded proposal for the buffer zone of a conservation unit — arguing that catchment boundaries, not arbitrary distances, should define the protection area.
-&lt;/p&gt;</description></item><item><title>Canela Master Plan</title><link>https://www.possantti.net/projects/canela-master-plan/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://www.possantti.net/projects/canela-master-plan/</guid><description>&lt;header class="project-header"&gt;
-&lt;strong class="project-motivation"&gt;
-How do you quantify environmental constraints for a growing mountain town&amp;#39;s master plan?
-&lt;/strong&gt;
-&lt;p class="project-abstract"&gt;
-Environmental dimension assessment for the revision of Canela&amp;#39;s Plano Diretor (master plan), conducted through the Núcleo de Tecnologia Urbana (NTU) at UFRGS, coordinated by Professor Benamy Turkienicz. I contributed land use change analysis using MapBiomas, silviculture expansion assessment, topographic analysis, and habitat quality modeling using InVEST — applying the Equivalent Biodiversity Area method from a paper I led.
+Environmental characterization for Gramado&amp;#39;s planned urban expansion to the north, conducted through the NTU at UFRGS. I provided land use assessment, topographic analysis, drainage mapping using high-resolution DEM (~1 m), and a hydrologically-grounded proposal for the buffer zone of a conservation unit, arguing that catchment boundaries, not arbitrary distances, should define the protection area.
 &lt;/p&gt;</description></item><item><title>A comprehensive strategy for modeling watershed restoration priority areas under epistemic uncertainty: A case study in the Atlantic Forest, Brazil</title><link>https://www.possantti.net/publications/headless/possantti_2023_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_a/</guid><description/></item><item><title>A modelling framework for nature-based solutions expansion planning considering the benefits to downstream urban water users</title><link>https://www.possantti.net/publications/headless/possantti_2022_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2022_a/</guid><description/></item><item><title>A report on the experience of risk communication by volunteer researchers during the 2024 climate disaster in Rio Grande do Sul, Brazil</title><link>https://www.possantti.net/publications/headless/possantti_2026_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2026_a/</guid><description/></item><item><title>A synthesis on fundamental principles and problems in the use of hydrological models for planning watershed conservation</title><link>https://www.possantti.net/education/headless/possantti_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2024_a/</guid><description/></item><item><title>About</title><link>https://www.possantti.net/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/about/</guid><description>&lt;h2 id="why-i-work"&gt;Why I work&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Nature&lt;/strong&gt; has always been a great source of inspiration for me. Natural environments attract me both through scientific curiosity and through personal and sublime experience. I see their elements not only as objects of study, but as systems with structure, rhythm, and beauty.&lt;/p&gt;
 &lt;p&gt;During my academic training in southern Brazil, I got involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.&lt;/p&gt;</description></item><item><title>An integrated hydro-finance approach towards sustainable urban stormwater and flood control management</title><link>https://www.possantti.net/publications/headless/marques_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_a/</guid><description/></item><item><title>CHIRPS</title><link>https://www.possantti.net/collections/datasets/chirps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/collections/datasets/chirps/</guid><description/></item><item><title>Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil’s changing biomes</title><link>https://www.possantti.net/publications/headless/fontoura_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/fontoura_2024_a/</guid><description/></item><item><title>Evaluating the effectiveness of a stormwater wetland project in improving water quality and regulating streamflow in the Arroio do Salso - Porto Alegre/RS</title><link>https://www.possantti.net/education/headless/possantti_2016_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2016_a/</guid><description/></item><item><title>How water quality under extreme floods compromises ecosystem services, sanitation and One Health</title><link>https://www.possantti.net/publications/headless/albornoz_2026_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/albornoz_2026_a/</guid><description/></item><item><title>Integrating water charges policies and watershed plans for improved investment and financial sustainability in water resources management</title><link>https://www.possantti.net/publications/headless/marques_2024_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_b/</guid><description/></item><item><title>Planning the expansion of nature-based solutions for water considering the relationship between cost and benefit</title><link>https://www.possantti.net/education/headless/possantti_2020_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2020_a/</guid><description/></item><item><title>Services</title><link>https://www.possantti.net/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/services/</guid><description>&lt;style&gt;
@@ -322,4 +334,64 @@ padding-left: 20px;
 &lt;span class="svc-eyebrow"&gt;Research &amp;amp; Consultancy&lt;/span&gt;
 &lt;h1 class="svc-hero-title"&gt;Hydrology &amp;amp; Environmental Planning, driven by data.&lt;/h1&gt;
 &lt;p class="svc-hero-desc"&gt;I operate as an independent technical unit — delivering well-scoped, documented solutions for environmental problems. Minimal coordination overhead, predictable workflow.
-&lt;/p&gt;</description></item><item><title>Simulação de tecnologias LID em lotes urbanos para controle de escoamento superficial</title><link>https://www.possantti.net/publications/headless/tejadas_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/tejadas_2019_a/</guid><description/></item><item><title>Sobre quatro princípios fundamentais para guiar o uso de modelos hidrológicos no mapeamento de área prioritárias em programas de revitalização de bacias hidrográficas</title><link>https://www.possantti.net/publications/headless/possantti_2023_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_b/</guid><description/></item><item><title>Soluções baseadas na natureza para sistemas hídricos de cidades conceituação e modelagem a nível de planejamento</title><link>https://www.possantti.net/publications/headless/possantti_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2019_a/</guid><description/></item><item><title>Technological Hazard Vulnerability: A GIS-Based Approach for Supporting Environmental Zoning</title><link>https://www.possantti.net/publications/headless/possantti_2021_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2021_a/</guid><description/></item><item><title>The economic value of hydrometeorological information in the planning of large-scale hydropower system operations</title><link>https://www.possantti.net/publications/headless/dalcin_2025_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/dalcin_2025_a/</guid><description/></item><item><title>The exceptional hydrological disaster of April-May 2024 in southern Brazil</title><link>https://www.possantti.net/publications/headless/collischonn_2025_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/collischonn_2025_a/</guid><description/></item></channel></rss>
+&lt;/p&gt;</description></item><item><title>Simulação de tecnologias LID em lotes urbanos para controle de escoamento superficial</title><link>https://www.possantti.net/publications/headless/tejadas_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/tejadas_2019_a/</guid><description/></item><item><title>Sobre quatro princípios fundamentais para guiar o uso de modelos hidrológicos no mapeamento de área prioritárias em programas de revitalização de bacias hidrográficas</title><link>https://www.possantti.net/publications/headless/possantti_2023_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_b/</guid><description/></item><item><title>Soluções baseadas na natureza para sistemas hídricos de cidades conceituação e modelagem a nível de planejamento</title><link>https://www.possantti.net/publications/headless/possantti_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2019_a/</guid><description/></item><item><title>Style Guide</title><link>https://www.possantti.net/styleguide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/styleguide/</guid><description>&lt;p&gt;Internal reference for this site&amp;rsquo;s custom shortcodes and partials — not linked from the main navigation, listed only in the footer. Documents parameters and defaults, with live rendered examples so behaviour is visible, not just described. English only.&lt;/p&gt;
+&lt;h2 id="img"&gt;img&lt;/h2&gt;
+&lt;p&gt;Figure with image, caption, and credit. &lt;code&gt;layouts/shortcodes/img.html&lt;/code&gt; → &lt;code&gt;layouts/partials/img.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p class="sg-subheading"&gt;Parameters&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Param&lt;/th&gt;
+&lt;th&gt;Default&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;src&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;td&gt;Image URL (absolute or site-relative). Required unless &lt;code&gt;key&lt;/code&gt; is set.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;key&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;td&gt;Lookup into &lt;code&gt;data/images.yaml&lt;/code&gt; — supplies &lt;code&gt;src&lt;/code&gt;/&lt;code&gt;alt&lt;/code&gt;/&lt;code&gt;caption&lt;/code&gt;/&lt;code&gt;credit&lt;/code&gt;/&lt;code&gt;width&lt;/code&gt; as fallbacks. Required unless &lt;code&gt;src&lt;/code&gt; is set.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;caption&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Caption text.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;credit&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt; → italic &amp;ldquo;Undefined&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Credit text. Any existing &lt;code&gt;(c)&lt;/code&gt;/&lt;code&gt;©&lt;/code&gt; is stripped; output is always prefixed with a single &lt;code&gt;©&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;alt&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Alt text.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;width&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;70%&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Image width, as a % of the text column. Bare numbers are treated as percent (&lt;code&gt;width=80&lt;/code&gt; == &lt;code&gt;&amp;quot;80%&amp;quot;&lt;/code&gt;).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;align&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;left&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Horizontal position of the image+caption block: &lt;code&gt;left&lt;/code&gt; | &lt;code&gt;center&lt;/code&gt; | &lt;code&gt;right&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;width_caption&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;mirrors &lt;code&gt;width&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Caption box width, same % rules as &lt;code&gt;width&lt;/code&gt;. Pass &lt;code&gt;width_caption=100&lt;/code&gt; for the full text column regardless of image width.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;align_caption&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;left&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Caption text-align: &lt;code&gt;left&lt;/code&gt; (ragged-right) | &lt;code&gt;center&lt;/code&gt; | &lt;code&gt;right&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="sg-subheading"&gt;Default&lt;/p&gt;</description></item><item><title>Technological Hazard Vulnerability: A GIS-Based Approach for Supporting Environmental Zoning</title><link>https://www.possantti.net/publications/headless/possantti_2021_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2021_a/</guid><description/></item><item><title>The economic value of hydrometeorological information in the planning of large-scale hydropower system operations</title><link>https://www.possantti.net/publications/headless/dalcin_2025_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/dalcin_2025_a/</guid><description/></item><item><title>The exceptional hydrological disaster of April-May 2024 in southern Brazil</title><link>https://www.possantti.net/publications/headless/collischonn_2025_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/collischonn_2025_a/</guid><description/></item></channel></rss>
