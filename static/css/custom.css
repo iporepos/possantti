@@ -183,14 +183,23 @@ html.dark .carousel-item {
 
   .carousel-item {
     flex: 0 0 auto;
-    width: 80%; /* narrower than the text column on mobile */
-    max-width: 80%;
+    width: 100%;
+    max-width: 100%;
     scroll-snap-align: none;
   }
 
   .carousel-item img {
     width: 100%;
     height: auto;
+  }
+
+  /* On mobile, text wraps to more lines than the desktop fixed heights
+     allow for, so let title/caption grow with their content instead
+     of clipping it. */
+  .carousel-title,
+  .carousel-caption {
+    height: auto;
+    min-height: 0;
   }
 
   .carousel-wrapper .gallery-nav {
