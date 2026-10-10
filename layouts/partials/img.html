@@ -62,6 +62,21 @@
 {{ $credit := .credit | default $defaultCredit }}
 
 {{/* ---------------------------------- */}}
+{{/* Normalize credit: strip any existing "(c)"/"©", default to "Undefined" */}}
+{{/* ---------------------------------- */}}
+
+{{ $creditIsUndefined := false }}
+{{ $cleanCredit := $credit | default "" }}
+{{ $cleanCredit = replaceRE `(?i)\(c\)` "" $cleanCredit }}
+{{ $cleanCredit = replaceRE `©` "" $cleanCredit }}
+{{ $cleanCredit = strings.TrimSpace $cleanCredit }}
+
+{{ if eq $cleanCredit "" }}
+  {{ $creditIsUndefined = true }}
+  {{ $cleanCredit = "Undefined" }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
 {{/* Resolve width (priority: param > data > default) */}}
 {{/* ---------------------------------- */}}
 
@@ -76,27 +91,62 @@
 {{ end }}
 
 {{/* ---------------------------------- */}}
+{{/* Normalize width (append % if unitless, e.g. width=80) */}}
+{{/* ---------------------------------- */}}
+
+{{ $width = printf "%v" $width }}
+{{ if not (strings.Contains $width "%") }}
+  {{ $width = printf "%s%%" $width }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption text-align (default: left/ragged-right) */}}
+{{/* ---------------------------------- */}}
+
+{{ $alignCaption := .align_caption | default "left" }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption width (default: follows image width; set width_caption=100 for full text column) */}}
+{{/* ---------------------------------- */}}
+
+{{ $widthCaption := .width_caption | default $width }}
+{{ $widthCaption = printf "%v" $widthCaption }}
+{{ if not (strings.Contains $widthCaption "%") }}
+  {{ $widthCaption = printf "%s%%" $widthCaption }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve block position (default: left/ragged-right) */}}
+{{/* ---------------------------------- */}}
+
+{{ $align := .align | default "left" }}
+
+{{ $marginLeft := "auto" }}
+{{ $marginRight := "auto" }}
+{{ if eq $align "left" }}
+  {{ $marginLeft = "0" }}
+{{ else if eq $align "right" }}
+  {{ $marginRight = "0" }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
 {{/* Render */}}
 {{/* ---------------------------------- */}}
 
-<figure style="width: {{ $width }}; margin-left: auto; margin-right: auto;">
-  <img src="{{ $src }}" alt="{{ $alt }}" style="width: 100%; height: auto;">
+<figure style="margin-left: auto; margin-right: auto;">
+  <img src="{{ $src }}" alt="{{ $alt }}" style="display: block; width: {{ $width }}; height: auto; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }};">
 
-  {{ if or $caption $credit }}
-    <figcaption class="post-caption">
+  <figcaption class="post-caption" style="width: {{ $widthCaption }}; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }}; text-align: {{ $alignCaption }};">
 
-      {{ with $caption }}
-        <span class="caption">{{ . }}</span>
-      {{ end }}
+    {{ with $caption }}
+      <span class="caption">{{ . }}</span>
+    {{ end }}
 
-      {{ if and $caption $credit }}
-        <span class="separator"> — </span>
-      {{ end }}
+    {{ if $caption }}
+      <span class="separator"> — </span>
+    {{ end }}
 
-      {{ with $credit }}
-        <span class="credit">{{ . }}</span>
-      {{ end }}
+    <span class="credit">©&nbsp;{{ if $creditIsUndefined }}<em>{{ $cleanCredit }}</em>{{ else }}{{ $cleanCredit }}{{ end }}</span>
 
-    </figcaption>
-  {{ end }}
+  </figcaption>
 </figure>

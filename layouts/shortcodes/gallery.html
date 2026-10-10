@@ -1,6 +1,13 @@
 {{/*
 Usage:
 {{< gallery section="projects" limit="6" >}}
+
+Page order: pages set a `gallery_order` front-matter number to pin their position
+(ascending). Pages without it fall back to the section's default date-descending
+order, placed after any explicitly ordered pages.
+
+Page visibility: pages set `gallery_show: false` to be excluded entirely
+(e.g. to declutter without deleting content). Default, when absent, is true.
 */}}
 
 {{ $section := .Get "section" }}
@@ -8,6 +15,13 @@ Usage:
 
 {{ $pages := where site.RegularPages "Section" $section }}
 {{ $pages = where $pages "Lang" .Page.Site.Language.Lang }}
+{{ $pages = where $pages "Params.gallery_show" "!=" false }}
+
+{{ $ordered := where $pages "Params.gallery_order" "!=" nil }}
+{{ $ordered = sort $ordered "Params.gallery_order" "asc" }}
+{{ $unordered := where $pages "Params.gallery_order" nil }}
+{{ $pages = $ordered | append $unordered }}
+
 {{ $pages = first $limit $pages }}
 
 {{ partial "gallery.html" (dict

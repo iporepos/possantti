@@ -1,3 +1,23 @@
+{{/*
+  img — figure/image with caption + credit.
+  Full behaviour docs + live examples: layouts/partials/img.html (top comment) and /styleguide/.
+
+  Params:
+    src            Image URL (absolute or site-relative). Required unless `key` is set.
+    key            Lookup key into data/images.yaml (site.Data.images) — supplies src/alt/caption/credit/width
+                   as fallbacks, each overridable by the params below. Required unless `src` is set.
+    caption        Caption text. Default: "" (none), or the key's caption from images.yaml.
+    credit         Credit text. Any "(c)"/"©" already in the string is stripped; the output is always
+                   prefixed with a single "©", defaulting to italic "Undefined" when empty.
+    alt            Alt text. Default: "" (none), or the key's alt from images.yaml.
+    width           Image width, % of the text column. Bare numbers are treated as percent (width=80 == "80%").
+                    Default: "70%", or the key's width from images.yaml.
+    align           Horizontal position of the image+caption block: "left" (default) | "center" | "right".
+    width_caption   Caption box width, same % rules as `width`. Default: mirrors `width`.
+                    Pass 100 to span the full text column regardless of image width.
+    align_caption   Caption text-align: "left" (default, ragged-right) | "center" | "right".
+    class, page     Accepted but currently unused by the partial (no-ops).
+*/}}
 {{ partial "img.html" (dict
   "key" (.Get "key")
   "src" (.Get "src")
@@ -5,6 +25,9 @@
   "credit" (.Get "credit")
   "alt" (.Get "alt")
   "width" (.Get "width")
+  "align" (.Get "align")
+  "width_caption" (.Get "width_caption")
+  "align_caption" (.Get "align_caption")
   "class" (.Get "class")
   "page" .Page
 ) }}

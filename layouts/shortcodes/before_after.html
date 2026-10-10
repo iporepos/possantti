@@ -1,3 +1,35 @@
+{{/*
+  before_after — drag-to-reveal slider comparing two images (e.g. draft vs. final,
+  before vs. after treatment). Pure CSS clip-path reveal + a small JS drag/keyboard
+  handler (static/js/before-after.js); no external library.
+  Full behaviour docs + live examples: layouts/partials/before-after.html (top
+  comment) and /styleguide/.
+
+  Params — image/slider specific:
+    before        Image for the "before" side — a data/images.yaml key, or a direct
+                   URL/path. Required.
+    after         Image for the "after" side — same resolution rules. Required.
+    before_label  Tag text on the before side. Default: "Before".
+    after_label   Tag text on the after side. Default: "After".
+    ruler         Which image's aspect ratio sizes the box — "before" | "after".
+                   The other image is cropped (object-fit: cover) to fill that box.
+                   Default: "after".
+    direction     Drag axis — "horizontal" | "vertical". Default: "horizontal".
+    position      Initial reveal position, 0-100. Default: "50" (centered).
+
+  Params — shared with `img` (same behavior/defaults as that shortcode):
+    caption        Caption text. Default: "" (none).
+    credit         Credit text. Any "(c)"/"©" already in the string is stripped; the
+                   output is always prefixed with a single "©", defaulting to italic
+                   "Undefined" when empty.
+    width          Slider width. Bare numbers are treated as percent (width=80 ==
+                   "80%"); any other CSS unit (e.g. "500px") passes through unchanged.
+                   Default: "100%".
+    align          Horizontal position of the slider+caption block: "left" (default,
+                   ragged-right) | "center" | "right".
+    width_caption  Caption box width, same rules as `width`. Default: mirrors `width`.
+    align_caption  Caption text-align: "left" (default, ragged-right) | "center" | "right".
+*/}}
 {{ partial "before-after.html" (dict
   "before" (.Get "before")
   "after" (.Get "after")
@@ -6,6 +38,9 @@
   "caption" (.Get "caption")
   "credit" (.Get "credit")
   "width" (.Get "width")
+  "align" (.Get "align")
+  "width_caption" (.Get "width_caption")
+  "align_caption" (.Get "align_caption")
   "ruler" (.Get "ruler")
   "direction" (.Get "direction")
   "position" (.Get "position")

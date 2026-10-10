@@ -1,72 +1,75 @@
 ---
 author: "Iporã Possantti"
-title: "Canela Master Plan"
-date: 2023-06-01
-featured_image: "https://photos.possantti.net/covers/canela-1.jpg"
-gallery_src: "https://photos.possantti.net/covers/canela-1.jpg"
-gallery_title: "Canela Master Plan"
-gallery_caption: "Quantifying environmental constraints for a growing mountain town's master plan."
-project_motivation: "How do you quantify environmental constraints for a growing mountain town's master plan?"
-project_title: "Environmental assessment for the revision of Canela's Master Plan" 
+title: "Natural capital assessment for Canela's master plan"
+date: 2024-09-01
+featured_image: "https://photos.possantti.net/covers/canela-rodrigo-menezes-pexels.jpeg"
+gallery_src: "https://images.possantti.net/story/A015/gallery_canela_en.jpeg"
+gallery_title: "Inventory of natural capital in Canela"
+gallery_caption: "Mapping habitat quality to ground a no-net-loss strategy in Serra Gaúcha."
+gallery_order: 3
+project_motivation: "How do you put a number on a city's natural capital, and use it to balance development with conservation?"
+project_title: "Revisão do Plano Diretor de Canela (RS), Fase Diagnóstico" 
 project_client: "Prefeitura Municipal de Canela"
-project_intermediate: "NTU/UFRGS"
+project_intermediate: "NTU/UFRGS | Fundação Luiz Englert"
 project_role: "Environmental Analyst"
-project_abstract: "Environmental dimension assessment for the revision of Canela's Plano Diretor (master plan), conducted through the Núcleo de Tecnologia Urbana (NTU) at UFRGS, coordinated by Professor Benamy Turkienicz. I contributed land use change analysis using MapBiomas, silviculture expansion assessment, topographic analysis, and habitat quality modeling using InVEST — applying the Equivalent Biodiversity Area method from a paper I led."
+project_abstract: "Ecosystem services and natural capital assessment for the revision of Canela's Plano Diretor (urban master plan). The core deliverable was a habitat quality map using InVEST and the Equivalent Biodiversity Area (EBA) metric, providing the scientific basis for a no-net-loss compensation mechanism within the municipality. The work also covered vegetation indices, hydrological indicators, water balance modeling, soil loss estimation, geological and hydrological risk mapping, and stream carrying capacity analysis."
 project_domain: "Environmental Planning"
 project_category: "Consulting"
 project_tools: ["QGIS", "Python", "plans", "InVEST", "MapBiomas", "OpenStreetMap"]
-project_team: ["Benamy Turkienicz — NTU coordinator (UFRGS)"]
+project_team: ["Fernando Dornelles — IPH/UFRGS", "Tatiana Silva — Instituto de Geociências/UFRGS", "Ana McIntosh — Fulbright fellow (MIT)", "Benamy Turkienicz — NTU coordinator (UFRGS)"]
 categories: ["projects"]
-tags: ["urban planning", "master plan", "habitat quality", "land use", "InVEST"] 
+tags: ["ecosystem services", "natural capital", "habitat quality", "no net loss", "InVEST", "urban planning"] 
 ---
 
 {{< project_header >}}
 
-{{< img src="https://photos.possantti.net/covers/canela-1.jpg" width=100 caption="Canela's landscape in the Serra Gaúcha region." credit="">}}
+{{< img src="https://photos.possantti.net/covers/canela-rodrigo-menezes-pexels.jpeg" width=100 caption="Caracol Falls, one of Canela's iconic landmarks, fed by streams originating in the urban area." credit="">}}
 
 ---
 
 ## Context
 
-Canela, in Rio Grande do Sul's Serra Gaúcha region, revised its Plano Diretor (master plan) — the instrument governing urban development, zoning, and environmental protection — as Brazilian law requires every ten years.
+Canela sits on a transition zone in the Serra Gaúcha, between the deep forested valleys of the Rio dos Sinos basin to the south and the silviculture-dominated plateau draining to the Rio Caí in the north. As the municipality revised its Plano Diretor (urban master plan), the environmental dimension needed more than a checklist of protected areas. It needed a spatial accounting of the municipality's natural capital: where ecosystem services are being produced, where they're being lost, and how development can be structured so that ecological value isn't simply erased.
 
-The revision was coordinated by the Núcleo de Tecnologia Urbana (NTU) at UFRGS, led by Professor Benamy Turkienicz, under contract with the Prefeitura Municipal de Canela. I was brought in to handle the environmental assessment: identifying spatial patterns and trends to inform zoning and land use policy.
+I was brought in as an independent consultant to produce this assessment, working under the Núcleo de Tecnologia Urbana (NTU) at UFRGS. The project ran from late 2023 into 2024, covering both Canela and, in a later phase, the planned urban expansion area ("Nova Centralidade") in neighboring Gramado.
 
 ---
 
 ## Approach
 
-The first step was an **enhanced land use map** blending MapBiomas classification — native forest, silviculture, agriculture, urban — with OpenStreetMap road geometries, since MapBiomas alone misses roads, a critical threat to habitat connectivity. This let the map feed directly into the habitat quality model with realistic threat distances.
+The assessment was framed around two classes of ecosystem services: those related to **biodiversity** and those related to **water**. For each, I produced spatial indicators that could be evaluated at multiple scales, from the full municipality down to individual urban lots.
 
-From this base, a **temporal analysis** using MapBiomas time series tracked landscape transformation over recent decades, revealing clear **silviculture** (pine and eucalyptus) expansion in the north, displacing native vegetation and fragmenting habitat.
+{{< img src="https://images.possantti.net/story/A015/gallery_canela_en.jpeg" width=90 caption="Habitat quality across Canela: from degraded urban core to preserved Atlantic Forest, with the Equivalent Biodiversity Area translating ecological value into a metric planners can act on." align="center" credit="">}}
 
-The core analytical piece was a **habitat quality assessment** using the InVEST model and the **Equivalent Biodiversity Area (EBA)** method, which I developed and published as lead researcher in the *Journal of Environmental Management* (da Fontoura et al., 2024). InVEST estimates habitat degradation from proximity to threats — roads, urban areas, agriculture — weighted by expert-derived parameters; the paper's contribution was grounding those parameters in structured expert questionnaires rather than arbitrary assumptions. EBA then translates habitat quality and degradation into a single area-equivalent number, legible for planners.
+On the biodiversity side, the central output was a **habitat quality map** using the InVEST model, built from an enhanced land use map that blended MapBiomas classification with OpenStreetMap road geometries. The model estimates how habitat degrades as a function of proximity to threats (roads, urban areas, agriculture) using expert-derived parameters from a published research paper I led (Fontoura et al., 2024).
 
-The results revealed a strong **north-south gradient**: the silviculture-dominated north showed poor habitat quality, while Atlantic Forest remnants in the south retained much higher ecological value. This opened the door to a **no-net-loss compensation mechanism** — developers could target the degraded north for new projects while conserving equivalent biodiversity area in the richer south, with EBA as the accounting unit for an internal compensation market calculated on scientific grounds.
+The results revealed a clear north-south gradient: silviculture in the north showed habitat quality values around 0.1, while Atlantic Forest remnants in the south reached 0.8. This gradient became the basis for proposing a **no-net-loss compensation mechanism** using the **Equivalent Biodiversity Area (EBA)** metric: a single number that translates habitat quality into an area-equivalent, giving planners a legible accounting unit for compensation schemes.
 
-I also ran a **topographic analysis** to characterize terrain constraints for urban expansion and infrastructure planning.
+Complementing the habitat assessment, I also produced NDVI vegetation maps (Sentinel-2, 10 m), a Topographic Wetness Index (TWI) for identifying saturation-prone areas relevant to urban drainage, annual water balance maps from hydrological modeling (using the PLANS model), and soil loss estimates (USLE-M).
 
-All outputs were delivered as GeoPackages and TIFF rasters, designed as intermediate products the NTU team could assimilate directly into the broader master plan — without reprocessing the raw data.
+{{< img src="https://images.possantti.net/story/A015/canela_landuse_1.gif" width=100 caption="Three decades of land use change in Canela: forest loss and silviculture expansion animated from MapBiomas time series." credit="">}}
 
-{{< img src="/images/default.jpg" width=100 caption="Habitat quality map of Canela (InVEST model output), showing the north–south gradient in ecological value." credit="">}}
+On the risk side, the assessment included **SHALSTAB-based landslide susceptibility mapping** and **HAND-based flood susceptibility mapping** for both Canela's urban area and Gramado's expansion zone, as well as an analysis of **stream carrying capacity** for sewage dilution under different population growth scenarios.
+
+All outputs were delivered as GeoPackages and TIFF rasters, intermediate products designed for the NTU team to assimilate into the broader master plan without reprocessing.
 
 ---
 
 ## Outcomes
 
-The deliverables were technical reports — covering land use trends, habitat quality maps, and topographic constraints — produced as an independent consultant for the NTU team and integrated into the broader master plan revision. They are available below as reference material.
+The work produced four technical reports covering the full scope of the environmental assessment, available below. The core contribution is the EBA proof-of-concept, which demonstrates how the no-net-loss strategy can be operationalized at the municipal scale, including worked examples of compensation for typical development projects.
 
-**Resources:**
+As of late 2024, Canela's plan in force remains Lei Complementar nº 32/2012. My contribution ran from 2023 into 2024, before the May 2024 floods shifted priorities across the region.
 
-- Environmental Assessment Report — Land Use and Habitat Quality *(report link pending)*
-- [da Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120424) — *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management. *(method reference)*
+**Reports:**
 
-As of late 2024, the plan in force remains Lei Complementar nº 32/2012; amendments have been introduced (e.g., PLC nº 7/2024, airport area), but a full revision hasn't been published. My contribution ran from 2023 into early 2024, before the May 2024 floods shifted priorities.
+- [Ecosystem Services Diagnostic](https://documents.possantti.net/A015/report_A015_canela_consultores.pdf) — NDVI, habitat quality, TWI, water balance, soil loss, and UGPA delineation
+- [Equivalent Biodiversity Area](https://documents.possantti.net/A015/report_A015_canela_NNL.pdf) — proof of concept for no-net-loss compensation in Canela
+- [Risk Assessment](https://documents.possantti.net/A015/report_A015_canela_risk_waterquality.pdf) — landslide and flood susceptibility, stream carrying capacity for Canela and Gramado
+- [Technical Considerations](https://documents.possantti.net/A015/report_A015_canela_comments.pdf) — supplementary notes on indicators and environmental management units
 
----
+**Method reference:**
 
-### Project Info
-
-*Contracted through Fundação Luiz Englert (UFRGS)*
+- [Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120540) — *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management.
 
 {{< project_footer >}}

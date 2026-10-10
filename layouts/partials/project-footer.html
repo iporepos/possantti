@@ -1,22 +1,30 @@
 {{/* Project Footer Partial */}}
 
+<hr class="project-footer-rule">
+
 <header class="project-footer">
 
-  <div class="project-footer-head">
-    {{ with .Params.project_domain }}
-      <span class="project-domain">{{ . }}</span>
-    {{ end }}
-
-    {{ if and .Params.project_domain .Params.project_category }}
-      <span class="project-footer-sep">·</span>
-    {{ end }}
-
-    {{ with .Params.project_category }}
-      <span class="project-category">{{ . }}</span>
-    {{ end }}
-  </div>
-
   <table class="project-footer-table">
+
+    {{/* project_status: "concluded" (default) | "on-going" | "stand-by" */}}
+    {{ $status := .Params.project_status | default "concluded" }}
+    {{ $statusLabel := T "projects.status_concluded" }}
+    {{ if eq $status "on-going" }}
+      {{ $statusLabel = T "projects.status_ongoing" }}
+    {{ else if eq $status "stand-by" }}
+      {{ $statusLabel = T "projects.status_standby" }}
+    {{ end }}
+
+    <tr>
+      <td class="project-footer-label"><strong>{{ T "projects.meta_info" }}</strong></td>
+      <td class="project-footer-value">
+        {{ with .Params.project_domain }}<span class="project-domain">{{ . }}</span>{{ end }}
+        {{ if .Params.project_domain }}<span class="project-footer-sep"> · </span>{{ end }}
+        {{ with .Params.project_category }}<span class="project-category">{{ . }}</span>{{ end }}
+        {{ if or .Params.project_domain .Params.project_category }}<span class="project-footer-sep"> · </span>{{ end }}
+        <span class="project-status">{{ $statusLabel }}</span>
+      </td>
+    </tr>
 
     {{ with .Params.project_title }}
       <tr>

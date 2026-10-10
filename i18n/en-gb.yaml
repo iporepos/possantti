@@ -9,7 +9,7 @@
   translation: "See all →"
 
 - id: "home.gallery"
-  translation: "Gallery"
+  translation: "Check out my work →"
 
 - id: "home.recent_blogs"
   translation: "Recent blogs"
@@ -46,6 +46,18 @@
 
 - id: "projects.intro"
   translation: "A selection of my applied work in environmental planning, hydrology, and spatial analysis — from urban master plans and flood hazard mapping to water quality research and large-scale scientific illustration."
+
+- id: "projects.meta_info"
+  translation: "Project Info"
+
+- id: "projects.status_concluded"
+  translation: "Concluded"
+
+- id: "projects.status_ongoing"
+  translation: "On-going"
+
+- id: "projects.status_standby"
+  translation: "Stand-by"
 
 - id: "projects.meta_title"
   translation: "Project official title:"
@@ -117,6 +129,9 @@
 
 - id: "footer.disclaimer"
   translation: "Based on <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+
+- id: "footer.styleguide"
+  translation: "Style Guide"
 
 ## ERRORS ##
 - id: "errors.404"

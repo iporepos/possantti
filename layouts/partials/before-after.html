@@ -49,14 +49,68 @@
 {{ end }}
 
 {{/* ---------------------------------- */}}
-{{/* Labels + caption + credit + width */}}
+{{/* Labels */}}
 {{/* ---------------------------------- */}}
 
 {{ $beforeLabel := .before_label | default "Before" }}
 {{ $afterLabel := .after_label | default "After" }}
 {{ $caption := .caption }}
-{{ $credit := .credit }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve width (bare numbers are treated as percent; any other CSS unit passes through) */}}
+{{/* ---------------------------------- */}}
+
 {{ $width := .width | default "100%" }}
+{{ $width = printf "%v" $width }}
+{{ if not (findRE "[a-zA-Z%]" $width) }}
+  {{ $width = printf "%s%%" $width }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption width (default: mirrors width; width_caption=100 for full text column) */}}
+{{/* ---------------------------------- */}}
+
+{{ $widthCaption := .width_caption | default $width }}
+{{ $widthCaption = printf "%v" $widthCaption }}
+{{ if not (findRE "[a-zA-Z%]" $widthCaption) }}
+  {{ $widthCaption = printf "%s%%" $widthCaption }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption text-align (default: left/ragged-right) */}}
+{{/* ---------------------------------- */}}
+
+{{ $alignCaption := .align_caption | default "left" }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve block position (default: left/ragged-right) */}}
+{{/* ---------------------------------- */}}
+
+{{ $align := .align | default "left" }}
+
+{{ $marginLeft := "auto" }}
+{{ $marginRight := "auto" }}
+{{ if eq $align "left" }}
+  {{ $marginLeft = "0" }}
+{{ else if eq $align "right" }}
+  {{ $marginRight = "0" }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Normalize credit: strip any existing "(c)"/"©", default to "Undefined" */}}
+{{/* ---------------------------------- */}}
+
+{{ $creditIsUndefined := false }}
+{{ $cleanCredit := .credit | default "" }}
+{{ $cleanCredit = replaceRE `(?i)\(c\)` "" $cleanCredit }}
+{{ $cleanCredit = replaceRE `©` "" $cleanCredit }}
+{{ $cleanCredit = strings.TrimSpace $cleanCredit }}
+
+{{ if eq $cleanCredit "" }}
+  {{ $creditIsUndefined = true }}
+  {{ $cleanCredit = "Undefined" }}
+{{ end }}
+
 {{/* Which image's aspect ratio sizes the box; the other is cropped (cover) to fill it. */}}
 {{ $ruler := .ruler | default "after" }}
 {{ $direction := .direction | default "horizontal" }}
@@ -66,7 +120,7 @@
      instead) — JS reads this attribute on load and sets --baf-pos itself. */}}
 {{ $position := .position | default "50" }}
 
-<figure class="before-after" style="width: {{ $width }}; margin-left: auto; margin-right: auto;">
+<figure class="before-after" style="width: {{ $width }}; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }};">
   <div class="baf-stage{{ if eq $direction "vertical" }} baf-vertical{{ end }}" data-baf-ruler="{{ $ruler }}" data-baf-direction="{{ $direction }}" data-baf-position="{{ $position }}" tabindex="0" role="slider" aria-label="Before and after image comparison" aria-orientation="{{ $direction }}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ $position }}">
     <img class="baf-after" src="{{ $afterSrc }}" alt="{{ $afterAlt }}" draggable="false">
     <img class="baf-before" src="{{ $beforeSrc }}" alt="{{ $beforeAlt }}" draggable="false">
@@ -75,17 +129,13 @@
     <div class="baf-handle"></div>
   </div>
 
-  {{ if or $caption $credit }}
-    <figcaption class="post-caption">
-      {{ with $caption }}
-        <span class="caption">{{ . }}</span>
-      {{ end }}
-      {{ if and $caption $credit }}
-        <span class="separator"> — </span>
-      {{ end }}
-      {{ with $credit }}
-        <span class="credit">{{ . }}</span>
-      {{ end }}
-    </figcaption>
-  {{ end }}
+  <figcaption class="post-caption" style="width: {{ $widthCaption }}; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }}; text-align: {{ $alignCaption }};">
+    {{ with $caption }}
+      <span class="caption">{{ . }}</span>
+    {{ end }}
+    {{ if $caption }}
+      <span class="separator"> — </span>
+    {{ end }}
+    <span class="credit">©&nbsp;{{ if $creditIsUndefined }}<em>{{ $cleanCredit }}</em>{{ else }}{{ $cleanCredit }}{{ end }}</span>
+  </figcaption>
 </figure>
