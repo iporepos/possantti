@@ -1,6 +1,6 @@
 ---
 type: "publication"
-title: "Simulação de tecnologias LID em lotes urbanos para controle de escoamento superficial"
+title: "Simulation of LID technologies in urban lots for surface runoff control [Portuguese]"
 author: "Tejadas, B.; Possantti, I.; Marques, G."
 journal: "Anais do XXIII Simpósio Brasileiro de Recursos Hídricos"
 volume: "23"

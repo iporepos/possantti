@@ -16,18 +16,15 @@ svc:
       - "Entregas autossuficientes"
 
   domains:
-    - icon: "🌊"
-      title: "Hidrologia Aplicada e Sistemas Ambientais"
+    - title: "Hidrologia Aplicada e Sistemas Ambientais"
       desc: >
         Hidrologia de bacias, engenharia de recursos hídricos,
         estudos ambientais e análise geoespacial.
-    - icon: "⚗️"
-      title: "Pesquisa e Desenvolvimento"
+    - title: "Pesquisa e Desenvolvimento"
       desc: >
         Ciência em sistemas ambientais — frameworks analíticos,
         conjuntos de dados, prototipagem de software e escrita científica.
-    - icon: "🗺️"
-      title: "Ilustração Científica e Narrativa Visual"
+    - title: "Ilustração Científica e Narrativa Visual"
       desc: >
         Figuras técnicas, mapas e narrativas visuais para
         relatórios, pôsteres e publicações.

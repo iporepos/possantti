@@ -1,6 +1,6 @@
 .project-motivation {
     font-size: 1.5rem;
-    line-height: 1.33; /* ~28% tighter than the site's base 1.85 line-height */
+    line-height: 1.33; /* ~20% tighter than the site's base 1.665 line-height */
 }
 
 .project-footer-rule {
@@ -333,6 +333,22 @@ html.dark .baf-handle::after {
   color: #eaeaea;
 }
 
+/* Mobile: `img` and `before_after` always span the full text column. The
+   `width` / `width_caption` / `align` params are a desktop-only affordance,
+   so the inline styles the partials emit are overridden here (!important is
+   required to beat an inline style). */
+@media (max-width: 768px) {
+  .post-figure > img,
+  .post-figure > figcaption.post-caption,
+  figure.before-after,
+  figure.before-after > figcaption.post-caption {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
 .edu-header {
   line-height: 1.5;   /* tighter lines (default is ~1.5–1.6) */
   margin-bottom: 1.5rem; /* more space below */
@@ -492,20 +508,10 @@ html.dark .baf-handle::after {
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr;
-    padding: 0;
-  }
-  .blog-container {
-    padding: 0;
-  }
-}
-
 .post-caption {
   font-style: normal !important;
   font-size: 0.9rem;
-  line-height: 1.08 !important; /* tighter than base 1.85, for reading hierarchy vs. body text */
+  line-height: 1.08 !important; /* tighter than base 1.665, for reading hierarchy vs. body text */
 }
 
 /* Force caption to NOT be italic (override theme) */
@@ -551,6 +557,23 @@ html.dark .baf-handle::after {
   max-width: 1200px;   /* adjust to your site width */
   margin: 0 auto;
   padding: 1rem;
+}
+
+/* Mobile: the gallery grid on the blog/projects list pages drops its own
+   horizontal padding, so its edge is the .wrapper's 20px side padding --
+   exactly the landing page's gap. Must stay AFTER the .blog-container and
+   .gallery base rules above: a media query adds no specificity, so a base
+   rule declared later in the file would win over it (which is the bug this
+   had -- the override used to sit higher up and never applied). */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .blog-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* Optional: intro spacing */

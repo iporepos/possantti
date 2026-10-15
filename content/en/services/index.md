@@ -16,18 +16,15 @@ svc:
       - "Standalone outputs"
 
   domains:
-    - icon: "🌊"
-      title: "Applied Hydrology & Environmental Systems"
+    - title: "Applied Hydrology & Environmental Systems"
       desc: >
         Catchment hydrology, water resources engineering,
         environmental assessment, and geospatial analysis.
-    - icon: "⚗️"
-      title: "Research & Development"
+    - title: "Research & Development"
       desc: >
         Environmental systems science — analytical frameworks,
         datasets, software prototyping, and scientific writing.
-    - icon: "🗺️"
-      title: "Scientific Illustration & Storytelling"
+    - title: "Scientific Illustration & Storytelling"
       desc: >
         Technical figures, maps, and visual narratives for
         reports, posters, and publications.

@@ -1,6 +1,6 @@
 ---
 type: "publication"
-title: "Sobre quatro princípios fundamentais para guiar o uso de modelos hidrológicos no mapeamento de área prioritárias em programas de revitalização de bacias hidrográficas"
+title: "On four fundamental principles to guide the use of hydrological models in mapping priority areas for watershed revitalization programmes [Portuguese]"
 author: "Possantti & Marques"
 journal: "Revista de Gestão de Água da América Latina"
 volume: "617"

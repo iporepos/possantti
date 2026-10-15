@@ -1,6 +1,57 @@
 <style>
 /* ── Services page — structural CSS, no visual overrides ── */
 
+/* ── Palette ──
+   Surfaces and borders mirror the landing page gallery cards (.carousel-item
+   in static/css/custom.css): light rgb(247,247,251) on #e0e0e0, near-black
+   rgb(10,10,12) in dark mode. Every colour below is a token, and the per-block
+   surfaces alias --svc-surface, so any one group (domains / cards / workflow)
+   can be given its own tint again by overriding just its alias — no need to
+   touch the rules further down. Dark values live in the html.dark block. */
+.svc-page {
+  --svc-surface: rgb(247, 247, 251);
+  --svc-surface-domain: var(--svc-surface);
+  --svc-surface-card: var(--svc-surface);
+  --svc-surface-workflow: var(--svc-surface);
+
+  --svc-border: #e0e0e0;   /* outer boxes and internal rules */
+  --svc-divider: #e0e0e0;  /* the 1px grid gaps between tiles */
+
+  --svc-tag-bg: rgba(0, 0, 0, 0.05);
+  --svc-tag-border: #d4d4d8;
+  --svc-wf-tag-bg: var(--svc-tag-bg);
+  --svc-wf-tag-border: var(--svc-tag-border);
+
+  /* One knob for every explicit font-size below. Those are all the page's
+     "non-normal" text — eyebrow, labels, tile titles/descriptions, tags,
+     bullets, legal — each declared at its original sub-1rem design value and
+     multiplied through here, so the type hierarchy keeps its ratios while the
+     whole set scales together. 1 = the original sizes. The elements with no
+     font-size of their own (.svc-hero-title, .svc-hero-desc, .svc-card-name)
+     are normal body/heading text and deliberately stay off this scale. */
+  --svc-text-scale: 1.1;
+
+  /* Bullet list vertical spread. The gap between bullets is now 0: the real
+     spacing was never mostly this flex gap, it was the theme's global
+     `li { padding-top: 1px; padding-bottom: 1px }` (2px per item, which the
+     rule below now zeroes) plus the leading's half-leading. With both gone,
+     bullets sit on their leading alone, which is as tight as this list goes
+     without lines overlapping. The leading stays at 1.15: bullets run to ~54
+     characters in ~370px-wide cards, so they wrap, and under 1.0 the wrapped
+     lines collide — 1.0 is the hard floor. Both are knobs; raise the gap if
+     the items end up too hard to tell apart. */
+  --svc-bullet-leading: 1.15;
+  --svc-bullet-gap: 0;
+}
+
+html.dark .svc-page {
+  --svc-surface: rgb(10, 10, 12);
+  --svc-border: rgba(255, 255, 255, 0.14);
+  --svc-divider: rgba(255, 255, 255, 0.10);
+  --svc-tag-bg: rgba(255, 255, 255, 0.07);
+  --svc-tag-border: rgba(255, 255, 255, 0.18);
+}
+
 .svc-page {
   max-width: calc(890px - (30px * 2));
   margin-right: auto;
@@ -22,12 +73,12 @@
 
 .svc-hero {
   padding: 3rem 0 2.5rem;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid var(--svc-border);
   margin-bottom: 0;
 }
 .svc-eyebrow {
   display: block;
-  font-size: 0.7rem;
+  font-size: calc(0.7rem * var(--svc-text-scale));
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -47,7 +98,7 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.72rem;
+  font-size: calc(0.72rem * var(--svc-text-scale));
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -64,46 +115,47 @@
 
 .svc-label {
   display: block;
-  font-size: 0.82rem;
+  font-size: calc(0.82rem * var(--svc-text-scale));
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 3rem 0 1rem;
 }
 
-/* Color coding — transparent tints, dark/light safe */
-.svc-domain  { background: rgba(59, 130, 246, 0.07); }
-.svc-card    { background: rgba(139, 92, 246, 0.06); }
+/* Block surfaces */
+.svc-domain  { background: var(--svc-surface-domain); }
+.svc-card    { background: var(--svc-surface-card); }
 .svc-workflow,
-.svc-setting { background: rgba(16, 185, 129, 0.06); }
+.svc-setting { background: var(--svc-surface-workflow); }
 
 /* Domain tiles */
 .svc-domains {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  border: 1px solid currentColor;
+  background: var(--svc-divider); /* shows through the 1px gaps as tile rules */
+  border: 1px solid var(--svc-border);
   border-radius: 4px;
   overflow: hidden;
 }
 .svc-domain { padding: 1.4rem 1.2rem; }
-.svc-domain-icon { font-size: 1.2rem; display: block; margin-bottom: 0.6rem; }
 .svc-domain-title {
   display: block;
-  font-size: 0.72rem;
+  font-size: calc(0.72rem * var(--svc-text-scale));
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 0.4rem;
 }
-.svc-domain-desc { font-size: 0.82rem; line-height: 1.55; margin: 0; }
+.svc-domain-desc { font-size: calc(0.82rem * var(--svc-text-scale)); line-height: 1.55; margin: 0; }
 
 /* Service cards */
 .svc-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
-  border: 1px solid currentColor;
+  background: var(--svc-divider); /* shows through the 1px gaps as tile rules */
+  border: 1px solid var(--svc-border);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -115,61 +167,68 @@
 }
 .svc-card-header { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; }
 .svc-tag {
-  font-size: 0.62rem;
+  font-size: calc(0.62rem * var(--svc-text-scale));
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 1px solid rgba(139, 92, 246, 0.5);
+  border: 1px solid var(--svc-tag-border);
   border-radius: 2px;
   padding: 1px 5px;
-  background: rgba(139, 92, 246, 0.18);
+  background: var(--svc-tag-bg);
   white-space: nowrap;
   flex-shrink: 0;
 }
 .svc-card-name { font-weight: 600; }
-.svc-tagline { font-size: 0.85rem; font-style: italic; margin: 0; }
-.svc-divider { height: 1px; background: currentColor; opacity: 0.12; }
-.svc-bullets { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.3rem; }
+.svc-tagline { font-size: calc(0.85rem * var(--svc-text-scale)); font-style: italic; margin: 0; }
+.svc-divider { height: 1px; background: var(--svc-divider); }
+.svc-bullets { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--svc-bullet-gap); }
 .svc-bullets li {
-  font-size: 0.82rem;
-  padding-left: 1rem;
+  font-size: calc(0.82rem * var(--svc-text-scale));
+  /* Shorthand on purpose: the theme sets a global `li` padding-top/bottom of
+     1px each, and a bare `padding-left` here would leave that 2px per item in
+     place — it, not the flex gap, was most of the spacing between bullets. */
+  padding: 0 0 0 1rem;
   position: relative;
-  line-height: 1.5;
+  line-height: var(--svc-bullet-leading);
 }
 .svc-bullets li::before {
   content: '—';
   position: absolute;
   left: 0;
   opacity: 0.4;
-  font-size: 0.7rem;
-  top: 3px;
+  font-size: calc(0.7rem * var(--svc-text-scale));
+  top: 0;
+  /* Matches the text's first line box exactly, so the dash stays aligned
+     on its own whenever --svc-bullet-leading or --svc-text-scale changes
+     (this replaced a hardcoded `top: 3px` tuned to the old 1.5 leading). */
+  line-height: calc(0.82rem * var(--svc-text-scale) * var(--svc-bullet-leading));
 }
 
 /* Workflow strip */
 .svc-workflow {
-  border: 1px solid currentColor;
+  border: 1px solid var(--svc-border);
   border-radius: 4px 4px 0 0;
   padding: 1.8rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.svc-wf-item { padding: 0 1.2rem; border-right: 1px solid currentColor; }
+.svc-wf-item { padding: 0 1.2rem; border-right: 1px solid var(--svc-border); }
 .svc-wf-item:first-child { padding-left: 0; }
 .svc-wf-item:last-child { border-right: none; }
 .svc-wf-type {
   display: inline-block;
-  font-size: 0.62rem;
+  font-size: calc(0.62rem * var(--svc-text-scale));
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 1px solid rgba(16, 185, 129, 0.5);
+  border: 1px solid var(--svc-wf-tag-border);
   border-radius: 2px;
   padding: 1px 5px;
-  background: rgba(16, 185, 129, 0.18);
+  background: var(--svc-wf-tag-bg);
   margin-bottom: 0.5rem;
 }
-.svc-wf-name { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.3rem; }
-.svc-wf-desc { font-size: 0.8rem; line-height: 1.5; margin: 0; }
+.svc-wf-name { display: block; font-weight: 600; font-size: calc(0.9rem * var(--svc-text-scale)); margin-bottom: 0.3rem; }
+.svc-wf-desc { font-size: calc(0.8rem * var(--svc-text-scale)); line-height: 1.5; margin: 0; }
 
 /* Setting bar — flush under workflow */
 .svc-setting {
@@ -177,28 +236,28 @@
   align-items: center;
   gap: 2rem;
   padding: 1rem 1.4rem;
-  border: 1px solid currentColor;
+  border: 1px solid var(--svc-border);
   border-top: none;
   border-radius: 0 0 4px 4px;
   flex-wrap: wrap;
 }
-.svc-setting-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; }
+.svc-setting-item { display: flex; align-items: center; gap: 0.4rem; font-size: calc(0.8rem * var(--svc-text-scale)); }
 .svc-setting-item strong { font-weight: 600; }
 .svc-dot { width: 4px; height: 4px; border-radius: 50%; background: currentColor; opacity: 0.4; flex-shrink: 0; }
 
 /* CTA */
 .svc-cta {
-  border-top: 1px solid currentColor;
+  border-top: 1px solid var(--svc-border);
   margin-top: 3rem;
   padding-top: 2.5rem;
 }
-.svc-cta-desc { font-size: 0.85rem; max-width: 360px; margin-top: 0.4rem; }
+.svc-cta-desc { font-size: calc(0.85rem * var(--svc-text-scale)); max-width: 360px; margin-top: 0.4rem; }
 .svc-cta-actions { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; margin-top: 1.2rem; }
 .svc-cta-email {
-  border: 1px solid currentColor;
+  border: 1px solid var(--svc-border);
   border-radius: 3px;
   padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  font-size: calc(0.9rem * var(--svc-text-scale));
   font-weight: 500;
   display: inline-block;
   transition: opacity 0.15s;
@@ -210,17 +269,17 @@
 .svc-legal {
   margin-top: 1.5rem;
   padding: 1rem 1.2rem;
-  border: 1px solid currentColor;
+  border: 1px solid var(--svc-border);
   border-radius: 4px;
   display: flex;
   gap: 2.5rem;
   flex-wrap: wrap;
   align-items: center;
 }
-.svc-legal-item { font-size: 0.75rem; line-height: 1.55; }
+.svc-legal-item { font-size: calc(0.75rem * var(--svc-text-scale)); line-height: 1.55; }
 .svc-legal-item strong {
   display: block;
-  font-size: 0.65rem;
+  font-size: calc(0.65rem * var(--svc-text-scale));
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -238,7 +297,7 @@
   .svc-domains  { grid-template-columns: 1fr; }
   .svc-cards    { grid-template-columns: 1fr; }
   .svc-workflow { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.2rem; border-radius: 4px 4px 0 0; }
-  .svc-wf-item  { border-right: none; border-bottom: 1px solid currentColor; padding: 0 0 1.2rem; }
+  .svc-wf-item  { border-right: none; border-bottom: 1px solid var(--svc-border); padding: 0 0 1.2rem; }
   .svc-wf-item:last-child { border-bottom: none; padding-bottom: 0; }
   .svc-cta-actions { align-items: flex-start; }
 }

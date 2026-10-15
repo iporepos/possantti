@@ -140,3 +140,11 @@ figcaption,
 pre > code {
   color: inherit;
 }
+
+// `$base-line-height` is the body line-height for normal text, but the theme's
+// _navbar.scss also derives the menu link line-height from it ($base + 0.4).
+// Pin the navbar to what that evaluated to at the original 1.85 so tuning the
+// body line spread doesn't quietly change the navbar's height too.
+.navbar .menu-link {
+  line-height: 2.25;
+}

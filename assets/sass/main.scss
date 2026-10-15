@@ -40,7 +40,7 @@ $mono-family: Consolas, monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.9;
 $small-font-size: $base-font-size * 0.8;
-$base-line-height: 1.85;
+$base-line-height: 1.665; // experiment: 10% tighter than the theme/original 1.85
 
 // Font weight
 // $light-weight: 300; // uncomment if necessary

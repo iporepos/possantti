@@ -1,6 +1,6 @@
 ---
 type: "publication"
-title: "Soluções baseadas na natureza para sistemas hídricos de cidades conceituação e modelagem a nível de planejamento"
+title: "Nature-based solutions for urban water systems: conceptualization and modelling at the planning level [Portuguese]"
 author: "Possantti, I. & Marques, G."
 journal: "Anais do XXIII Simpósio Brasileiro de Recursos Hídricos"
 volume: "23"
