@@ -1,5 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    // Chroma's `linenos=true` (table) layout puts the line numbers in their own
+    // <pre><code> in a sibling table cell, so this selector matches it too and
+    // used to get a second button that copied nothing but the numbers. The
+    // numbers column is the only block containing .lnt spans; skip it.
+    // (`linenos=inline` is different: the numbers live inside the code block
+    // itself as .ln spans, handled when reading the text below.)
+    if (codeBlock.querySelector(".lnt")) return;
+
     const pre = codeBlock.parentNode;
 
     const button = document.createElement("button");
@@ -13,7 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     button.addEventListener("click", async () => {
-      const code = codeBlock.innerText;
+      // With `linenos=inline` the numbers are .ln spans inside this very block,
+      // so copying it verbatim would interleave them with the code. Strip them
+      // from a detached clone; textContent is used rather than innerText since
+      // innerText is unreliable on a node that is not in the document, and
+      // Chroma emits real newlines so line breaks survive either way.
+      let code = codeBlock.innerText;
+      if (codeBlock.querySelector(".ln")) {
+        const clone = codeBlock.cloneNode(true);
+        clone.querySelectorAll(".ln").forEach((n) => n.remove());
+        code = clone.textContent;
+      }
 
       try {
         await navigator.clipboard.writeText(code);
@@ -37,11 +55,27 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    pre.style.position = "relative";
+    // Anchor the button to a box that does NOT scroll, so it stays pinned at
+    // the visible top-right instead of riding along with the code.
+    //
+    // The `pre` is the wrong host whenever the block can scroll horizontally.
+    // In a `linenos` block the code cell's `pre` is as wide as its content and
+    // sits inside the scrolling `.highlight > div.chroma`, so `right: 0.5rem`
+    // anchors to the far right of the *content* -- off-screen until you scroll.
+    // A plain block has the same problem one level up, since there the `pre` is
+    // itself the scroll container.
+    //
+    // `.highlight` is Hugo's outer wrapper around any highlighted block and
+    // never scrolls, so it pins correctly in both modes. A fence with no
+    // language gets no wrapper at all, and cannot scroll either, so the `pre`
+    // remains the right host there.
+    const host = codeBlock.closest(".highlight") || pre;
+
+    host.style.position = "relative";
     button.style.position = "absolute";
     button.style.top = "0.5rem";
     button.style.right = "0.5rem";
 
-    pre.appendChild(button);
+    host.appendChild(button);
   });
 });
