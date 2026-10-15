@@ -6,7 +6,7 @@ How to consistently illustrate 500&amp;#43; figures for a comprehensive hydrolog
 Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures, ranging from 2D schematics to 3D rendered landscapes, all produced with an entirely open-source toolchain: Inkscape, Blender, QGIS, and Python.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;figure class="post-figure" style="margin-left: auto; margin-right: auto;"&gt;
 &lt;img src="https://photos.possantti.net/covers/main-cover.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
 &lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
 &lt;span class="caption"&gt;Terraced rice fields in northern Vietnam — a strong candidate photograph for the book cover. The landscape captures every hydrological scale at once: mountains, clouds, river, and the human interface with water.&lt;/span&gt;

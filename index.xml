@@ -6,7 +6,7 @@ How to consistently illustrate 500&amp;#43; figures for a comprehensive hydrolog
 Technical illustration work for a comprehensive hydrology textbook authored by Günter Blöschl, Murugesu Sivapalan, and Peter Troch, to be published by Wiley. The book spans 15 chapters and requires more than 500 figures, ranging from 2D schematics to 3D rendered landscapes, all produced with an entirely open-source toolchain: Inkscape, Blender, QGIS, and Python.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;figure class="post-figure" style="margin-left: auto; margin-right: auto;"&gt;
 &lt;img src="https://photos.possantti.net/covers/main-cover.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
 &lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
 &lt;span class="caption"&gt;Terraced rice fields in northern Vietnam — a strong candidate photograph for the book cover. The landscape captures every hydrological scale at once: mountains, clouds, river, and the human interface with water.&lt;/span&gt;
@@ -24,7 +24,7 @@ Where should water conservation efforts focus in Brazil&amp;#39;s largest savann
 A multi-scale hydrological assessment of the Cerrado biome identifying priority areas for water conservation, from hillslope infiltration dynamics to regional aquifer recharge, and translating the findings into a territorial planning framework to guide public policy.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;figure class="post-figure" style="margin-left: auto; margin-right: auto;"&gt;
 &lt;img src="https://photos.possantti.net/cerrado/luiz-flamarion.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
 &lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
 &lt;span class="caption"&gt;Riparian wetland in the foreground with elevated plateaus rising in the background: the same landscape mosaic that defines where infiltration happens and where it doesn&amp;#39;t.&lt;/span&gt;
@@ -42,7 +42,7 @@ How to allocate the ocean space among competing users?
 PEM Sul is the national pilot for marine spatial planning in Brazil, covering the southern marine region across Paraná, Santa Catarina, and Rio Grande do Sul. The work develops spatially explicit indicators (including a composite Performance Index) to support sustainable, multi-sector ocean management.
 &lt;/p&gt;
 &lt;/header&gt;
-&lt;figure style="margin-left: auto; margin-right: auto;"&gt;
+&lt;figure class="post-figure" style="margin-left: auto; margin-right: auto;"&gt;
 &lt;img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" alt="" style="display: block; width: 100%; height: auto; margin-left: 0; margin-right: auto;"&gt;
 &lt;figcaption class="post-caption" style="width: 100%; margin-left: 0; margin-right: auto; text-align: left;"&gt;
 &lt;span class="caption"&gt;The challenge of PEM-Sul is to allocate the ocean space in southern Brazil in a fair and sustainable manner&lt;/span&gt;
@@ -104,7 +104,29 @@ How do you define environmental boundaries for urban expansion on a plateau with
 Environmental characterization for Gramado&amp;#39;s planned urban expansion to the north, conducted through the NTU at UFRGS. I provided land use assessment, topographic analysis, drainage mapping using high-resolution DEM (~1 m), and a hydrologically-grounded proposal for the buffer zone of a conservation unit, arguing that catchment boundaries, not arbitrary distances, should define the protection area.
 &lt;/p&gt;</description></item><item><title>A comprehensive strategy for modeling watershed restoration priority areas under epistemic uncertainty: A case study in the Atlantic Forest, Brazil</title><link>https://www.possantti.net/publications/headless/possantti_2023_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_a/</guid><description/></item><item><title>A modelling framework for nature-based solutions expansion planning considering the benefits to downstream urban water users</title><link>https://www.possantti.net/publications/headless/possantti_2022_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2022_a/</guid><description/></item><item><title>A report on the experience of risk communication by volunteer researchers during the 2024 climate disaster in Rio Grande do Sul, Brazil</title><link>https://www.possantti.net/publications/headless/possantti_2026_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2026_a/</guid><description/></item><item><title>A synthesis on fundamental principles and problems in the use of hydrological models for planning watershed conservation</title><link>https://www.possantti.net/education/headless/possantti_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2024_a/</guid><description/></item><item><title>About</title><link>https://www.possantti.net/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/about/</guid><description>&lt;h2 id="why-i-work"&gt;Why I work&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Nature&lt;/strong&gt; has always been a great source of inspiration for me. Natural environments attract me both through scientific curiosity and through personal and sublime experience. I see their elements not only as objects of study, but as systems with structure, rhythm, and beauty.&lt;/p&gt;
-&lt;p&gt;During my academic training in southern Brazil, I got involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.&lt;/p&gt;</description></item><item><title>An integrated hydro-finance approach towards sustainable urban stormwater and flood control management</title><link>https://www.possantti.net/publications/headless/marques_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_a/</guid><description/></item><item><title>CHIRPS</title><link>https://www.possantti.net/collections/datasets/chirps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/collections/datasets/chirps/</guid><description/></item><item><title>Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil’s changing biomes</title><link>https://www.possantti.net/publications/headless/fontoura_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/fontoura_2024_a/</guid><description/></item><item><title>Evaluating the effectiveness of a stormwater wetland project in improving water quality and regulating streamflow in the Arroio do Salso - Porto Alegre/RS</title><link>https://www.possantti.net/education/headless/possantti_2016_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2016_a/</guid><description/></item><item><title>How water quality under extreme floods compromises ecosystem services, sanitation and One Health</title><link>https://www.possantti.net/publications/headless/albornoz_2026_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/albornoz_2026_a/</guid><description/></item><item><title>Integrating water charges policies and watershed plans for improved investment and financial sustainability in water resources management</title><link>https://www.possantti.net/publications/headless/marques_2024_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_b/</guid><description/></item><item><title>Planning the expansion of nature-based solutions for water considering the relationship between cost and benefit</title><link>https://www.possantti.net/education/headless/possantti_2020_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2020_a/</guid><description/></item><item><title>Services</title><link>https://www.possantti.net/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/services/</guid><description>&lt;style&gt;
+&lt;p&gt;During my academic training in southern Brazil, I got involved in contexts where natural processes and human decisions intersected, such as wastewater treatment, urban development, watershed conservation, and, more recently, extreme flood events. These experiences revealed how scientific understanding can influence public debate and guide environmental planning decisions.&lt;/p&gt;</description></item><item><title>An integrated hydro-finance approach towards sustainable urban stormwater and flood control management</title><link>https://www.possantti.net/publications/headless/marques_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_a/</guid><description/></item><item><title>CHIRPS</title><link>https://www.possantti.net/collections/datasets/chirps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/collections/datasets/chirps/</guid><description/></item><item><title>Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil’s changing biomes</title><link>https://www.possantti.net/publications/headless/fontoura_2024_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/fontoura_2024_a/</guid><description/></item><item><title>Evaluating the effectiveness of a stormwater wetland project in improving water quality and regulating streamflow in the Arroio do Salso - Porto Alegre/RS</title><link>https://www.possantti.net/education/headless/possantti_2016_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2016_a/</guid><description/></item><item><title>How water quality under extreme floods compromises ecosystem services, sanitation and One Health</title><link>https://www.possantti.net/publications/headless/albornoz_2026_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/albornoz_2026_a/</guid><description/></item><item><title>Integrating water charges policies and watershed plans for improved investment and financial sustainability in water resources management</title><link>https://www.possantti.net/publications/headless/marques_2024_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/marques_2024_b/</guid><description/></item><item><title>Nature-based solutions for urban water systems: conceptualization and modelling at the planning level [Portuguese]</title><link>https://www.possantti.net/publications/headless/possantti_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2019_a/</guid><description/></item><item><title>On four fundamental principles to guide the use of hydrological models in mapping priority areas for watershed revitalization programmes [Portuguese]</title><link>https://www.possantti.net/publications/headless/possantti_2023_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_b/</guid><description/></item><item><title>On how HAND can be applied to determine hydrological hazard exposure curves in Rio Grande do Sul [Portuguese]</title><link>https://www.possantti.net/publications/headless/possantti_2025_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2025_a/</guid><description/></item><item><title>Planning the expansion of nature-based solutions for water considering the relationship between cost and benefit</title><link>https://www.possantti.net/education/headless/possantti_2020_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/education/headless/possantti_2020_a/</guid><description/></item><item><title>Services</title><link>https://www.possantti.net/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/services/</guid><description>&lt;style&gt;
+.svc-page {
+--svc-surface: rgb(247, 247, 251);
+--svc-surface-domain: var(--svc-surface);
+--svc-surface-card: var(--svc-surface);
+--svc-surface-workflow: var(--svc-surface);
+--svc-border: #e0e0e0;
+--svc-divider: #e0e0e0;
+--svc-tag-bg: rgba(0, 0, 0, 0.05);
+--svc-tag-border: #d4d4d8;
+--svc-wf-tag-bg: var(--svc-tag-bg);
+--svc-wf-tag-border: var(--svc-tag-border);
+--svc-text-scale: 1.1;
+--svc-bullet-leading: 1.15;
+--svc-bullet-gap: 0;
+}
+html.dark .svc-page {
+--svc-surface: rgb(10, 10, 12);
+--svc-border: rgba(255, 255, 255, 0.14);
+--svc-divider: rgba(255, 255, 255, 0.10);
+--svc-tag-bg: rgba(255, 255, 255, 0.07);
+--svc-tag-border: rgba(255, 255, 255, 0.18);
+}
 .svc-page {
 max-width: calc(890px - (30px * 2));
 margin-right: auto;
@@ -123,12 +145,12 @@ font-family: 'Source Serif 4', serif;
 }
 .svc-hero {
 padding: 3rem 0 2.5rem;
-border-bottom: 1px solid currentColor;
+border-bottom: 1px solid var(--svc-border);
 margin-bottom: 0;
 }
 .svc-eyebrow {
 display: block;
-font-size: 0.7rem;
+font-size: calc(0.7rem * var(--svc-text-scale));
 font-weight: 600;
 letter-spacing: 0.12em;
 text-transform: uppercase;
@@ -148,7 +170,7 @@ margin-bottom: 2rem;
 display: flex;
 align-items: center;
 gap: 0.4rem;
-font-size: 0.72rem;
+font-size: calc(0.72rem * var(--svc-text-scale));
 font-weight: 600;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -164,40 +186,41 @@ flex-shrink: 0;
 }
 .svc-label {
 display: block;
-font-size: 0.82rem;
+font-size: calc(0.82rem * var(--svc-text-scale));
 font-weight: 700;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 margin: 3rem 0 1rem;
 }
-.svc-domain { background: rgba(59, 130, 246, 0.07); }
-.svc-card { background: rgba(139, 92, 246, 0.06); }
+.svc-domain { background: var(--svc-surface-domain); }
+.svc-card { background: var(--svc-surface-card); }
 .svc-workflow,
-.svc-setting { background: rgba(16, 185, 129, 0.06); }
+.svc-setting { background: var(--svc-surface-workflow); }
 .svc-domains {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 1px;
-border: 1px solid currentColor;
+background: var(--svc-divider);
+border: 1px solid var(--svc-border);
 border-radius: 4px;
 overflow: hidden;
 }
 .svc-domain { padding: 1.4rem 1.2rem; }
-.svc-domain-icon { font-size: 1.2rem; display: block; margin-bottom: 0.6rem; }
 .svc-domain-title {
 display: block;
-font-size: 0.72rem;
+font-size: calc(0.72rem * var(--svc-text-scale));
 font-weight: 700;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 margin-bottom: 0.4rem;
 }
-.svc-domain-desc { font-size: 0.82rem; line-height: 1.55; margin: 0; }
+.svc-domain-desc { font-size: calc(0.82rem * var(--svc-text-scale)); line-height: 1.55; margin: 0; }
 .svc-cards {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 1px;
-border: 1px solid currentColor;
+background: var(--svc-divider);
+border: 1px solid var(--svc-border);
 border-radius: 4px;
 overflow: hidden;
 }
@@ -209,84 +232,85 @@ gap: 0.8rem;
 }
 .svc-card-header { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; }
 .svc-tag {
-font-size: 0.62rem;
+font-size: calc(0.62rem * var(--svc-text-scale));
 font-weight: 700;
 letter-spacing: 0.1em;
 text-transform: uppercase;
-border: 1px solid rgba(139, 92, 246, 0.5);
+border: 1px solid var(--svc-tag-border);
 border-radius: 2px;
 padding: 1px 5px;
-background: rgba(139, 92, 246, 0.18);
+background: var(--svc-tag-bg);
 white-space: nowrap;
 flex-shrink: 0;
 }
 .svc-card-name { font-weight: 600; }
-.svc-tagline { font-size: 0.85rem; font-style: italic; margin: 0; }
-.svc-divider { height: 1px; background: currentColor; opacity: 0.12; }
-.svc-bullets { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.3rem; }
+.svc-tagline { font-size: calc(0.85rem * var(--svc-text-scale)); font-style: italic; margin: 0; }
+.svc-divider { height: 1px; background: var(--svc-divider); }
+.svc-bullets { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--svc-bullet-gap); }
 .svc-bullets li {
-font-size: 0.82rem;
-padding-left: 1rem;
+font-size: calc(0.82rem * var(--svc-text-scale));
+padding: 0 0 0 1rem;
 position: relative;
-line-height: 1.5;
+line-height: var(--svc-bullet-leading);
 }
 .svc-bullets li::before {
 content: '—';
 position: absolute;
 left: 0;
 opacity: 0.4;
-font-size: 0.7rem;
-top: 3px;
+font-size: calc(0.7rem * var(--svc-text-scale));
+top: 0;
+line-height: calc(0.82rem * var(--svc-text-scale) * var(--svc-bullet-leading));
 }
 .svc-workflow {
-border: 1px solid currentColor;
+border: 1px solid var(--svc-border);
 border-radius: 4px 4px 0 0;
 padding: 1.8rem;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 }
-.svc-wf-item { padding: 0 1.2rem; border-right: 1px solid currentColor; }
+.svc-wf-item { padding: 0 1.2rem; border-right: 1px solid var(--svc-border); }
 .svc-wf-item:first-child { padding-left: 0; }
 .svc-wf-item:last-child { border-right: none; }
 .svc-wf-type {
 display: inline-block;
-font-size: 0.62rem;
+font-size: calc(0.62rem * var(--svc-text-scale));
 font-weight: 700;
 letter-spacing: 0.1em;
 text-transform: uppercase;
-border: 1px solid rgba(16, 185, 129, 0.5);
+border: 1px solid var(--svc-wf-tag-border);
 border-radius: 2px;
 padding: 1px 5px;
-background: rgba(16, 185, 129, 0.18);
+background: var(--svc-wf-tag-bg);
 margin-bottom: 0.5rem;
 }
-.svc-wf-name { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.3rem; }
-.svc-wf-desc { font-size: 0.8rem; line-height: 1.5; margin: 0; }
+.svc-wf-name { display: block; font-weight: 600; font-size: calc(0.9rem * var(--svc-text-scale)); margin-bottom: 0.3rem; }
+.svc-wf-desc { font-size: calc(0.8rem * var(--svc-text-scale)); line-height: 1.5; margin: 0; }
 .svc-setting {
 display: flex;
 align-items: center;
 gap: 2rem;
 padding: 1rem 1.4rem;
-border: 1px solid currentColor;
+border: 1px solid var(--svc-border);
 border-top: none;
 border-radius: 0 0 4px 4px;
 flex-wrap: wrap;
 }
-.svc-setting-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; }
+.svc-setting-item { display: flex; align-items: center; gap: 0.4rem; font-size: calc(0.8rem * var(--svc-text-scale)); }
 .svc-setting-item strong { font-weight: 600; }
 .svc-dot { width: 4px; height: 4px; border-radius: 50%; background: currentColor; opacity: 0.4; flex-shrink: 0; }
 .svc-cta {
-border-top: 1px solid currentColor;
+border-top: 1px solid var(--svc-border);
 margin-top: 3rem;
 padding-top: 2.5rem;
 }
-.svc-cta-desc { font-size: 0.85rem; max-width: 360px; margin-top: 0.4rem; }
+.svc-cta-desc { font-size: calc(0.85rem * var(--svc-text-scale)); max-width: 360px; margin-top: 0.4rem; }
 .svc-cta-actions { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; margin-top: 1.2rem; }
 .svc-cta-email {
-border: 1px solid currentColor;
+border: 1px solid var(--svc-border);
 border-radius: 3px;
 padding: 0.5rem 1rem;
-font-size: 0.9rem;
+font-size: calc(0.9rem * var(--svc-text-scale));
 font-weight: 500;
 display: inline-block;
 transition: opacity 0.15s;
@@ -296,17 +320,17 @@ text-decoration: none;
 .svc-legal {
 margin-top: 1.5rem;
 padding: 1rem 1.2rem;
-border: 1px solid currentColor;
+border: 1px solid var(--svc-border);
 border-radius: 4px;
 display: flex;
 gap: 2.5rem;
 flex-wrap: wrap;
 align-items: center;
 }
-.svc-legal-item { font-size: 0.75rem; line-height: 1.55; }
+.svc-legal-item { font-size: calc(0.75rem * var(--svc-text-scale)); line-height: 1.55; }
 .svc-legal-item strong {
 display: block;
-font-size: 0.65rem;
+font-size: calc(0.65rem * var(--svc-text-scale));
 font-weight: 700;
 letter-spacing: 0.08em;
 text-transform: uppercase;
@@ -322,7 +346,7 @@ padding-left: 20px;
 .svc-domains { grid-template-columns: 1fr; }
 .svc-cards { grid-template-columns: 1fr; }
 .svc-workflow { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.2rem; border-radius: 4px 4px 0 0; }
-.svc-wf-item { border-right: none; border-bottom: 1px solid currentColor; padding: 0 0 1.2rem; }
+.svc-wf-item { border-right: none; border-bottom: 1px solid var(--svc-border); padding: 0 0 1.2rem; }
 .svc-wf-item:last-child { border-bottom: none; padding-bottom: 0; }
 .svc-cta-actions { align-items: flex-start; }
 }
@@ -334,7 +358,7 @@ padding-left: 20px;
 &lt;span class="svc-eyebrow"&gt;Research &amp;amp; Consultancy&lt;/span&gt;
 &lt;h1 class="svc-hero-title"&gt;Hydrology &amp;amp; Environmental Planning, driven by data.&lt;/h1&gt;
 &lt;p class="svc-hero-desc"&gt;I operate as an independent technical unit — delivering well-scoped, documented solutions for environmental problems. Minimal coordination overhead, predictable workflow.
-&lt;/p&gt;</description></item><item><title>Simulação de tecnologias LID em lotes urbanos para controle de escoamento superficial</title><link>https://www.possantti.net/publications/headless/tejadas_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/tejadas_2019_a/</guid><description/></item><item><title>Sobre quatro princípios fundamentais para guiar o uso de modelos hidrológicos no mapeamento de área prioritárias em programas de revitalização de bacias hidrográficas</title><link>https://www.possantti.net/publications/headless/possantti_2023_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2023_b/</guid><description/></item><item><title>Soluções baseadas na natureza para sistemas hídricos de cidades conceituação e modelagem a nível de planejamento</title><link>https://www.possantti.net/publications/headless/possantti_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/possantti_2019_a/</guid><description/></item><item><title>Style Guide</title><link>https://www.possantti.net/styleguide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/styleguide/</guid><description>&lt;p&gt;Internal reference for this site&amp;rsquo;s custom shortcodes and partials — not linked from the main navigation, listed only in the footer. Documents parameters and defaults, with live rendered examples so behaviour is visible, not just described. English only.&lt;/p&gt;
+&lt;/p&gt;</description></item><item><title>Simulation of LID technologies in urban lots for surface runoff control [Portuguese]</title><link>https://www.possantti.net/publications/headless/tejadas_2019_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/publications/headless/tejadas_2019_a/</guid><description/></item><item><title>Style Guide</title><link>https://www.possantti.net/styleguide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.possantti.net/styleguide/</guid><description>&lt;p&gt;Internal reference for this site&amp;rsquo;s custom shortcodes and partials — not linked from the main navigation, listed only in the footer. Documents parameters and defaults, with live rendered examples so behaviour is visible, not just described. English only.&lt;/p&gt;
 &lt;h2 id="img"&gt;img&lt;/h2&gt;
 &lt;p&gt;Figure with image, caption, and credit. &lt;code&gt;layouts/shortcodes/img.html&lt;/code&gt; → &lt;code&gt;layouts/partials/img.html&lt;/code&gt;.&lt;/p&gt;
 &lt;p class="sg-subheading"&gt;Parameters&lt;/p&gt;
