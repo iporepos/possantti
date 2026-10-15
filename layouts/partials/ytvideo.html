@@ -1,0 +1,156 @@
+{{/*
+  ytvideo — YouTube embed in the same figure wrapper as `img`.
+
+  Deliberately mirrors layouts/partials/img.html: identical caption/credit
+  normalization, identical width / align / width_caption / align_caption
+  semantics, so a video figure and an image figure line up in a post. The only
+  additions are the video-specific params (id, title, start, ratio, loading).
+
+  Responsive box: the iframe is absolutely positioned inside .ytvideo-box,
+  whose height comes from a padding-bottom percentage derived from `ratio`
+  (see static/css/custom.css). A percentage is used rather than the modern
+  `aspect-ratio` property because this value is interpolated into an inline
+  style="", and a plain number is what Go's CSS escaper passes through
+  reliably -- the same reason before-after.html keeps its position in a
+  data-attribute.
+*/}}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve video id (accepts a bare id or any YouTube URL) */}}
+{{/* ---------------------------------- */}}
+
+{{ $id := printf "%v" (.id | default "") }}
+
+{{ if eq (strings.TrimSpace $id) "" }}
+  <p style="color:red;">ytvideo requires an 'id' (video id or YouTube URL)</p>
+  {{ return }}
+{{ end }}
+
+{{/* watch?v=ID, youtu.be/ID, /embed/ID — first match wins; a bare id is left as-is */}}
+{{ $id = replaceRE `^.*[?&]v=([^&]+).*$` "$1" $id }}
+{{ $id = replaceRE `^.*youtu\.be/([^?&/]+).*$` "$1" $id }}
+{{ $id = replaceRE `^.*youtube\.com/embed/([^?&/]+).*$` "$1" $id }}
+
+{{/* Only the characters a YouTube id can contain survive, so nothing from the
+     caller can break out of the URL below. */}}
+{{ $id = replaceRE `[^A-Za-z0-9_-]` "" $id }}
+
+{{ if eq $id "" }}
+  <p style="color:red;">ytvideo: could not read a video id from '{{ .id }}'</p>
+  {{ return }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption + credit (same rules as img) */}}
+{{/* ---------------------------------- */}}
+
+{{ $caption := .caption | default "" }}
+
+{{ $creditIsUndefined := false }}
+{{ $cleanCredit := .credit | default "" }}
+{{ $cleanCredit = replaceRE `(?i)\(c\)` "" $cleanCredit }}
+{{ $cleanCredit = replaceRE `©` "" $cleanCredit }}
+{{ $cleanCredit = strings.TrimSpace $cleanCredit }}
+
+{{ if eq $cleanCredit "" }}
+  {{ $creditIsUndefined = true }}
+  {{ $cleanCredit = "Undefined" }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve width (bare numbers are percent, as in img) */}}
+{{/* ---------------------------------- */}}
+
+{{ $width := .width | default "100%" }}
+{{ $width = printf "%v" $width }}
+{{ if not (findRE "[a-zA-Z%]" $width) }}
+  {{ $width = printf "%s%%" $width }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve caption width (default: mirrors width) */}}
+{{/* ---------------------------------- */}}
+
+{{ $widthCaption := .width_caption | default $width }}
+{{ $widthCaption = printf "%v" $widthCaption }}
+{{ if not (findRE "[a-zA-Z%]" $widthCaption) }}
+  {{ $widthCaption = printf "%s%%" $widthCaption }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve alignment (same rules as img) */}}
+{{/* ---------------------------------- */}}
+
+{{ $alignCaption := .align_caption | default "left" }}
+{{ $align := .align | default "left" }}
+
+{{ $marginLeft := "auto" }}
+{{ $marginRight := "auto" }}
+{{ if eq $align "left" }}
+  {{ $marginLeft = "0" }}
+{{ else if eq $align "right" }}
+  {{ $marginRight = "0" }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Resolve aspect ratio -> box height as a % of its width */}}
+{{/* ---------------------------------- */}}
+
+{{ $ratio := printf "%v" (.ratio | default "16/9") }}
+{{ $parts := split $ratio "/" }}
+{{ $pad := 56.25 }}
+{{ if eq (len $parts) 2 }}
+  {{ $w := float (index $parts 0) }}
+  {{ $h := float (index $parts 1) }}
+  {{ if gt $w 0.0 }}
+    {{ $pad = mul (div $h $w) 100.0 }}
+  {{ end }}
+{{ end }}
+
+{{/* Round for the stylesheet: a ratio like 9/16 is 177.77777777777777 in full,
+     and that whole tail would land in the inline style. Four decimals is well
+     past sub-pixel, then trailing zeros go so 16/9 stays "56.25" and 4/3 "75". */}}
+{{ $pad = printf "%.4f" $pad }}
+{{ $pad = replaceRE `0+$` "" $pad }}
+{{ $pad = replaceRE `\.$` "" $pad }}
+
+{{/* ---------------------------------- */}}
+{{/* Player options */}}
+{{/* ---------------------------------- */}}
+
+{{ $title := .title | default $caption | default "YouTube video" }}
+{{ $loading := .loading | default "lazy" }}
+{{ $src := printf "https://www.youtube.com/embed/%s" $id }}
+{{ with .start }}
+  {{ $src = printf "%s?start=%v" $src . }}
+{{ end }}
+
+{{/* ---------------------------------- */}}
+{{/* Render */}}
+{{/* ---------------------------------- */}}
+
+<figure class="post-figure ytvideo" style="margin-left: auto; margin-right: auto;">
+  <div class="ytvideo-box" style="width: {{ $width }}; padding-bottom: {{ $pad }}%; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }};">
+    <iframe
+      src="{{ $src }}"
+      title="{{ $title }}"
+      loading="{{ $loading }}"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowfullscreen></iframe>
+  </div>
+
+  <figcaption class="post-caption" style="width: {{ $widthCaption }}; margin-left: {{ $marginLeft }}; margin-right: {{ $marginRight }}; text-align: {{ $alignCaption }};">
+
+    {{ with $caption }}
+      <span class="caption">{{ . }}</span>
+    {{ end }}
+
+    {{ if $caption }}
+      <span class="separator"> — </span>
+    {{ end }}
+
+    <span class="credit">©&nbsp;{{ if $creditIsUndefined }}<em>{{ $cleanCredit }}</em>{{ else }}{{ $cleanCredit }}{{ end }}</span>
+
+  </figcaption>
+</figure>

@@ -27,6 +27,20 @@ theme = "hugo-blog-awesome"
     noClasses = false
   [markup.goldmark.renderer]
     unsafe = true
+  # Hand LaTeX to KaTeX untouched. Without this, Goldmark parses inside the
+  # math delimiters first and corrupts it: the `\\` row separator of a
+  # multi-line \begin{aligned} block becomes a <br>, and an unspaced $a*b*c$
+  # turns into $a<em>b</em>c$. Subscripts survive either way, since CommonMark
+  # does not do intra-word `_` emphasis.
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      # Must stay in sync with the KaTeX auto-render delimiters in the theme's
+      # layouts/partials/helpers/katex.html, which declares only $ and $$.
+      # Listing \( or \[ here would pass them through raw and print them
+      # literally, since nothing would then render them.
+      inline = [['$', '$']]
+      block = [['$$', '$$']]
 	[markup.tableOfContents]
 		startLevel = 2 # ToC starts from H2
 		endLevel = 4 # ToC ends at H4

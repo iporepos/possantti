@@ -6,10 +6,22 @@
   Regenerate with those commands if the color set ever needs to change.
 */
 
+/* Punctuation (.p: commas, parens, colons, brackets) and Name (.n: plain
+   identifiers) are the two token classes `hugo gen chromastyles` emits NO
+   colour for under either catppuccin palette. They therefore fell back to
+   whatever colour was inherited through `pre > code`, which the theme also
+   tries to set to white -- so punctuation could render at ~1.1:1 against the
+   light code background, i.e. invisible. Both are now pinned explicitly in
+   all three sections below, so nothing in a code block depends on inherited
+   colour. Values are each palette's own body-text colour (7.1:1 light,
+   8.1:1 dark); soften punctuation to latte overlay2 #7c7f93 / frappe
+   overlay2 #949cbb if it should recede from the identifiers. */
 /* Light (default) */
 /* Background */ .bg { color:#4c4f69;background-color:#eff1f5 }
 /* PreWrapper */ .chroma { color:#4c4f69;background-color:#eff1f5 }
 /* Error */ .chroma .err { color:#d20f39 }
+/* Punctuation */ .chroma .p { color:#4c4f69 }
+/* Name */ .chroma .n { color:#4c4f69 }
 /* LineLink */ .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
 /* LineTableTD */ .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0 }
 /* LineTable */ .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0 }
@@ -88,6 +100,8 @@
   /* Background */ html:not(.light) .bg { color:#c6d0f5;background-color:#303446 }
   /* PreWrapper */ html:not(.light) .chroma { color:#c6d0f5;background-color:#303446 }
   /* Error */ html:not(.light) .chroma .err { color:#e78284 }
+  /* Punctuation */ html:not(.light) .chroma .p { color:#c6d0f5 }
+  /* Name */ html:not(.light) .chroma .n { color:#c6d0f5 }
   /* LineLink */ html:not(.light) .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
   /* LineTableTD */ html:not(.light) .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0 }
   /* LineTable */ html:not(.light) .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0 }
@@ -166,6 +180,8 @@
 /* Background */ html.dark .bg { color:#c6d0f5;background-color:#303446 }
 /* PreWrapper */ html.dark .chroma { color:#c6d0f5;background-color:#303446 }
 /* Error */ html.dark .chroma .err { color:#e78284 }
+/* Punctuation */ html.dark .chroma .p { color:#c6d0f5 }
+/* Name */ html.dark .chroma .n { color:#c6d0f5 }
 /* LineLink */ html.dark .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
 /* LineTableTD */ html.dark .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0 }
 /* LineTable */ html.dark .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0 }
@@ -238,3 +254,15 @@
 /* GenericSubheading */ html.dark .chroma .gu { color:#ef9f76;font-weight:bold }
 /* GenericTraceback */ html.dark .chroma .gt { color:#e78284 }
 /* GenericUnderline */ html.dark .chroma .gl { text-decoration:underline }
+
+/* A fence with no language gets no .chroma class at all, so none of the
+   palette above reaches it and it keeps the theme's unconditional
+   `pre { background-color: #1a1b21 }` -- a dark box holding body-coloured
+   text, i.e. dark on dark in light mode. Give those blocks the same surface
+   as the highlighted ones so an untagged fence is merely unhighlighted,
+   not unreadable. */
+pre:not(.chroma) { color:#4c4f69;background-color:#eff1f5 }
+@media (prefers-color-scheme: dark) {
+  html:not(.light) pre:not(.chroma) { color:#c6d0f5;background-color:#303446 }
+}
+html.dark pre:not(.chroma) { color:#c6d0f5;background-color:#303446 }

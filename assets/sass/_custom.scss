@@ -148,3 +148,78 @@ pre > code {
 .navbar .menu-link {
   line-height: 2.25;
 }
+
+
+// ---------------------------------------------------------------------------
+// Sticky navbar on desktop
+// ---------------------------------------------------------------------------
+// The mobile UI already travels with the scroll: the theme sets
+// `position: fixed` on `.menu` inside its max-width 768px block (_navbar.scss).
+// Desktop had no equivalent, so the bar scrolled away. Here it travels too.
+//
+// `position: sticky` rather than `fixed`, because sticky keeps the bar in
+// normal flow: no vertical space has to be reserved and nothing shifts when it
+// detaches. A fixed bar would need a hardcoded height constant to pad the
+// content by, which then silently rots whenever the logo or padding changes.
+//
+// One prerequisite. The theme sets `body { overflow-x: hidden }`, and `hidden`
+// makes body a scroll container whose own scrollport never scrolls -- which
+// silently disables sticky for every descendant, the classic cause of "sticky
+// does nothing". `clip` clips exactly the same overflow WITHOUT creating a
+// scroll container, so sticky works. On a browser too old for `clip` the
+// declaration is simply dropped and the theme's `hidden` stays in force: the
+// horizontal clipping is still correct, the navbar just does not travel.
+body {
+  overflow-x: clip;
+}
+
+// The bar must be opaque, or content shows through as it passes under it.
+// `inherit` rather than a colour: `.navbar` is a direct child of <body> in both
+// templates (_default/baseof.html and the standalone index.html), so this
+// resolves to the page background in light mode, in dark mode, and in either
+// dark-mode path, and keeps matching if that background is ever changed.
+//
+// Hardcoding is what went wrong first time round: this rule used the theme's
+// $dark-black (#131418), but `html.dark body` is overridden to #1a1a1a further
+// up this very file, so the navbar sat a shade off the page it floated over.
+//
+// Set at every width, not just desktop, because the mobile rule below inherits
+// through it.
+.navbar {
+  background-color: inherit;
+}
+
+// Mobile: the theme makes `.menu` the fixed bar and hardcodes $dark-black on it
+// for dark mode (_navbar.scss), so it drifted from the page background in the
+// same way. Same selectors as the theme's own, so source order decides and
+// these win -- _custom.scss is imported last.
+html.dark .navbar .menu {
+  background-color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) .navbar .menu {
+    background-color: inherit;
+  }
+}
+
+@media screen and (min-width: $on-tablet) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 3; // above content; the mobile fixed .menu uses 2
+  }
+
+  // An in-page anchor (every ToC link, and the heading links in posts) would
+  // otherwise land its target underneath the bar. The theme already does this
+  // for mobile, where the bar is 50px; the desktop bar is ~42px (25px logo +
+  // 2 x .5rem padding + 1px border), so 60px clears it with room to spare.
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 60px;
+  }
+}

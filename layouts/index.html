@@ -65,6 +65,9 @@
     {{- partial "footer.html" . -}}
     {{- partial "scriptsBodyEnd.html" . -}}
     <script src="{{ "js/carousel.js" | relURL }}"></script>
+    {{/* This template is standalone — it does not use _default/baseof.html, so
+         scripts added there do not reach the homepage and have to be repeated. */}}
+    <script src="{{ "js/mode-toggle.js" | relURL }}"></script>
 </body>
 
 </html>

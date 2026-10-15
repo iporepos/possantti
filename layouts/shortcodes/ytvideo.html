@@ -1,0 +1,50 @@
+{{/*
+  ytvideo — YouTube embed wrapped in the same figure/caption block as `img`.
+  Full behaviour docs + live examples: layouts/partials/ytvideo.html (top
+  comment) and /styleguide/.
+
+  Use this instead of Hugo's built-in `youtube` shortcode whenever the video is
+  a figure in the flow of a post: the built-in gives you a bare responsive
+  iframe with no caption, credit, width or alignment.
+
+  Params — video specific:
+    id             Video id, or any YouTube URL it can be read from:
+                   watch?v=ID, youtu.be/ID, or /embed/ID. Required.
+    title          Title attribute on the iframe, which is what screen readers
+                   announce. Default: the `caption`, else "YouTube video".
+    start          Start offset in seconds. Default: play from the beginning.
+    ratio          Aspect ratio as "W/H". Default: "16/9". Use "4/3" for older
+                   footage, "9/16" for a vertical clip.
+    loading        "lazy" (default) | "eager". Unlike the built-in shortcode
+                   this defaults to lazy, since these sit inside long posts.
+
+  Params — shared with `img` (same behaviour and defaults as that shortcode):
+    caption        Caption text. Default: "" (none).
+    credit         Credit text. Any "(c)"/"©" already in the string is stripped;
+                   the output is always prefixed with a single "©", defaulting
+                   to italic "Undefined" when empty.
+    width          Player width. Bare numbers are treated as percent (width=80
+                   == "80%"); any other CSS unit (e.g. "500px") passes through.
+                   Default: "100%" (`img` defaults to 70%; pass width=70 to
+                   match it). Desktop only — at <= 768px the figure always
+                   spans 100% of the text column.
+    align          Horizontal position of the player+caption block: "left"
+                   (default) | "center" | "right".
+    width_caption  Caption box width, same rules as `width`. Default: mirrors
+                   `width`. Pass 100 to span the full text column regardless.
+    align_caption  Caption text-align: "left" (default, ragged-right) |
+                   "center" | "right".
+*/}}
+{{ partial "ytvideo.html" (dict
+  "id" (.Get "id")
+  "title" (.Get "title")
+  "start" (.Get "start")
+  "ratio" (.Get "ratio")
+  "loading" (.Get "loading")
+  "caption" (.Get "caption")
+  "credit" (.Get "credit")
+  "width" (.Get "width")
+  "align" (.Get "align")
+  "width_caption" (.Get "width_caption")
+  "align_caption" (.Get "align_caption")
+) }}

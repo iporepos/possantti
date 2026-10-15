@@ -216,6 +216,26 @@ html.dark .carousel-item {
     opacity: 0;
 }
 
+/* ytvideo shortcode — YouTube embed in an img-style figure.
+   The box carries the width and the aspect ratio (as a padding-bottom
+   percentage set inline by the partial, from its `ratio` param); the iframe
+   just fills it. */
+.ytvideo-box {
+  position: relative;
+  height: 0;            /* height comes entirely from padding-bottom */
+  overflow: hidden;
+  border-radius: 4px;   /* matches .baf-stage */
+}
+
+.ytvideo-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 /* Before/after comparison slider */
 .before-after {
   margin: 2rem auto;
@@ -333,13 +353,14 @@ html.dark .baf-handle::after {
   color: #eaeaea;
 }
 
-/* Mobile: `img` and `before_after` always span the full text column. The
-   `width` / `width_caption` / `align` params are a desktop-only affordance,
-   so the inline styles the partials emit are overridden here (!important is
-   required to beat an inline style). */
+/* Mobile: `img`, `before_after` and `ytvideo` always span the full text
+   column. The `width` / `width_caption` / `align` params are a desktop-only
+   affordance, so the inline styles the partials emit are overridden here
+   (!important is required to beat an inline style). */
 @media (max-width: 768px) {
   .post-figure > img,
   .post-figure > figcaption.post-caption,
+  .post-figure > .ytvideo-box,
   figure.before-after,
   figure.before-after > figcaption.post-caption {
     width: 100% !important;
@@ -634,4 +655,59 @@ html.dark .baf-handle::after {
 .category-toc-wrapper {
   text-align: left;
   margin: 2rem 0;
+}
+
+/* Code block margins at mobile width.
+
+   The theme sets `pre { margin: 0 calc(51% - 51vw) }` at <= 768px (_code.scss),
+   which does two unwanted things at once. The negative horizontal margins
+   full-bleed the block to the screen edges, so code ignored the side gutter
+   that text, images and everything else inside `.wrapper` respect (20px). And
+   because it is a margin SHORTHAND it also zeroed the margin-top/bottom: 10px
+   the theme gives every block element (_base.scss), so consecutive code blocks
+   ran flush into each other.
+
+   Replace both axes: 10px vertical to match desktop, and no horizontal offset
+   so the block aligns to the content column like any other element. Note the
+   bleed only ever applied to plain blocks anyway -- a `linenos` block's inner
+   cells are pinned by `.highlight table pre { margin: 0 }` at a higher
+   specificity, so those were already inside the column. This makes the two
+   kinds of code block agree. */
+@media (max-width: 768px) {
+  pre {
+    margin: 10px 0;
+  }
+}
+
+/* `linenos` blocks: give them the same box as plain ones.
+
+   A plain highlighted block is `.highlight > pre.chroma`, so the single `pre`
+   IS the visual box and the theme's `pre` rule works: background, 0.3rem
+   corners, and overflow-x: auto for long lines, all on one element.
+
+   A `linenos` block is `.highlight > div.chroma > table.lntable`, with a `pre`
+   inside each of the two cells. The box is now the wrapper -- that is the
+   element `.chroma` paints the background on -- while the theme's `pre` rule
+   lands on the two inner cells instead, where each property misses:
+
+     - border-radius draws rounded corners *inside* the box, invisible against
+       the identical background, while the box itself stays square;
+     - overflow-x: auto can never trigger, because a table cell is sized to its
+       own content, so a long line widened the table and pushed it past the
+       page edge rather than scrolling within the block;
+     - margin is pinned to 0 by the theme's own `.highlight table pre`, which
+       is why nothing carried the vertical gap between blocks.
+
+   So move all three to the wrapper and flatten the inner corners. `div.chroma`
+   as a child selector only ever matches table mode, so plain blocks keep using
+   their `pre` and are untouched. */
+.highlight > div.chroma {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.3rem;
+  overflow-x: auto; /* scrolls the table inside the block, and clips the corners */
+}
+
+.highlight table pre {
+  border-radius: 0; /* no rounded box drawn inside the rounded box */
 }
