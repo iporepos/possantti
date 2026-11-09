@@ -29,7 +29,7 @@ tags: ["floods", "landslides", "hazard", "vulnerability", "CNEFE", "HAND"]
 
 ## Contexto
 
-As enchentes de 2024 devastaram o Vale do Rio Pardo, Rio Grande do Sul. Em resposta, o CISVALE (o Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, representando 17 municípios) encomendou um amplo Diagnóstico Socioambiental (DSA), contratado através da Universidade de Santa Cruz do Sul (UNISC), que reuniu uma equipe multidisciplinar abrangendo as dimensões geológica, social e ambiental.
+O CISVALE (o Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, representando 17 municípios do Rio Grande do Sul) encomendou um amplo Diagnóstico Socioambiental (DSA), contratado através da Universidade de Santa Cruz do Sul (UNISC), que reuniu uma equipe multidisciplinar abrangendo as dimensões geológica, social e ambiental. As enchentes de maio de 2024 devastaram o vale depois que o trabalho já havia sido contratado.
 
 Entrei como consultor remoto contratado pela UNISC para o mapeamento de risco e vulnerabilidade. O próprio desastre de 2024 forneceu dados incomumente ricos (mapas de extensão de enchente, inventários de cicatrizes de deslizamento) para validar os modelos sem necessidade de campanhas de campo.
 

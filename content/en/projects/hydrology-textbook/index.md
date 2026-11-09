@@ -42,7 +42,7 @@ The book spans 15 chapters and requires more than 500 figures. The authors provi
 
 ## Approach
 
-The scale of the project demanded a production system tier to my drawing skills, built on an entirely open-source toolchain.
+The scale of the project demanded a production system beyond my drawing skills, built on an entirely open-source toolchain.
 
 {{< img src="https://images.possantti.net/story/B005/gallery_tuwien_en.jpeg" width=70 caption="My workflow: converting the author's drafts into a publishable scientific illustration using open-source tools" credit="Iporã Possantti" align="center">}}
 
@@ -52,7 +52,7 @@ All figures follow a unified design system (consistent fonts, spacing, line weig
 
 One of the harder aspects is interpreting the drafts themselves. Some are clear; others require real hydrological knowledge to decode: a rough sketch of a hillslope process might imply three or four interacting mechanisms that need to be visually separated and made legible. I have to understand the hydrology before drawing the figure.
 
-{{< before_after before="https://images.possantti.net/story/B005/final-example-2.jpeg" after="https://images.possantti.net/story/B005/draft-example-2.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="Translating multiple panels concepts into a clean, readable figure while preserving the scientific content." credit="Iporã Possantti" ruler="before">}}
+{{< before_after before="https://images.possantti.net/story/B005/final-example-2.jpeg" after="https://images.possantti.net/story/B005/draft-example-2.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="Translating multi-panel concepts into a clean, readable figure while preserving the scientific content." credit="Iporã Possantti" ruler="before">}}
 
 {{< before_after before="https://images.possantti.net/story/B005/final-example-3.jpeg" after="https://images.possantti.net/story/B005/draft-example-3.jpeg" before_label="Final" after_label="Draft" position="33" width="100%" caption="From simple sketches to unified visual language" credit="Iporã Possantti" ruler="before">}}
 
@@ -64,7 +64,7 @@ Beyond the figures, the project produced several companion tools and deliverable
 
 **Galley Proof website**. This is a private review platform hosted on Cloudflare: authors get access codes by email and can browse, approve, and comment on figures by chapter, so review happens in one place instead of scattered email threads. Its static companion, the **figure catalog**, is a LaTeX-built PDF reference of all figures and metadata.
 
-**LaTeX manuscript system**. A secondary deliverible for the authors: tooling enforcing consistency in symbol notation, formatting, and cross-references across 15 chapters, plus guides for the figure workflow and the LaTeX system, both delivered as PDFs.
+**LaTeX manuscript system**. A secondary deliverable for the authors: tooling enforcing consistency in symbol notation, formatting, and cross-references across 15 chapters, plus guides for the figure workflow and the LaTeX system, both delivered as PDFs.
 
 The book is in production, figures delivered chapter by chapter. After publication, they're expected to go public for instructors and students to use in lectures and course materials.
 

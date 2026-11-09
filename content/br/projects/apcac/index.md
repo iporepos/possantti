@@ -39,7 +39,7 @@ O Instituto Cerrados me convidou porque o estudo exigia um framework hidrológic
 
 ## Abordagem
 
-O estudo foi estruturado em três partes. A primeira estabeleceu a **teoria hidrológica específica ao Cerrado**: como a infiltração opera nas encostas e platôs, como a conectividade hidrológica acelera ou amorte o escoamento, e por que o Código Florestal, embora protetivo das zonas ripárias, deixa de reconhecer as áreas de encosta onde a infiltração de fato ocorre. A base conceitual apoiou-se na **métrica HAND** (Height Above Nearest Drainage) como proxy da suscetibilidade à saturação e do potencial de infiltração na microescala.
+O estudo foi estruturado em três partes. A primeira estabeleceu a **teoria hidrológica específica ao Cerrado**: como a infiltração opera nas encostas e platôs, como a conectividade hidrológica acelera ou amortece o escoamento, e por que o Código Florestal, embora protetivo das zonas ripárias, deixa de reconhecer as áreas de encosta onde a infiltração de fato ocorre. A base conceitual apoiou-se na **métrica HAND** (Height Above Nearest Drainage) como proxy da suscetibilidade à saturação e do potencial de infiltração na microescala.
 
 {{< img src="https://images.possantti.net/story/A030/method2_en.jpeg" width=100 caption="Duas camadas centrais para a classificação APCAC: índice de conservação natural (topo) e índice de potencial de infiltração derivado de topografia, solos e geologia (base). Cada painel combina uma renderização 3D do terreno com o mapa espacial correspondente." credit="© Iporã Possantti">}}
 

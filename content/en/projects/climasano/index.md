@@ -8,7 +8,7 @@ gallery_title: "Records of the water quality collapse in the Guaíba system"
 gallery_caption: "Structuring a database that reveals the impact on water quality during floods"
 gallery_show: true
 gallery_order: 2
-project_motivation: "What happens to a city's drinking water source during extreme flood coditions?"
+project_motivation: "What happens to a city's drinking water source during extreme flood conditions?"
 project_title: "A database of water quality during the extreme floods in Porto Alegre" 
 project_client: "FAPERGS"
 project_intermediate: "IPH/UFRGS"
@@ -41,7 +41,7 @@ This research project (internally named CLIMASANO, led by the sanitation group a
 
 ## Approach
 
-The study covered an unusually broad analytical panel: physicochemical parameters (pH, conductivity, turbidity, color, suspended solids, phosphorus, ammoniacal nitrogen, dissolved organic carbon), microbiological indicators (total coliforms, *E. coli*), ecotoxicity assays (*Daphnia magna*), antimicrobial resistance genes (carbapenemase genes *bla*KPC and *bla*NDM), and pathogenic viruses (Hepatitis A and E, Norovirus GI and GII, SARS-CoV-2). Dozens physicochemical and microbiological parameters were analyzed across the 92 individual samples, with advanced molecular and virological screening performed on 20 composite samples.
+The study covered an unusually broad analytical panel: physicochemical parameters (pH, conductivity, turbidity, color, suspended solids, phosphorus, ammoniacal nitrogen, dissolved organic carbon), microbiological indicators (total coliforms, *E. coli*), ecotoxicity assays (*Daphnia magna*), antimicrobial resistance genes (carbapenemase genes *bla*KPC and *bla*NDM), and pathogenic viruses (Hepatitis A and E, Norovirus GI and GII, SARS-CoV-2). Dozens of physicochemical and microbiological parameters were analyzed across the 92 individual samples, with advanced molecular and virological screening performed on 20 composite samples.
 
 I designed a GeoPackage-based spatial database organizing these records for direct querying in QGIS, with source layers, a hexagonal binning grid for spatial aggregation, and filtered views by theme and campaign. A companion PDF report documents raw values and maps. The database is embargoed on Zenodo while new campaigns are incorporated; I'm still expanding it, with plans to migrate the grid to H3 indexing.
 

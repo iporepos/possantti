@@ -29,7 +29,7 @@ tags: ["floods", "landslides", "hazard", "vulnerability", "CNEFE", "HAND"]
 
 ## Context
 
-The 2024 floods devastated the Vale do Rio Pardo, Rio Grande do Sul. In response, CISVALE (the Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, representing 17 municipalities) commissioned a broad Diagnóstico Socioambiental (DSA), contracted through the Universidade de Santa Cruz do Sul (UNISC), which assembled a multidisciplinary team spanning geological, social, and environmental dimensions.
+CISVALE (the Consórcio Intermunicipal de Serviços do Vale do Rio Pardo, representing 17 municipalities in Rio Grande do Sul) commissioned a broad Diagnóstico Socioambiental (DSA), contracted through the Universidade de Santa Cruz do Sul (UNISC), which assembled a multidisciplinary team spanning geological, social, and environmental dimensions. The May 2024 floods devastated the valley after the work had been contracted.
 
 I joined as a remote consultant hired by UNISC for the hazard and vulnerability mapping. The 2024 disaster itself provided unusually rich data (flood extent maps, landslide scar inventories) to ground-truth the models without field campaigns.
 

@@ -23,7 +23,7 @@ tags: ["msp", "ecosystem services"]
 
 {{< project_header >}}
 
-{{< img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" width=100 caption="O desafio do PEM-Sul é alocar o espaço oceânico no sul do Brasil de forma justa e sustentável" credit="(c) Ian Stewart" >}}
+{{< img src="https://photos.possantti.net/covers/tramandai-pier-1.jpg" width=100 caption="O desafio do PEM-Sul é alocar o espaço oceânico no sul do Brasil de forma justa e sustentável" credit="Gabriel Gomes" >}}
 
 ---
 

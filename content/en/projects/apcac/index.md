@@ -33,7 +33,7 @@ The Cerrado is the most biodiverse savanna on Earth and the headwater of three o
 
 {{< img src="https://images.possantti.net/story/A030/intro_en.jpeg" width=100 caption="Conceptual landscape model of the Cerrado: plateau and valley structure driving the hydrological framework (top), alongside the three pressures on the system: native grasslands and shrublands sustaining infiltration, agricultural expansion as the main conversion vector, and perennial rivers as the visible output of baseflow generation (bottom)." credit="© Iporã Possantti, photos from WWF and Mongabay">}}
 
-Instituto Cerrados brought me in because the study required a hydrological framework grounded in **topographic controls on infiltration**, which sits at the core of my doctoral research on TOPMODEL. My role was to lead the project rationale, coordinate the technical reports, and integrate the geospatial data pipeline, working with more colleagues (prof. Guilherme Marques and hydrologist Rafael Barbedo) to ensure the outputs were both scientifically sound and policy-ready.
+Instituto Cerrados brought me in because the study required a hydrological framework grounded in **topographic controls on infiltration**, which sits at the core of my doctoral research on TOPMODEL. My role was to lead the project rationale, coordinate the technical reports, and integrate the geospatial data pipeline, working with prof. Guilherme Marques and hydrologist Rafael Barbedo to ensure the outputs were both scientifically sound and policy-ready.
 
 ---
 
