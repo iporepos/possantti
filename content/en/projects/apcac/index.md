@@ -29,11 +29,11 @@ tags: ["cerrado", "watershed"]
 
 ## Context
 
-The Cerrado is the most biodiverse savanna on Earth and the headwater of three of South America's largest river systems: São Francisco, Paraná, and Araguaia. Its hydrology is governed by a sharp seasonal regime: a concentrated wet season followed by a long dry period in which **rivers depend almost entirely on groundwater discharge** to keep flowing. That mechanism hinges on how much rainfall actually infiltrates into the soil rather than running off. **Land use is the control valve of the system.**
+The Cerrado is the most biodiverse savanna on Earth and the headwater of three of South America's largest river systems: São Francisco, Paraná, and Araguaia. Its hydrology is governed by a sharp seasonal regime: a concentrated wet season followed by a long dry period in which **rivers depend almost entirely on groundwater discharge** to keep flowing. That mechanism hinges on how much rainfall actually infiltrates into the soil rather than running off, which makes **land use the control valve of the system**.
 
 {{< img src="https://images.possantti.net/story/A030/intro_en.jpeg" width=100 caption="Conceptual landscape model of the Cerrado: plateau and valley structure driving the hydrological framework (top), alongside the three pressures on the system: native grasslands and shrublands sustaining infiltration, agricultural expansion as the main conversion vector, and perennial rivers as the visible output of baseflow generation (bottom)." credit="© Iporã Possantti, photos from WWF and Mongabay">}}
 
-Instituto Cerrados brought me in precisely because this wasn't a typical ecological study. It required a hydrological framework grounded in **topographic controls on infiltration**, which sits at the core of my doctoral research on TOPMODEL. My role was to lead the project rationale, coordinate the technical reports, and integrate the geospatial data pipeline, working with more colleagues (prof. Guilherme Marques and hydrologist Rafael Barbedo) to ensure the outputs were both scientifically sound and policy-ready.
+Instituto Cerrados brought me in because the study required a hydrological framework grounded in **topographic controls on infiltration**, which sits at the core of my doctoral research on TOPMODEL. My role was to lead the project rationale, coordinate the technical reports, and integrate the geospatial data pipeline, working with more colleagues (prof. Guilherme Marques and hydrologist Rafael Barbedo) to ensure the outputs were both scientifically sound and policy-ready.
 
 ---
 
@@ -51,7 +51,7 @@ The third part scaled the analysis to the entire biome. The **APCAC classificati
 
 ## Outcomes
 
-Preserved catchments produced **two to four times more streamflow** during the dry season than their degraded counterparts, even under identical precipitation: a direct, empirical case for native vegetation as water infrastructure. The HAND threshold provided a reproducible criterion for mapping infiltration-priority zones at the property and watershed scale.
+Preserved catchments produced **two to four times more streamflow** during the dry season than their degraded counterparts, even under identical precipitation, which makes a direct empirical case for native vegetation as water infrastructure. The HAND threshold provided a reproducible criterion for mapping infiltration-priority zones at the property and watershed scale.
 
 {{< img src="https://images.possantti.net/story/A030/results_en.jpeg" width=100 caption="Final APCAC classification of sub-watersheds across the Cerrado biome. Color intensity encodes hydrological importance; color hue encodes recommended policy action, with each class designed to map directly onto a conservation, restoration, or risk-management instrument." credit="© Iporã Possantti">}}
 
@@ -61,17 +61,17 @@ The APCAC maps were designed to plug directly into existing instruments, from En
 
 {{< img src="https://photos.possantti.net/A030/workshop_2026.jpeg" width=75% caption="Participants of the APCAC validation workshop, Ministry of Environment and Climate Change, Brasília, April 2026." credit="© Iporã Possantti">}}
 
-In April 2026, the methodology was validated at a workshop held at the Ministry headquarters in Brasília, bringing together specialists from **ANA, ICMBio, IBAMA, and federal universities**. The discussion focused on whether the classification logic was robust enough to inform real policy instruments, and the consensus was that it was.
+In April 2026, the methodology was validated at a workshop held at the Ministry headquarters in Brasília, bringing together specialists from **ANA, ICMBio, IBAMA, and federal universities**. The discussion focused on whether the classification logic could support policy instruments, and the consensus was that it could.
 
 ---
 
 ### Resources
 
-| | Asset | Description |
-|---|---|---|
-| 📄 | [Technical Report](https://doi.org/10.5281/zenodo.17981330) | Full report (PDF) and LaTeX source — Possantti et al., 2025, Zenodo |
-| 🗄️ | [Geospatial Dataset](https://doi.org/10.5281/zenodo.18867492) | Input rasters, intermediate index layers, final priority maps, and classified catchments — Zenodo |
-| 💻 | [Processing Code](https://github.com/iporepos/apcac) | QGIS-based Python workflow for APCAC classification — GitHub |
-| 📖 | [Documentation](https://iporepos.github.io/apcac/) | Method documentation and usage guide — GitHub Pages |
+| Asset | Description |
+|---|---|
+| [Technical Report](https://doi.org/10.5281/zenodo.17981330) | Full report (PDF) and LaTeX source (Possantti et al., 2025, Zenodo) |
+| [Geospatial Dataset](https://doi.org/10.5281/zenodo.18867492) | Input rasters, intermediate index layers, final priority maps, and classified catchments (Zenodo) |
+| [Processing Code](https://github.com/iporepos/apcac) | QGIS-based Python workflow for APCAC classification (GitHub) |
+| [Documentation](https://iporepos.github.io/apcac/) | Method documentation and usage guide (GitHub Pages) |
 
 {{< project_footer >}}

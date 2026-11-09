@@ -17,7 +17,7 @@ project_abstract: "Projeto de pesquisa financiado pela FAPERGS (internamente bat
 project_domain: "Recursos Hídricos"
 project_category: "Pesquisa"
 project_tools: ["QGIS", "Python", "GeoPackage", "Zenodo"]
-project_team: ["Salatiel Wohlmuth da Silva — coordenador do projeto (IPH/UFRGS)", "Louidi Lauer Albornoz — pesquisador", "Lucia Helena Ribeiro Rodrigues — pesquisadora"]
+project_team: ["Salatiel Wohlmuth da Silva (coordenador do projeto, IPH/UFRGS)", "Louidi Lauer Albornoz (pesquisador)", "Lucia Helena Ribeiro Rodrigues (pesquisadora)"]
 categories: ["projects"]
 tags: ["water quality", "floods", "One Health", "database", "sanitation"] 
 ---
@@ -33,7 +33,7 @@ tags: ["water quality", "floods", "One Health", "database", "sanitation"]
 
 Entre abril e maio de 2024, a pior enchente já registrada no sul do Brasil, com ondas sincronizadas dos rios Jacuí, Taquari, Caí e Sinos, levou o sistema Guaíba a um pico histórico de 5,37 m em Porto Alegre. A infraestrutura ficou sobrecarregada por cerca de 30 dias; 2,3 milhões de pessoas foram afetadas, 185 morreram, e cinco das seis estações de tratamento de água pararam de funcionar, deixando 1,23 milhão de moradores sem água potável.
 
-Este projeto de pesquisa (internamente batizado de CLIMASANO, liderado pelo grupo de saneamento do IPH/UFRGS e financiado pela FAPERGS) se propôs a avaliar o que a enchente fez com a qualidade da água bruta no sistema Guaíba. A equipe amostrou 92 pontos em toda a região metropolitana durante o próprio pico da enchente: dados empíricos raros, coletados enquanto o desastre ainda se desenrolava, não meses depois. Entrei como pesquisador de pós-doutorado por um ano, responsável por construir o banco de dados espacial que organiza todos os resultados analíticos.
+Este projeto de pesquisa (internamente batizado de CLIMASANO, liderado pelo grupo de saneamento do IPH/UFRGS e financiado pela FAPERGS) se propôs a avaliar o que a enchente fez com a qualidade da água bruta no sistema Guaíba. A equipe amostrou 92 pontos em toda a região metropolitana durante o próprio pico da enchente, coletando dados empíricos raros enquanto o desastre ainda se desenrolava. Entrei como pesquisador de pós-doutorado por um ano, responsável por construir o banco de dados espacial que organiza todos os resultados analíticos.
 
 ---
 
@@ -57,8 +57,8 @@ Também produzimos um conjunto de dados sobre a **situação operacional da infr
 
 **Recursos:**
 
-- [Albornoz, Possantti, et al. (2026)](https://doi.org/10.1038/s41598-026-66919-x) — *How water quality under extreme floods compromises ecosystem services, sanitation and One Health.* Scientific Reports.
-- [Banco de Dados CLIMASANO no Zenodo](https://zenodo.org/records/15566197) — Banco de dados GeoPackage de qualidade da água *(embargado)*
-- [Conjunto de Dados de Infraestrutura de Saneamento no Zenodo](https://zenodo.org/records/17625447) — Situação operacional dos sistemas de saneamento durante o desastre de 2024
+- [Albornoz, Possantti, et al. (2026)](https://doi.org/10.1038/s41598-026-66919-x): *How water quality under extreme floods compromises ecosystem services, sanitation and One Health.* Scientific Reports.
+- [Banco de Dados CLIMASANO no Zenodo](https://zenodo.org/records/15566197): Banco de dados GeoPackage de qualidade da água *(embargado)*
+- [Conjunto de Dados de Infraestrutura de Saneamento no Zenodo](https://zenodo.org/records/17625447): Situação operacional dos sistemas de saneamento durante o desastre de 2024
 
 {{< project_footer >}}

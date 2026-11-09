@@ -11,12 +11,12 @@ project_motivation: "Depois das enchentes de 2024, como mapear risco e vulnerabi
 project_title: "Avaliação de risco e vulnerabilidade para o diagnóstico socioambiental do Vale do Rio Pardo" 
 project_client: "CISVALE"
 project_intermediate: "UNISC"
-project_role: "Consultor Remoto — Análise de Risco"
+project_role: "Consultor Remoto (Análise de Risco)"
 project_abstract: "Avaliação de risco e vulnerabilidade ambiental para o Diagnóstico Socioambiental (DSA) de 17 municípios no Vale do Rio Pardo, Rio Grande do Sul, coordenado pelo consórcio CISVALE. Atuando como consultor remoto contratado pela UNISC, produzi mapas de suscetibilidade a inundações e deslizamentos para cada município usando Height Above Nearest Drainage, análise topográfica, e dados de endereçamento do CNEFE para cruzar risco com exposição populacional, transformando suscetibilidade em vulnerabilidade."
 project_domain: "Hidrologia"
 project_category: "Consultoria"
 project_tools: ["Python", "QGIS", "LaTeX"]
-project_team: ["UNISC — Instituição líder (análise geológica, social, trabalho de campo)"]
+project_team: ["UNISC (instituição líder: análise geológica, social, trabalho de campo)"]
 categories: ["projects"]
 tags: ["floods", "landslides", "hazard", "vulnerability", "CNEFE", "HAND"] 
 ---
@@ -37,7 +37,7 @@ Entrei como consultor remoto contratado pela UNISC para o mapeamento de risco e 
 
 ## Abordagem
 
-O objetivo: mapas de risco e vulnerabilidade para todos os 17 municípios, numa abordagem rápida baseada em dados já disponíveis, em vez de levantamentos de campo.
+O objetivo foi produzir mapas de risco e vulnerabilidade para todos os 17 municípios, numa abordagem rápida baseada em dados já disponíveis, em vez de levantamentos de campo.
 
 Para **risco de inundação**, usei uma abordagem multiescalar de **Height Above Nearest Drainage (HAND)**. Um único mapa HAND depende da área de limiar que define a rede de drenagem: limiares pequenos capturam todo curso d'água, limiares grandes só os rios principais, então nenhum sozinho dá o quadro completo. Calcular o HAND em múltiplas escalas capturou a exposição de cada local a pequenos cursos d'água, canais médios e grandes rios ao mesmo tempo: uma residência 3 m acima de um arroio e 15 m acima do rio principal tem um risco muito diferente de uma na mesma elevação acima de apenas um desses.
 

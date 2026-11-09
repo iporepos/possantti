@@ -16,7 +16,7 @@ project_abstract: "Caracterização ambiental para a expansão urbana planejada 
 project_domain: "Planejamento Ambiental"
 project_category: "Consultoria"
 project_tools: ["QGIS", "Python", "plans", "MapBiomas", "OpenStreetMap"]
-project_team: ["Benamy Turkienicz — coordenador NTU (UFRGS)"]
+project_team: ["Benamy Turkienicz (coordenador NTU, UFRGS)"]
 categories: ["projects"]
 tags: ["urban planning", "expansion", "hydrology", "buffer zone", "wetlands", "drainage"] 
 ---
@@ -31,7 +31,7 @@ tags: ["urban planning", "expansion", "hydrology", "buffer zone", "wetlands", "d
 
 Gramado, um importante polo turístico na Serra Gaúcha vizinho a Canela, planejava uma expansão urbana significativa para o norte: a zona tradicional estava se aproximando da saturação, e o município via o planalto norte como a próxima fronteira para resorts e infraestrutura turística.
 
-A área de expansão fica num planalto próximo a uma unidade de conservação (Parque dos Pinheiros) e a um lago de valor cênico e recreativo que já apresentava degradação na qualidade da água. A questão não era apenas *onde* expandir, mas como definir limites de proteção que pudessem coexistir com o desenvolvimento. Fui contratado através do NTU na UFRGS para a caracterização ambiental, seguindo uma abordagem semelhante à do trabalho em Canela.
+A área de expansão fica num planalto próximo a uma unidade de conservação (Parque dos Pinheiros) e a um lago de valor cênico e recreativo que já apresentava degradação na qualidade da água. A questão era como definir limites de proteção que pudessem coexistir com o desenvolvimento. Fui contratado através do NTU na UFRGS para a caracterização ambiental, seguindo uma abordagem semelhante à do trabalho em Canela.
 
 ---
 
@@ -39,9 +39,9 @@ A área de expansão fica num planalto próximo a uma unidade de conservação (
 
 O município forneceu um MDE de alta resolução (~1 m) incomumente detalhado a partir de um levantamento local, que usei para mapear a **rede de drenagem** e identificar potencial de **saturação e formação de áreas úmidas**, crítico num planalto plano, onde o acúmulo de água não é óbvio apenas por inspeção visual.
 
-A peça central foi propor uma **zona de amortecimento hidrologicamente fundamentada**: em vez de uma distância arbitrária a partir do limite do parque, ela deveria seguir **limites de bacia hidrográfica**, protegendo toda a área de drenagem que alimenta o lago independentemente do perímetro administrativo: o que afeta a bacia afeta o lago. Como o lago já apresentava contaminação por esgoto apesar do entorno verde, proteger apenas a margem não resolveria o problema.
+A peça central foi propor uma **zona de amortecimento hidrologicamente fundamentada** que segue **limites de bacia hidrográfica** em vez de uma distância arbitrária a partir do limite do parque, protegendo toda a área de drenagem que alimenta o lago independentemente do perímetro administrativo, já que o que afeta a bacia afeta o lago. Como o lago já apresentava contaminação por esgoto apesar do entorno verde, proteger apenas a margem não resolveria o problema.
 
-Essa zona de amortecimento capturou partes tanto das zonas urbanas existentes quanto das propostas, de modo que as restrições se aplicavam através de limites administrativos: um arcabouço mais robusto do que um simples anel de distância, e que apoiava o interesse da cidade em combinar expansão com estratégias de compensação e proteção, em vez de tratar desenvolvimento e conservação como opostos.
+Essa zona de amortecimento capturou partes tanto das zonas urbanas existentes quanto das propostas, de modo que as restrições se aplicavam através de limites administrativos. Isso a torna um arcabouço mais sólido do que um simples anel de distância, e apoiava o interesse da cidade em combinar expansão com estratégias de compensação e proteção.
 
 Também realizei a **avaliação de uso do solo** padrão (MapBiomas + OpenStreetMap, como em Canela) e **análise topográfica**, entregues como GeoPackages e rasters TIFF para os produtos de planejamento mais amplos da equipe do NTU.
 
@@ -55,7 +55,7 @@ Os produtos foram relatórios técnicos elaborados como consultor independente p
 
 **Recursos:**
 
-- Relatório de avaliação ambiental — Expansão de Gramado *(link do relatório pendente)*
+- Relatório de avaliação ambiental, Expansão de Gramado *(link do relatório pendente)*
 
 *Contratado através da Fundação Luiz Englert (UFRGS)*
 

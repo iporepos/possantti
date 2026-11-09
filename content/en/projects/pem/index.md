@@ -29,7 +29,7 @@ tags: ["msp", "ecosystem services"]
 
 ## Context
 
-**Marine spatial planning (MSP)** is a public, participatory process for distributing human activities across marine space, targeting ecological, economic, and social objectives simultaneously. In Brazil, the ocean accounts for roughly **19% of GDP** across some **5.7 million km²** of national jurisdiction. Managing that space without accumulating conflicts requires more than sectoral regulation; it requires a spatial framework.
+**Marine spatial planning (MSP)** is a public, participatory process for distributing human activities across marine space, targeting ecological, economic, and social objectives simultaneously. In Brazil, the ocean accounts for roughly **19% of GDP** across some **5.7 million km²** of national jurisdiction. Managing that space without accumulating conflicts requires a spatial framework in addition to sectoral regulation.
 
 The Brazilian MSP program, *Planejamento Espacial Marinho* or **PEM**, is coordinated by CIRM under a 2025 federal decree, organized into four marine regions. The **southern region** (Paraná, Santa Catarina, and Rio Grande do Sul) is the national pilot, standing at 53% completion as of late 2025, ahead of all other regions and setting the methodological precedent for the rest of the country.
 
@@ -37,9 +37,9 @@ The Brazilian MSP program, *Planejamento Espacial Marinho* or **PEM**, is coordi
 
 ## Approach
 
-PEM-Sul project needed someone who could bridge **spatial modeling and environmental planning**: not just run GIS workflows, but design an analytical framework that is ecologically grounded, reproducible, and defensible in a multi-stakeholder setting. That intersection is where most of my work has lived.
+The PEM-Sul project needed someone who could bridge **spatial modeling and environmental planning** to design an analytical framework that is ecologically grounded, reproducible, and defensible in a multi-stakeholder setting. Most of my work sits at that intersection.
 
-The methodological core is the ***IDUSE-Mar***, a composite spatial index synthesizing three dimensions of ocean use performance: Benefit, Habitat Risk, and Conflict, expressed as *D = B / (R × C)*. The logic is intentional: a policy that maximizes benefit while ignoring ecological risk or sectoral conflict will always underperform one that keeps those denominators low. The **Benefit Index** maps economic value from ocean users to coastal hubs; the **Habitat Risk Index** adapts the InVEST HRA framework for cumulative, nonlinear habitat impact; the **Conflict Index** quantifies pairwise spatial incompatibility through weighted user-overlap surfaces. All three are computed cell-by-cell and can be upscaled to Management Units.
+The methodological core is the ***IDUSE-Mar***, a composite spatial index synthesizing three dimensions of ocean use performance: Benefit, Habitat Risk, and Conflict, expressed as *D = B / (R × C)*. A policy that maximizes benefit while ignoring ecological risk or sectoral conflict will always underperform one that keeps those denominators low. The **Benefit Index** maps economic value from ocean users to coastal hubs; the **Habitat Risk Index** adapts the InVEST HRA framework for cumulative, nonlinear habitat impact; the **Conflict Index** quantifies pairwise spatial incompatibility through weighted user-overlap surfaces. All three are computed cell-by-cell and can be upscaled to Management Units.
 
 My role covers the full analytical pipeline: data preparation, model implementation in Python and R, and scenario simulation under baseline, business-as-usual, and eco-development configurations, fully scripted for reproducibility.
 

@@ -16,7 +16,7 @@ project_abstract: "Avaliação de serviços ecossistêmicos e capital natural pa
 project_domain: "Planejamento Ambiental"
 project_category: "Consultoria"
 project_tools: ["QGIS", "Python", "plans", "InVEST", "MapBiomas", "OpenStreetMap"]
-project_team: ["Fernando Dornelles — IPH/UFRGS", "Tatiana Silva — Instituto de Geociências/UFRGS", "Ana McIntosh — Fulbright fellow (MIT)", "Benamy Turkienicz — coordenador NTU (UFRGS)"]
+project_team: ["Fernando Dornelles (IPH/UFRGS)", "Tatiana Silva (Instituto de Geociências/UFRGS)", "Ana McIntosh (Fulbright fellow, MIT)", "Benamy Turkienicz (coordenador NTU, UFRGS)"]
 categories: ["projects"]
 tags: ["ecosystem services", "natural capital", "habitat quality", "no net loss", "InVEST", "urban planning"] 
 ---
@@ -29,7 +29,7 @@ tags: ["ecosystem services", "natural capital", "habitat quality", "no net loss"
 
 ## Contexto
 
-Canela está numa zona de transição na Serra Gaúcha, entre os vales florestados da bacia do Rio dos Sinos ao sul e o planalto dominado por silvicultura que drena para o Rio Caí ao norte. Com a revisão do Plano Diretor do município, a dimensão ambiental precisava de mais do que uma lista de áreas protegidas. Era necessária uma contabilidade espacial do capital natural do município: onde os serviços ecossistêmicos estão sendo produzidos, onde estão sendo perdidos, e como o desenvolvimento pode ser estruturado para que o valor ecológico não seja simplesmente apagado.
+Canela está numa zona de transição na Serra Gaúcha, entre os vales florestados da bacia do Rio dos Sinos ao sul e o planalto dominado por silvicultura que drena para o Rio Caí ao norte. Com a revisão do Plano Diretor do município, a dimensão ambiental precisava de uma contabilidade espacial do capital natural do município: onde os serviços ecossistêmicos estão sendo produzidos, onde estão sendo perdidos, e como o desenvolvimento pode ser estruturado para que o valor ecológico não seja simplesmente apagado.
 
 Fui contratado como consultor independente para produzir essa avaliação, trabalhando sob o Núcleo de Tecnologia Urbana (NTU) da UFRGS. O projeto rodou do final de 2023 até 2024, cobrindo tanto Canela quanto, numa fase posterior, a área de expansão urbana planejada ("Nova Centralidade") na vizinha Gramado.
 
@@ -63,13 +63,13 @@ No final de 2024, o plano em vigor em Canela permanecia sendo a Lei Complementar
 
 **Relatórios:**
 
-- [Diagnóstico de Serviços Ecossistêmicos](https://documents.possantti.net/A015/report_A015_canela_consultores.pdf) — NDVI, qualidade de habitat, TWI, balanço hídrico, perda de solo e delimitação de UGPA
-- [Área de Biodiversidade Equivalente](https://documents.possantti.net/A015/report_A015_canela_NNL.pdf) — prova de conceito para compensação de impacto zero em Canela
-- [Avaliação de Risco](https://documents.possantti.net/A015/report_A015_canela_risk_waterquality.pdf) — suscetibilidade a deslizamentos e inundações, capacidade de suporte de cursos d'água para Canela e Gramado
-- [Considerações Técnicas](https://documents.possantti.net/A015/report_A015_canela_comments.pdf) — notas complementares sobre indicadores e unidades de gestão ambiental
+- [Diagnóstico de Serviços Ecossistêmicos](https://documents.possantti.net/A015/report_A015_canela_consultores.pdf): NDVI, qualidade de habitat, TWI, balanço hídrico, perda de solo e delimitação de UGPA
+- [Área de Biodiversidade Equivalente](https://documents.possantti.net/A015/report_A015_canela_NNL.pdf): prova de conceito para compensação de impacto zero em Canela
+- [Avaliação de Risco](https://documents.possantti.net/A015/report_A015_canela_risk_waterquality.pdf): suscetibilidade a deslizamentos e inundações, capacidade de suporte de cursos d'água para Canela e Gramado
+- [Considerações Técnicas](https://documents.possantti.net/A015/report_A015_canela_comments.pdf): notas complementares sobre indicadores e unidades de gestão ambiental
 
 **Referência metodológica:**
 
-- [Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120540) — *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management.
+- [Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120540): *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management.
 
 {{< project_footer >}}

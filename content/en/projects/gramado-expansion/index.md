@@ -16,7 +16,7 @@ project_abstract: "Environmental characterization for Gramado's planned urban ex
 project_domain: "Environmental Planning"
 project_category: "Consulting"
 project_tools: ["QGIS", "Python", "plans", "MapBiomas", "OpenStreetMap"]
-project_team: ["Benamy Turkienicz — NTU coordinator (UFRGS)"]
+project_team: ["Benamy Turkienicz (NTU coordinator, UFRGS)"]
 categories: ["projects"]
 tags: ["urban planning", "expansion", "hydrology", "buffer zone", "wetlands", "drainage"] 
 ---
@@ -31,7 +31,7 @@ tags: ["urban planning", "expansion", "hydrology", "buffer zone", "wetlands", "d
 
 Gramado, a major tourism hub in the Serra Gaúcha neighboring Canela, was planning a significant urban expansion northward: the traditional zone was reaching saturation, and the municipality saw the northern plateau as the next frontier for resorts and tourism infrastructure.
 
-The expansion area sits on a plateau near a conservation unit (Parque dos Pinheiros) and a lake of scenic and recreational value already showing water quality degradation. The question wasn't just *where* to expand, but how to define protection boundaries that could coexist with development. I was brought in through the NTU at UFRGS for the environmental characterization, following a similar approach to the Canela work.
+The expansion area sits on a plateau near a conservation unit (Parque dos Pinheiros) and a lake of scenic and recreational value already showing water quality degradation. The question was how to define protection boundaries that could coexist with development. I was brought in through the NTU at UFRGS for the environmental characterization, following a similar approach to the Canela work.
 
 ---
 
@@ -39,9 +39,9 @@ The expansion area sits on a plateau near a conservation unit (Parque dos Pinhei
 
 The municipality provided an unusually detailed high-resolution DEM (~1 m) from a local survey, which I used to map the **drainage network** and identify potential **saturation and wetland formation**, critical on a flat plateau, where water accumulation isn't obvious from visual inspection alone.
 
-The central piece was proposing a **hydrologically-grounded buffer zone**: rather than an arbitrary distance from the park boundary, it should follow **catchment boundaries**, protecting the full drainage area feeding the lake regardless of administrative perimeter: whatever affects the catchment affects the lake. Since the lake already showed sewage contamination despite its green surroundings, protecting only the shoreline wouldn't solve the problem.
+The central piece was proposing a **hydrologically-grounded buffer zone** that follows **catchment boundaries** instead of an arbitrary distance from the park boundary, protecting the full drainage area feeding the lake regardless of administrative perimeter, since whatever affects the catchment affects the lake. Since the lake already showed sewage contamination despite its green surroundings, protecting only the shoreline wouldn't solve the problem.
 
-This buffer captured parts of both existing and proposed urban zones, so restrictions applied across administrative boundaries: a stronger framework than a simple distance ring, and one supporting the city's interest in pairing expansion with compensation and protection strategies rather than treating development and conservation as opposed.
+This buffer captured parts of both existing and proposed urban zones, so restrictions applied across administrative boundaries. This makes it a stronger framework than a simple distance ring, and it supported the city's interest in pairing expansion with compensation and protection strategies.
 
 I also ran the standard **land use assessment** (MapBiomas + OpenStreetMap, as in Canela) and **topographic analysis**, delivered as GeoPackages and TIFF rasters for the NTU team's broader planning products.
 
@@ -55,7 +55,7 @@ The deliverables were technical reports produced as an independent consultant fo
 
 **Resources:**
 
-- Environmental assessment report — Gramado expansion *(report link pending)*
+- Environmental assessment report, Gramado expansion *(report link pending)*
 
 *Contracted through Fundação Luiz Englert (UFRGS)*
 

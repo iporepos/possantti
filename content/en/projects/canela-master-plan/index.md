@@ -16,7 +16,7 @@ project_abstract: "Ecosystem services and natural capital assessment for the rev
 project_domain: "Environmental Planning"
 project_category: "Consulting"
 project_tools: ["QGIS", "Python", "plans", "InVEST", "MapBiomas", "OpenStreetMap"]
-project_team: ["Fernando Dornelles — IPH/UFRGS", "Tatiana Silva — Instituto de Geociências/UFRGS", "Ana McIntosh — Fulbright fellow (MIT)", "Benamy Turkienicz — NTU coordinator (UFRGS)"]
+project_team: ["Fernando Dornelles (IPH/UFRGS)", "Tatiana Silva (Instituto de Geociências/UFRGS)", "Ana McIntosh (Fulbright fellow, MIT)", "Benamy Turkienicz (NTU coordinator, UFRGS)"]
 categories: ["projects"]
 tags: ["ecosystem services", "natural capital", "habitat quality", "no net loss", "InVEST", "urban planning"] 
 ---
@@ -29,7 +29,7 @@ tags: ["ecosystem services", "natural capital", "habitat quality", "no net loss"
 
 ## Context
 
-Canela sits on a transition zone in the Serra Gaúcha, between the deep forested valleys of the Rio dos Sinos basin to the south and the silviculture-dominated plateau draining to the Rio Caí in the north. As the municipality revised its Plano Diretor (urban master plan), the environmental dimension needed more than a checklist of protected areas. It needed a spatial accounting of the municipality's natural capital: where ecosystem services are being produced, where they're being lost, and how development can be structured so that ecological value isn't simply erased.
+Canela sits on a transition zone in the Serra Gaúcha, between the deep forested valleys of the Rio dos Sinos basin to the south and the silviculture-dominated plateau draining to the Rio Caí in the north. As the municipality revised its Plano Diretor (urban master plan), the environmental dimension needed a spatial accounting of the municipality's natural capital: where ecosystem services are being produced, where they're being lost, and how development can be structured so that ecological value isn't simply erased.
 
 I was brought in as an independent consultant to produce this assessment, working under the Núcleo de Tecnologia Urbana (NTU) at UFRGS. The project ran from late 2023 into 2024, covering both Canela and, in a later phase, the planned urban expansion area ("Nova Centralidade") in neighboring Gramado.
 
@@ -63,13 +63,13 @@ As of late 2024, Canela's plan in force remains Lei Complementar nº 32/2012. My
 
 **Reports:**
 
-- [Ecosystem Services Diagnostic](https://documents.possantti.net/A015/report_A015_canela_consultores.pdf) — NDVI, habitat quality, TWI, water balance, soil loss, and UGPA delineation
-- [Equivalent Biodiversity Area](https://documents.possantti.net/A015/report_A015_canela_NNL.pdf) — proof of concept for no-net-loss compensation in Canela
-- [Risk Assessment](https://documents.possantti.net/A015/report_A015_canela_risk_waterquality.pdf) — landslide and flood susceptibility, stream carrying capacity for Canela and Gramado
-- [Technical Considerations](https://documents.possantti.net/A015/report_A015_canela_comments.pdf) — supplementary notes on indicators and environmental management units
+- [Ecosystem Services Diagnostic](https://documents.possantti.net/A015/report_A015_canela_consultores.pdf): NDVI, habitat quality, TWI, water balance, soil loss, and UGPA delineation
+- [Equivalent Biodiversity Area](https://documents.possantti.net/A015/report_A015_canela_NNL.pdf): proof of concept for no-net-loss compensation in Canela
+- [Risk Assessment](https://documents.possantti.net/A015/report_A015_canela_risk_waterquality.pdf): landslide and flood susceptibility, stream carrying capacity for Canela and Gramado
+- [Technical Considerations](https://documents.possantti.net/A015/report_A015_canela_comments.pdf): supplementary notes on indicators and environmental management units
 
 **Method reference:**
 
-- [Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120540) — *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management.
+- [Fontoura, de Freitas, Silva & Possantti (2024)](https://doi.org/10.1016/j.jenvman.2024.120540): *Equivalent biodiversity area: A novel metric for No Net Loss success in Brazil's changing biomes.* Journal of Environmental Management.
 
 {{< project_footer >}}

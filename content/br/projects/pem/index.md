@@ -29,7 +29,7 @@ tags: ["msp", "ecosystem services"]
 
 ## Contexto
 
-O **planejamento espacial marinho (PEM)** é um processo público e participativo de distribuição de atividades humanas no espaço marinho, visando simultaneamente objetivos ecológicos, econômicos e sociais. No Brasil, o oceano responde por cerca de **19% do PIB** numa jurisdição nacional de **5,7 milhões de km²**. Gerir esse espaço sem acumular conflitos exige mais do que regulação setorial; exige um arcabouço espacial.
+O **planejamento espacial marinho (PEM)** é um processo público e participativo de distribuição de atividades humanas no espaço marinho, visando simultaneamente objetivos ecológicos, econômicos e sociais. No Brasil, o oceano responde por cerca de **19% do PIB** numa jurisdição nacional de **5,7 milhões de km²**. Gerir esse espaço sem acumular conflitos exige um arcabouço espacial, além da regulação setorial.
 
 O programa brasileiro de PEM, o **Planejamento Espacial Marinho**, é coordenado pela CIRM sob decreto federal de 2025, organizado em quatro regiões marinhas. A **região sul** (Paraná, Santa Catarina e Rio Grande do Sul) é o projeto-piloto nacional, com 53% de conclusão no final de 2025, à frente de todas as demais regiões e estabelecendo o precedente metodológico para o restante do país.
 
@@ -37,9 +37,9 @@ O programa brasileiro de PEM, o **Planejamento Espacial Marinho**, é coordenado
 
 ## Abordagem
 
-O projeto PEM-Sul precisava de alguém capaz de integrar **modelagem espacial e planejamento ambiental**: não apenas executar fluxos de trabalho em SIG, mas projetar um arcabouço analítico ecologicamente fundamentado, reprodutível e defensável num contexto multissetorial. É nessa interseção que a maior parte do meu trabalho se situa.
+O projeto PEM-Sul precisava de alguém capaz de integrar **modelagem espacial e planejamento ambiental** para projetar um arcabouço analítico ecologicamente fundamentado, reprodutível e defensável num contexto multissetorial. A maior parte do meu trabalho se situa nessa interseção.
 
-O núcleo metodológico é o ***IDUSE-Mar***, um índice espacial composto que sintetiza três dimensões do desempenho de uso do oceano: Benefício, Risco de Habitat e Conflito, expresso como *D = B / (R × C)*. A lógica é intencional: uma política que maximiza benefício ignorando risco ecológico ou conflito setorial sempre terá desempenho inferior a uma que mantém esses denominadores baixos. O **Índice de Benefício** mapeia o valor econômico dos usuários do oceano para os polos costeiros; o **Índice de Risco de Habitat** adapta o arcabouço InVEST HRA para impacto cumulativo e não linear sobre habitats; o **Índice de Conflito** quantifica a incompatibilidade espacial par a par por meio de superfícies de sobreposição ponderadas. Os três são calculados célula a célula e podem ser agregados a Unidades de Gestão.
+O núcleo metodológico é o ***IDUSE-Mar***, um índice espacial composto que sintetiza três dimensões do desempenho de uso do oceano: Benefício, Risco de Habitat e Conflito, expresso como *D = B / (R × C)*. Uma política que maximiza benefício ignorando risco ecológico ou conflito setorial sempre terá desempenho inferior a uma que mantém esses denominadores baixos. O **Índice de Benefício** mapeia o valor econômico dos usuários do oceano para os polos costeiros; o **Índice de Risco de Habitat** adapta o arcabouço InVEST HRA para impacto cumulativo e não linear sobre habitats; o **Índice de Conflito** quantifica a incompatibilidade espacial par a par por meio de superfícies de sobreposição ponderadas. Os três são calculados célula a célula e podem ser agregados a Unidades de Gestão.
 
 Meu papel cobre todo o pipeline analítico: preparação de dados, implementação de modelos em Python e R, e simulação de cenários sob configurações de linha de base, business-as-usual e ecodesenvolvimento, totalmente scriptado para garantir reprodutibilidade.
 

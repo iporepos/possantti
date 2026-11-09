@@ -11,12 +11,12 @@ project_motivation: "After the 2024 floods, how do you map hazard and vulnerabil
 project_title: "Hazard and vulnerability assessment for the socio-environmental diagnostic in the Vale do Rio Pardo" 
 project_client: "CISVALE"
 project_intermediate: "UNISC"
-project_role: "Remote Consultant — Hazard Analysis"
+project_role: "Remote Consultant (Hazard Analysis)"
 project_abstract: "Environmental hazard and vulnerability assessment for the Diagnóstico Socioambiental (DSA) of 17 municipalities in the Vale do Rio Pardo, Rio Grande do Sul, coordinated by the CISVALE consortium. Working as a remote consultant hired by UNISC, I produced flood and landslide susceptibility maps for each municipality using Height Above Nearest Drainage, topographic analysis, and CNEFE address data to cross hazard with population exposure, turning susceptibility into vulnerability."
 project_domain: "Hydrology"
 project_category: "Consulting"
 project_tools: ["Python", "QGIS", "LaTeX"]
-project_team: ["UNISC — Lead institution (geological, social analysis, field work)"]
+project_team: ["UNISC (lead institution: geological, social analysis, field work)"]
 categories: ["projects"]
 tags: ["floods", "landslides", "hazard", "vulnerability", "CNEFE", "HAND"] 
 ---
@@ -37,7 +37,7 @@ I joined as a remote consultant hired by UNISC for the hazard and vulnerability 
 
 ## Approach
 
-The goal: hazard and vulnerability maps for all 17 municipalities, a fast desk-based approach using available data rather than field surveys.
+The goal was to produce hazard and vulnerability maps for all 17 municipalities through a fast desk-based approach, using available data rather than field surveys.
 
 For **flood hazard**, I used a multi-scale **Height Above Nearest Drainage (HAND)** approach. A single HAND map depends on the threshold area defining the drainage network: small thresholds pick up every stream, large ones only major rivers, so neither alone gives the full picture. Computing HAND at multiple scales captured each location's exposure to small streams, medium channels, and large rivers at once: a household 3 m above a creek and 15 m above the main river has a very different risk than one at the same elevation above just one of those.
 

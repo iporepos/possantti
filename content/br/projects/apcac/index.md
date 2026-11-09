@@ -29,11 +29,11 @@ tags: ["cerrado", "watershed"]
 
 ## Contexto
 
-O Cerrado é a savana mais biodiversa do planeta e a nascente de três dos maiores sistemas fluviais da América do Sul: São Francisco, Paraná e Araguaia. Sua hidrologia é governada por um regime sazonal marcado: uma estação chuvosa concentrada seguida por um longo período seco, durante o qual os **rios dependem quase inteiramente do escoamento de base** para manter suas vazões. Esse mecanismo está diretamente condicionado à fração da chuva que efetivamente infiltra no solo em vez de escoar superficialmente. **O uso do solo é a válvula de controle do sistema.**
+O Cerrado é a savana mais biodiversa do planeta e a nascente de três dos maiores sistemas fluviais da América do Sul: São Francisco, Paraná e Araguaia. Sua hidrologia é governada por um regime sazonal marcado: uma estação chuvosa concentrada seguida por um longo período seco, durante o qual os **rios dependem quase inteiramente do escoamento de base** para manter suas vazões. Esse mecanismo está diretamente condicionado à fração da chuva que efetivamente infiltra no solo em vez de escoar superficialmente, o que faz do **uso do solo a válvula de controle do sistema**.
 
 {{< img src="https://images.possantti.net/story/A030/intro_en.jpeg" width=100 caption="Modelo conceitual da paisagem do Cerrado: estrutura de platôs e vales condicionando o funcionamento hidrológico (topo), ao lado das três dimensões de pressão sobre o sistema: campos e cerrados nativos sustentando a infiltração, expansão agrícola como principal vetor de conversão, e rios perenes como resultado visível da geração de escoamento de base (base)." credit="© Iporã Possantti, fotos de WWF e Mongabay">}}
 
-O Instituto Cerrados me convidou justamente porque este não era um estudo ecológico típico. Exigia um framework hidrológico fundamentado nos **controles topográficos da infiltração**, que é o núcleo da minha pesquisa de doutorado sobre TOPMODEL. Meu papel foi coordenar a estrutura conceitual do projeto, os relatórios técnicos e a integração do pipeline de dados geoespaciais, em colaboração com o prof. Guilherme Marques e o hidrólogo Rafael Barbedo, garantindo que os resultados fossem ao mesmo tempo cientificamente sólidos e aplicáveis à política pública.
+O Instituto Cerrados me convidou porque o estudo exigia um framework hidrológico fundamentado nos **controles topográficos da infiltração**, que é o núcleo da minha pesquisa de doutorado sobre TOPMODEL. Meu papel foi coordenar a estrutura conceitual do projeto, os relatórios técnicos e a integração do pipeline de dados geoespaciais, em colaboração com o prof. Guilherme Marques e o hidrólogo Rafael Barbedo, garantindo que os resultados fossem ao mesmo tempo cientificamente sólidos e aplicáveis à política pública.
 
 ---
 
@@ -51,7 +51,7 @@ A terceira parte escalou a análise para o bioma inteiro. O **sistema de classif
 
 ## Resultados
 
-Bacias preservadas produziram **duas a quatro vezes mais vazão** durante a estação seca do que suas contrapartes degradadas, mesmo sob precipitação idêntica: um argumento empírico direto para a vegetação nativa como infraestrutura hídrica. O limiar HAND forneceu um critério reprodutível para mapear zonas prioritárias de infiltração na escala da propriedade e da bacia.
+Bacias preservadas produziram **duas a quatro vezes mais vazão** durante a estação seca do que suas contrapartes degradadas, mesmo sob precipitação idêntica, o que constitui um argumento empírico direto para a vegetação nativa como infraestrutura hídrica. O limiar HAND forneceu um critério reprodutível para mapear zonas prioritárias de infiltração na escala da propriedade e da bacia.
 
 {{< img src="https://images.possantti.net/story/A030/results_en.jpeg" width=100 caption="Classificação final das sub-bacias do bioma Cerrado pelo método APCAC. A intensidade da cor codifica a importância hidrológica; o matiz codifica a ação de política recomendada, com cada classe projetada para se conectar diretamente a um instrumento de conservação, restauração ou gestão de risco." credit="© Iporã Possantti">}}
 
@@ -61,17 +61,17 @@ Os mapas APCAC foram concebidos para ser incorporados diretamente aos instrument
 
 {{< img src="https://photos.possantti.net/A030/workshop_2026.jpeg" width=75% caption="Participantes do workshop de validação do APCAC, Ministério do Meio Ambiente e Mudança do Clima, Brasília, abril de 2026." credit="© Iporã Possantti">}}
 
-Em abril de 2026, a metodologia foi validada em um workshop realizado na sede do Ministério em Brasília, reunindo especialistas da **ANA, ICMBio, IBAMA e universidades federais**. A discussão girou em torno de se a lógica de classificação era robusta o suficiente para informar instrumentos reais de política, e o consenso foi que era.
+Em abril de 2026, a metodologia foi validada em um workshop realizado na sede do Ministério em Brasília, reunindo especialistas da **ANA, ICMBio, IBAMA e universidades federais**. A discussão girou em torno de se a lógica de classificação poderia sustentar instrumentos de política, e o consenso foi que sim.
 
 ---
 
 ### Recursos
 
-| | Produto | Descrição |
-|---|---|---|
-| 📄 | [Relatório Técnico](https://doi.org/10.5281/zenodo.17981330) | Relatório completo (PDF) e código-fonte LaTeX — Possantti et al., 2025, Zenodo |
-| 🗄️ | [Base de Dados Geoespaciais](https://doi.org/10.5281/zenodo.18867492) | Rasters de entrada, camadas intermediárias de índices, mapas finais de prioridade e bacias classificadas — Zenodo |
-| 💻 | [Código de Processamento](https://github.com/iporepos/apcac) | Workflow Python para QGIS com a classificação APCAC — GitHub |
-| 📖 | [Documentação](https://iporepos.github.io/apcac/) | Documentação do método e guia de uso — GitHub Pages |
+| Produto | Descrição |
+|---|---|
+| [Relatório Técnico](https://doi.org/10.5281/zenodo.17981330) | Relatório completo (PDF) e código-fonte LaTeX (Possantti et al., 2025, Zenodo) |
+| [Base de Dados Geoespaciais](https://doi.org/10.5281/zenodo.18867492) | Rasters de entrada, camadas intermediárias de índices, mapas finais de prioridade e bacias classificadas (Zenodo) |
+| [Código de Processamento](https://github.com/iporepos/apcac) | Workflow Python para QGIS com a classificação APCAC (GitHub) |
+| [Documentação](https://iporepos.github.io/apcac/) | Documentação do método e guia de uso (GitHub Pages) |
 
 {{< project_footer >}}
